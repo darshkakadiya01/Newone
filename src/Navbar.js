@@ -15,7 +15,7 @@ const Navbar = () => {
       <div className="navbar-container">
         {/* LOGO */}
         <div className="logo">
-          <span>CAR</span>VO
+          <span>CARVO</span>CARZ
         </div>
 
         {/* MENU ICON */}

@@ -30,7 +30,7 @@ const Contact = () => {
     return (
     <div className="contact-page">
       <div className="contact-container">
-        <h2>Contact Carvo</h2>
+        <h2>Contact Carvocarz</h2>
         <p className="contact-subtitle">
           Have questions or suggestions? Fill the form below and we will get back to you.
         </p>

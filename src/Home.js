@@ -10,7 +10,7 @@ const Home = () => {
           <div className="hero-content">
             <h1>Discover Your Dream Car</h1>
             <p>
-              Carvo brings you detailed information about all the top car brands,
+              Carvocarz brings you detailed information about all the top car brands,
               models, specifications, and reviews. Explore the world of
               performance, luxury, and style.
             </p>

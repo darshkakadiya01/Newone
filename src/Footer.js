@@ -11,11 +11,11 @@ const Footer = () => {
           <div className="logo-container">
             {/* <img src="/carvo-logo.png" alt="Carvo Logo" className="footer-logo-img" /> */}
             <div className="logo">
-              <span>CAR</span>VO
+              <span>CARVO</span>CARZ
             </div>
           </div>
           <p className="footer-desc">
-            Carvo brings you detailed information about all car brands, models, and reviews. Explore the world of performance, luxury, and style.
+            Carvocarz brings you detailed information about all car brands, models, and reviews. Explore the world of performance, luxury, and style.
           </p>
         </div>
 
