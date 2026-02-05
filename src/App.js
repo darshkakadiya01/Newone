@@ -8,6 +8,7 @@ import Cars from './Cars';
 import Compare from './Compare';
 import Reviews from './Reviews';
 import Contact from './Contact';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
     </>
   );
