@@ -3,28 +3,33 @@ import "./App.css";
 
 const Home = () => {
   return (
-    <div className="home-page">
+    <div className="home-wrapper">
       {/* HERO SECTION */}
-      <section className="hero-section">
-        <div className="hero-overlay">
-          <div className="hero-content">
-            <h1>Discover Your Dream Car</h1>
+      <section className="hero">
+        <div className="hero-left">
+          <span className="hero-badge">Premium Car Marketplace</span>
+            <h1>
+              Find Your <span>Perfect Car</span>
+            </h1>
             <p>
-              Carvocarz brings you detailed information about all the top car brands,
-              models, specifications, and reviews. Explore the world of
-              performance, luxury, and style.
+              Carvocarz helps you explore top car brands, compare models,
+              check specifications, and read expert reviews — all in one
+              professional platform built for car lovers.
             </p>
-            <div className="hero-buttons">
-              <a href="/cars" className="btn primary-btn">
-                Explore Cars
-              </a>
-              <a href="/contact" className="btn secondary-btn">
-                Contact Us
-              </a>
+            <div className="hero-actions">
+              <a href="/cars" className="btn btn-primary">Explore Cars</a>
+              <a href="/contact" className="btn btn-outline">Contact Us</a>
             </div>
-          </div>
         </div>
-        <img src="./download.jpg" alt="Hero Car" className="hero-image" />
+
+
+        <div className="hero-right">
+          <img
+            src="./download.jpg"
+            alt="Luxury Car"
+            className="hero-car"
+          />
+        </div>
       </section>
 
       {/* FEATURED CARS SECTION */}

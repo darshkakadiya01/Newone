@@ -1,58 +1,46 @@
 import React, { useState } from "react";
-import "./App.css";
 import { Link } from "react-router-dom";
+import "./App.css";
 
 const Navbar = () => {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
-  // close menu after clicking a link
-  const closeMenu = () => {
-    setMenuOpen(false);
-  };
+  const toggleMenu = () => setOpen(!open);
+  const closeMenu = () => setOpen(false);
 
   return (
-    <nav className="carvo-navbar">
-      <div className="navbar-container">
+    <header className="navbar-wrapper">
+      <nav className="navbar">
         {/* LOGO */}
-        <div className="logo">
-          <span>CARVO</span>CARZ
+        <div className="navbar-logo">
+          <span className="logo-highlight">CARVO</span>CARZ
         </div>
 
-        {/* MENU ICON */}
+        {/* HAMBURGER */}
         <div
-          className={`menu-icon ${menuOpen ? "active" : ""}`}
-          onClick={() => setMenuOpen(!menuOpen)}
+          className={`hamburger ${open ? "active" : ""}`}
+          onClick={toggleMenu}
         >
           <span></span>
           <span></span>
           <span></span>
         </div>
 
-        {/* NAV LINKS */}
-        <ul className={`nav-links ${menuOpen ? "open" : ""}`}>
+        {/* LINKS */}
+        <ul className={`navbar-links ${open ? "show" : ""}`}>
+          <li><Link to="/" onClick={closeMenu}>Home</Link></li>
+          <li><Link to="/inventory" onClick={closeMenu}>Inventory</Link></li>
+          <li><Link to="/brands" onClick={closeMenu}>Brands</Link></li>
+          <li><Link to="/compare" onClick={closeMenu}>Compare</Link></li>
+          <li><Link to="/reviews" onClick={closeMenu}>Reviews</Link></li>
           <li>
-            <Link to="/" onClick={closeMenu}>Home</Link>
-          </li>
-          <li>
-            <Link to="/brands" onClick={closeMenu}>Brands</Link>
-          </li>
-          <li>
-            <Link to="/cars" onClick={closeMenu}>Cars</Link>
-          </li>
-          <li>
-            <Link to="/compare" onClick={closeMenu}>Compare</Link>
-          </li>
-          <li>
-            <Link to="/reviews" onClick={closeMenu}>Reviews</Link>
-          </li>
-          <li>
-            <Link to="/contact" className="nav-btn" onClick={closeMenu}>
+            <Link to="/contact" className="contact-btn" onClick={closeMenu}>
               Contact
             </Link>
           </li>
         </ul>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };
 

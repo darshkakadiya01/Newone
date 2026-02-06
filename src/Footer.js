@@ -10,8 +10,8 @@ const Footer = () => {
         <div className="footer-logo-section">
           <div className="logo-container">
             {/* <img src="/carvo-logo.png" alt="Carvo Logo" className="footer-logo-img" /> */}
-            <div className="logo">
-              <span>CARVO</span>CARZ
+            <div className="navbar-logo">
+              <span className="logo-highlight">CARVO</span>CARZ
             </div>
           </div>
           <p className="footer-desc">
@@ -53,7 +53,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        <p>© 2026 Carvo. All rights reserved.</p>
+        <p>© 2026 Carvocarz. All rights reserved.</p>
       </div>
     </footer>
   );
