@@ -6,10 +6,8 @@ const Footer = () => {
   return (
     <footer className="carvo-footer">
       <div className="footer-container">
-        {/* Logo and Description */}
         <div className="footer-logo-section">
           <div className="logo-container">
-            {/* <img src="/carvo-logo.png" alt="Carvo Logo" className="footer-logo-img" /> */}
             <div className="navbar-logo">
               <span className="logo-highlight">CARVO</span>CARZ
             </div>
@@ -19,7 +17,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
         <div className="footer-links">
           <h3>Quick Links</h3>
           <ul>
@@ -30,7 +27,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Newsletter */}
         <div className="footer-newsletter">
           <h3>Newsletter</h3>
           <p>Subscribe to get the latest car news and updates!</p>
@@ -40,7 +36,6 @@ const Footer = () => {
           </form>
         </div>
 
-        {/* Social Media */}
         <div className="footer-social">
           <h3>Follow Us</h3>
           <div className="social-icons">

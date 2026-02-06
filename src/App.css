@@ -756,7 +756,7 @@ color: #fff;
   flex: 1;
   padding: 10px 14px;
   border-radius: 25px;
-  border: 1px solid rgba(0, 0, 0, 0.462);
+  border: 1px solid b;
   outline: none;
   font-size: 14px;
   background: rgba(255,255,255,0.05);
@@ -866,3 +866,271 @@ color: #fff;
 }
 
 /* end Footer.js */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start inventory.js */
+* {
+.inventory-hero p {
+color: #555;
+font-size: 16px;
+}
+}
+
+/* INVENTORY HERO */
+.inventory-hero {
+  max-width: 1200px;
+  margin: auto;
+  padding: 80px 24px 50px;
+  text-align: center;
+  background: #ffffff;
+}
+
+.inventory-hero h1 {
+  font-size: 44px;
+  font-weight: 800;
+  color: #111;
+  margin-bottom: 14px;
+  letter-spacing: 0.5px;
+}
+
+.inventory-hero p {
+  max-width: 700px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #555;
+}
+
+/* TABLET */
+@media (max-width: 900px) {
+  .inventory-hero {
+    padding: 60px 20px 40px;
+  }
+
+  .inventory-hero h1 {
+    font-size: 34px;
+  }
+
+  .inventory-hero p {
+    font-size: 15px;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 480px) {
+  .inventory-hero {
+    padding: 40px 16px 30px;
+  }
+
+  .inventory-hero h1 {
+    font-size: 28px;
+  }
+
+  .inventory-hero p {
+    font-size: 14px;
+  }
+}
+
+
+/* GRID */
+.inventory-grid {
+max-width: 1200px;
+margin: auto;
+padding: 40px 24px 80px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+}
+
+
+.inventory-card {
+background: #fff;
+border-radius: 20px;
+overflow: hidden;
+box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.inventory-card:hover {
+transform: translateY(-6px);
+box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+
+.inventory-card img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+
+.card-content {
+padding: 20px;
+}
+
+
+.card-content h3 {
+font-size: 20px;
+margin-bottom: 8px;
+}
+
+
+.card-content p {
+font-size: 14px;
+color: #555;
+margin-bottom: 12px;
+}
+
+
+.price {
+font-weight: 700;
+color: #e63946;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+.inventory-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+}
+
+
+@media (max-width: 600px) {
+.inventory-hero h1 {
+font-size: 30px;
+}
+
+
+.inventory-grid {
+grid-template-columns: 1fr;
+}
+}
+/* end inventory.js */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start Brands.css */
+.brands-wrapper {
+background: #ffffff;
+color: #111;
+}
+
+
+.brands-hero {
+max-width: 1200px;
+margin: auto;
+padding: 80px 24px 40px;
+text-align: center;
+}
+
+
+.brands-hero h1 {
+font-size: 42px;
+margin-bottom: 10px;
+}
+
+
+.brands-hero p {
+color: #555;
+}
+
+
+.brands-grid {
+max-width: 1200px;
+margin: auto;
+padding: 40px 24px 80px;
+display: grid;
+grid-template-columns: repeat(6, 1fr);
+gap: 30px;
+}
+
+
+.brand-card {
+background: #fff;
+border-radius: 16px;
+padding: 20px 10px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+gap: 12px;
+box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.brand-card:hover {
+transform: translateY(-6px);
+box-shadow: 0 16px 36px rgba(0,0,0,0.12);
+}
+
+
+.brand-card img {
+max-width: 80px;
+max-height: 50px;
+object-fit: contain;
+}
+
+
+.brand-card span {
+font-size: 14px;
+font-weight: 600;
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+.brands-grid {
+grid-template-columns: repeat(4, 1fr);
+}
+}
+
+
+@media (max-width: 600px) {
+.brands-grid {
+grid-template-columns: repeat(2, 1fr);
+}
+
+
+.brands-hero h1 {
+font-size: 30px;
+}
+}
+/* end Brands.css */
