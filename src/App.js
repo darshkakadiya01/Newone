@@ -1,5 +1,7 @@
+import React from "react";
 import './App.css';
-import { Routes, Route, BrowserRouter  } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Navbar from "./Navbar";
 import Home from './Home';
 import Brands from './Brands';
@@ -8,12 +10,13 @@ import Compare from './Compare';
 import Reviews from './Reviews';
 import Contact from './Contact';
 import Footer from './Footer';
+import BrandDetail from "./BrandDetail"; // Single dynamic brand page
 
 function App() {
   return (
-    <>
     <BrowserRouter>
       <Navbar />
+
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/inventory" element={<Inventory />} />
@@ -21,10 +24,13 @@ function App() {
         <Route path="/compare" element={<Compare />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/contact" element={<Contact />} />
+
+        {/* Dynamic brand route */}
+        <Route path="/brand/:brand" element={<BrandDetail />} />
       </Routes>
+
       <Footer />
     </BrowserRouter>
-    </>
   );
 }
 
