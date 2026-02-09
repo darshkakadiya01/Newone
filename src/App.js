@@ -1,7 +1,7 @@
 import React from "react";
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import ScrollToTop from "./ScrollToTop";
 import Navbar from "./Navbar";
 import Home from './Home';
 import Brands from './Brands';
@@ -10,11 +10,12 @@ import Compare from './Compare';
 import Reviews from './Reviews';
 import Contact from './Contact';
 import Footer from './Footer';
-import BrandDetail from "./BrandDetail"; // Single dynamic brand page
+import BrandDetail from "./BrandDetail";
 
 function App() {
   return (
     <BrowserRouter>
+    <ScrollToTop /> 
       <Navbar />
 
       <Routes>
