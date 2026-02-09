@@ -13,11 +13,11 @@ const Navbar = () => {
       <nav className="navbar">
         {/* LOGO */}
         <div className="navbar-logo">
-          {/* <span className="logo-highlight">CARVO</span>CARZ */}
-          < img src="./CARVOCARZ_LOGO.png" alt="Car Logo" className="logo-image" />
+          {/* Logo from public folder */}
+          <img src="/CARVOCARZ_LOGO.png" alt="Car Logo" className="logo-image" />
         </div>
 
-        {/* HAMBURGER */}
+        {/* HAMBURGER MENU */}
         <div
           className={`hamburger ${open ? "active" : ""}`}
           onClick={toggleMenu}

@@ -6,7 +6,7 @@ const brandData = {
   bmw: [
     {
       name: "BMW M4 Competition",
-      image: "https://cdn.motor1.com/images/mgl/6ZZZQ/s1/bmw-m4-competition.jpg",
+      image: "/BMW-M4-Coupe.afd009f75ddb268dc6505fffc31356c2.fc9fbf2e013d5612025dee6ed4bba9f2.webp",
       engine: "3.0L Twin‑Turbo Inline‑6",
       fuel: "Petrol",
       speed: "290 km/h",
@@ -74,7 +74,7 @@ const BrandDetail = () => {
       <section className="brand-grid">
         {cars.map((car, index) => (
           <div className="brand-card" key={index}>
-            <img src={car.image} alt={car.name} />
+            <img src={car.image} alt={car.name} className="brand-image" />
             <div className="brand-content">
               <h3>{car.name}</h3>
               <ul>

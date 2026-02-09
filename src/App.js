@@ -15,8 +15,9 @@ import BrandDetail from "./BrandDetail";
 function App() {
   return (
     <BrowserRouter>
-    <ScrollToTop /> 
-      <Navbar />
+      <ScrollToTop />
+
+      <Navbar logoSrc="/CARVOCARZ_LOGO.png" />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -28,7 +29,7 @@ function App() {
         <Route path="/brand/:brand" element={<BrandDetail />} />
       </Routes>
 
-      <Footer />
+      <Footer logoSrc="/CARVOCARZ_LOGO.png" />
     </BrowserRouter>
   );
 }

@@ -1,12 +1,9 @@
-/* RESET */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* NAVBAR */
-/* RESET */
 .navbar-wrapper {
   position: sticky;
   top: 0;
@@ -24,7 +21,6 @@
   justify-content: space-between;
 }
 
-/* LOGO */
 .navbar-logo {
   font-size: 26px;
   font-weight: 800;
@@ -36,7 +32,6 @@
   color:#FBC664;
 }
 
-/* LINKS */
 .navbar-links {
   display: flex;
   align-items: center;
@@ -56,7 +51,6 @@
   color:#FBC664;
 }
 
-/* CONTACT BUTTON */
 .contact-btn {
   padding: 10px 18px;
   background:#FBC664;
@@ -70,7 +64,6 @@
   background: #FBC664;
 }
 
-/* HAMBURGER */
 .hamburger {
   display: none;
   flex-direction: column;
@@ -97,12 +90,8 @@
   transform: rotate(-45deg) translate(6px, -6px);
 }
 
-/* =========================
-   NAVBAR LOGO IMAGE
-========================= */
-
 .logo-image {
-  height: 80px;           /* Desktop default */
+  height: 80px;          
   width: auto;
   object-fit: contain;
   display: block;
@@ -110,31 +99,22 @@
   transition: transform 0.3s ease;
 }
 
-/* Optional hover effect */
 .logo-image:hover {
   transform: scale(1.05);
 }
 
-/* =========================
-   TABLET
-========================= */
 @media (max-width: 900px) {
   .logo-image {
     height: 52px;
   }
 }
 
-/* =========================
-   MOBILE
-========================= */
 @media (max-width: 480px) {
   .logo-image {
     height: 56px;
   }
 }
 
-
-/* RESPONSIVE */
 @media (max-width: 900px) {
   .hamburger {
     display: flex;
@@ -182,20 +162,11 @@
 
 
 /* start Home.js */
-
-/* =========================
-   HOME PAGE
-========================= */
-
 .home-wrapper {
   background: #ffffff;
   color: #111;
   font-family: "Poppins", sans-serif;
 }
-
-/* =========================
-   HERO SECTION
-========================= */
 
 .hero {
   max-width: 1200px;
@@ -207,7 +178,6 @@
   align-items: center;
 }
 
-/* LEFT */
 .hero-left {
   display: flex;
   flex-direction: column;
@@ -242,7 +212,6 @@
   max-width: 520px;
 }
 
-/* ACTIONS */
 .hero-actions {
   display: flex;
   gap: 18px;
@@ -256,7 +225,6 @@
   --main-shadow-strong: rgba(251, 198, 100, 0.65);
 }
 
-/* BUTTONS */
 .btn {
   padding: 12px 28px;
   border-radius: 30px;
@@ -287,7 +255,6 @@
   color: #fff;
 }
 
-/* RIGHT IMAGE */
 .hero-right {
   display: flex;
   justify-content: center;
@@ -299,10 +266,6 @@
   border-radius: 22px;
   box-shadow: 0 20px 45px rgba(0,0,0,0.18);
 }
-
-/* =========================
-   FEATURED CARS
-========================= */
 
 .featured-cars {
   padding: 90px 24px;
@@ -317,7 +280,6 @@
   color: #111;
 }
 
-/* GRID */
 .car-grid {
   max-width: 1200px;
   margin: auto;
@@ -326,7 +288,6 @@
   gap: 32px;
 }
 
-/* CARD */
 .car-card {
   background: #ffffff;
   border-radius: 20px;
@@ -362,7 +323,6 @@
   margin-bottom: 18px;
 }
 
-/* LEARN MORE BUTTON */
 .car-btn {
   background: linear-gradient(135deg, var(--main-color), var(--main-color-dark));
   color: #111;
@@ -378,11 +338,6 @@
   transform: translateY(-2px);
   box-shadow: 0 10px 25px var(--main-shadow-strong);
 }
-
-
-/* =========================
-   CTA SECTION
-========================= */
 
 .cta-section {
   padding: 90px 24px;
@@ -406,9 +361,9 @@
 }
 
 .primary-btn {
-  background: linear-gradient(135deg, #FBC664, #FFD27F); /* gradient using main color */
+  background: linear-gradient(135deg, #FBC664, #FFD27F);
   color: #fff;
-  box-shadow: 0 8px 25px rgba(251, 198, 100, 0.5); /* shadow with main color tint */
+  box-shadow: 0 8px 25px rgba(251, 198, 100, 0.5); 
   border: none;
   padding: 12px 30px;
   border-radius: 8px;
@@ -419,17 +374,13 @@
 
 .primary-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(251, 198, 100, 0.7); /* stronger shadow on hover */
+  box-shadow: 0 12px 30px rgba(251, 198, 100, 0.7); 
 }
 
 .primary-btn:active {
   transform: translateY(0);
-  box-shadow: 0 6px 20px rgba(251, 198, 100, 0.5); /* pressed effect */
+  box-shadow: 0 6px 20px rgba(251, 198, 100, 0.5); 
 }
-
-/* =========================
-   RESPONSIVE
-========================= */
 
 @media (max-width: 1024px) {
   .hero {
@@ -491,9 +442,6 @@
 
 
 /* start Contact.js */
-/* =========================
-   CONTACT PAGE
-========================= */
 .contact-page {
   min-height: calc(100vh - 80px);
   padding: 80px 20px;
@@ -503,7 +451,6 @@
   align-items: center;
 }
 
-/* FORM CONTAINER */
 .contact-container {
   background: rgba(255, 255, 255, 0.75);
   backdrop-filter: blur(12px);
@@ -515,7 +462,6 @@
   text-align: center;
 }
 
-/* HEADING */
 .contact-container h2 {
   font-size: 32px;
   color: #FBC664;
@@ -529,7 +475,6 @@
   margin-bottom: 30px;
 }
 
-/* FORM FIELDS */
 .contact-container form {
   display: flex;
   flex-direction: column;
@@ -564,12 +509,11 @@
   min-height: 140px;
 }
 
-/* SUBMIT BUTTON */
 .contact-container button {
   padding: 14px 28px;
   border-radius: 30px;
   border: none;
-  background: linear-gradient(135deg, #FBC664, #FFD27F); /* updated gradient */
+  background: linear-gradient(135deg, #FBC664, #FFD27F); 
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -579,14 +523,14 @@
 
 .contact-container button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(251, 198, 100, 0.6); /* updated shadow to match main color */
+  box-shadow: 0 8px 25px rgba(251, 198, 100, 0.6); 
 }
 
 .contact-container button:active {
   transform: translateY(0);
-  box-shadow: 0 4px 15px rgba(251, 198, 100, 0.5); /* pressed effect */
+  box-shadow: 0 4px 15px rgba(251, 198, 100, 0.5); 
 }
-/* MESSAGE TEXT */
+
 .form-message {
   margin-top: 10px;
   font-size: 15px;
@@ -594,9 +538,6 @@
   font-weight: 500;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 @media (max-width: 992px) {
   .contact-container {
     padding: 30px 20px;
@@ -650,9 +591,6 @@
 
 
 /* start Footer.js */
-/* =========================
-   FOOTER
-========================= */
 .carvo-footer {
   background: #ffffff;
   color: #fff;
@@ -674,7 +612,6 @@
   gap: 40px;
 }
 
-/* LOGO SECTION */
 .footer-logo-section {
   flex: 1 1 250px;
 }
@@ -717,7 +654,6 @@
   color: #ffffff;
 }
 
-/* QUICK LINKS */
 .footer-links {
   flex: 1 1 150px;
 }
@@ -747,7 +683,6 @@
   color: #FBC664;
 }
 
-/* NEWSLETTER */
 .footer-newsletter {
   flex: 1 1 250px;
 }
@@ -785,7 +720,7 @@
   padding: 10px 20px;
   border-radius: 25px;
   border: none;
-  background: linear-gradient(135deg, #FBC664, #FFD27F); /* updated gradient */
+  background: linear-gradient(135deg, #FBC664, #FFD27F); 
   color: #fff;
   cursor: pointer;
   font-weight: 600;
@@ -794,16 +729,14 @@
 
 .footer-newsletter button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(251, 198, 100, 0.6); /* updated shadow to match main color */
+  box-shadow: 0 8px 20px rgba(251, 198, 100, 0.6); 
 }
 
 .footer-newsletter button:active {
   transform: translateY(0);
-  box-shadow: 0 4px 15px rgba(251, 198, 100, 0.5); /* pressed effect */
+  box-shadow: 0 4px 15px rgba(251, 198, 100, 0.5); 
 }
 
-
-/* SOCIAL ICONS */
 .footer-social {
   flex: 1 1 150px;
 }
@@ -838,7 +771,6 @@
   transform: translateY(-2px);
 }
 
-/* FOOTER BOTTOM */
 .footer-bottom {
   text-align: center;
   margin-top: 40px;
@@ -849,7 +781,7 @@
 }
 
 .logo-image-footer{
-  height: 60px;           /* Desktop default */
+  height: 60px;          
   width: auto;
   object-fit: contain;
   display: block;
@@ -857,9 +789,6 @@
   transition: transform 0.3s ease;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
 @media (max-width: 992px) {
   .footer-container {
     flex-direction: column;
@@ -930,7 +859,6 @@ font-size: 16px;
 }
 }
 
-/* INVENTORY HERO */
 .inventory-hero {
   max-width: 1200px;
   margin: auto;
@@ -955,7 +883,6 @@ font-size: 16px;
   color: #555;
 }
 
-/* TABLET */
 @media (max-width: 900px) {
   .inventory-hero {
     padding: 60px 20px 40px;
@@ -970,7 +897,6 @@ font-size: 16px;
   }
 }
 
-/* MOBILE */
 @media (max-width: 480px) {
   .inventory-hero {
     padding: 40px 16px 30px;
@@ -985,8 +911,6 @@ font-size: 16px;
   }
 }
 
-
-/* GRID */
 .inventory-grid {
 max-width: 1200px;
 margin: auto;
@@ -1042,8 +966,6 @@ font-weight: 700;
 color: #FBC664;
 }
 
-
-/* RESPONSIVE */
 @media (max-width: 1024px) {
 .inventory-grid {
 grid-template-columns: repeat(2, 1fr);
@@ -1083,16 +1005,11 @@ grid-template-columns: 1fr;
 
 
 /* start Brands.css */
-/* =========================
-   BRANDS PAGE
-========================= */
-
 .brands-wrapper {
   background: #ffffff;
   color: #111;
 }
 
-/* Header */
 .brands-header {
   text-align: center;
   margin: 60px 20px 20px;
@@ -1108,7 +1025,6 @@ grid-template-columns: 1fr;
   font-size: 16px;
 }
 
-/* Grid */
 .brands-grid {
   max-width: 1200px;
   margin: auto;
@@ -1118,7 +1034,6 @@ grid-template-columns: 1fr;
   gap: 30px;
 }
 
-/* Brand Card */
 .brand-card {
   background: #fff;
   border-radius: 16px;
@@ -1139,7 +1054,6 @@ grid-template-columns: 1fr;
   box-shadow: 0 16px 36px rgba(0,0,0,0.12);
 }
 
-/* Logo Box (controls centering & height) */
 .logo-box {
   width: 100%;
   height: 70px;
@@ -1149,7 +1063,6 @@ grid-template-columns: 1fr;
   justify-content: center;
 }
 
-/* Logo Image (NO left/right spacing) */
 .brand-card img {
   display: block;
 
@@ -1160,11 +1073,10 @@ grid-template-columns: 1fr;
 
   object-fit: contain;
 
-  margin: 0;     /* ❌ no left/right margin */
-  padding: 0;    /* ❌ no left/right padding */
+  margin: 0;     
+  padding: 0;    
 }
 
-/* Brand Name */
 .brand-card h3 {
   font-size: 18px;
   font-weight: 700;
@@ -1173,11 +1085,6 @@ grid-template-columns: 1fr;
   color: #000;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
-
-/* Tablet */
 @media (max-width: 1024px) {
   .brands-grid {
     grid-template-columns: repeat(4, 1fr);
@@ -1188,7 +1095,6 @@ grid-template-columns: 1fr;
   }
 }
 
-/* Mobile */
 @media (max-width: 600px) {
   .brands-grid {
     grid-template-columns: repeat(2, 1fr);
@@ -1234,10 +1140,6 @@ grid-template-columns: 1fr;
   font-family: "Poppins", sans-serif;
 }
 
-/* =========================
-   HERO SECTION
-========================= */
-
 .brand-hero {
   max-width: 1200px;
   margin: auto;
@@ -1260,10 +1162,6 @@ grid-template-columns: 1fr;
   line-height: 1.6;
 }
 
-/* =========================
-   GRID
-========================= */
-
 .brand-grid {
   max-width: 1200px;
   margin: auto;
@@ -1272,10 +1170,6 @@ grid-template-columns: 1fr;
   grid-template-columns: repeat(2, 1fr);
   gap: 36px;
 }
-
-/* =========================
-   CAR CARD
-========================= */
 
 .brand-card {
   background: #ffffff;
@@ -1291,20 +1185,12 @@ grid-template-columns: 1fr;
   box-shadow: 0 22px 45px rgba(0,0,0,0.14);
 }
 
-/* =========================
-   CAR IMAGE
-========================= */
-
 .brand-card img {
-  width: 100%;
-  height: 260px;
+  width: 200%;
+  height: 200%;
   object-fit: cover;
   display: block;
 }
-
-/* =========================
-   CONTENT
-========================= */
 
 .brand-content {
   padding: 26px 24px 30px;
@@ -1317,7 +1203,6 @@ grid-template-columns: 1fr;
   color: #111;
 }
 
-/* Specs List */
 .brand-content ul {
   list-style: none;
   padding: 0;
@@ -1339,16 +1224,32 @@ grid-template-columns: 1fr;
   color: #000;
 }
 
-/* Price highlight */
 .brand-content li:last-child {
   font-size: 16px;
   font-weight: 700;
   color:#FBC664;
 }
 
-/* =========================
-   RESPONSIVE
-========================= */
+.brand-image {
+  width: 200%;           
+  height: 100%;         
+  object-fit: cover;   
+  display: block;
+  border-top-left-radius: 15px;  
+  border-top-right-radius: 15px;
+}
+
+@media (max-width: 768px) {
+  .brand-image {
+    height: 180px;
+  }
+}
+
+@media (max-width: 480px) {
+  .brand-image {
+    height: 150px;
+  }
+}
 
 @media (max-width: 1024px) {
   .brand-grid {
