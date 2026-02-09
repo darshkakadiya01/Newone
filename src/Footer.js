@@ -9,8 +9,9 @@ const Footer = () => {
         <div className="footer-logo-section">
           <div className="logo-container">
             <div className="navbar-logo">
-              <span className="logo-highlight">CARVO</span>CARZ
-            </div>
+          {/* <span className="logo-highlight">CARVO</span>CARZ */}
+          < img src="./CARVOCARZ_LOGO.png" alt="Car Logo" className="logo-image-footer" />
+        </div>
           </div>
           <p className="footer-desc">
             Carvocarz brings you detailed information about all car brands, models, and reviews. Explore the world of performance, luxury, and style.

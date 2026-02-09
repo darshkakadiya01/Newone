@@ -33,7 +33,7 @@
 }
 
 .logo-highlight {
-  color: #e63946;
+  color:#FBC664;
 }
 
 /* LINKS */
@@ -53,13 +53,13 @@
 }
 
 .navbar-links li a:hover {
-  color: #e63946;
+  color:#FBC664;
 }
 
 /* CONTACT BUTTON */
 .contact-btn {
   padding: 10px 18px;
-  background: #e63946;
+  background:#FBC664;
   color: #fff !important;
   border-radius: 30px;
   font-size: 14px;
@@ -67,7 +67,7 @@
 }
 
 .contact-btn:hover {
-  background: #c1121f;
+  background: #FBC664;
 }
 
 /* HAMBURGER */
@@ -96,6 +96,43 @@
 .hamburger.active span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px);
 }
+
+/* =========================
+   NAVBAR LOGO IMAGE
+========================= */
+
+.logo-image {
+  height: 80px;           /* Desktop default */
+  width: auto;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* Optional hover effect */
+.logo-image:hover {
+  transform: scale(1.05);
+}
+
+/* =========================
+   TABLET
+========================= */
+@media (max-width: 900px) {
+  .logo-image {
+    height: 52px;
+  }
+}
+
+/* =========================
+   MOBILE
+========================= */
+@media (max-width: 480px) {
+  .logo-image {
+    height: 56px;
+  }
+}
+
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
@@ -195,7 +232,7 @@
 }
 
 .hero h1 span {
-  color: #e63946;
+  color: #FBC664;
 }
 
 .hero p {
@@ -212,6 +249,13 @@
   margin-top: 10px;
 }
 
+:root {
+  --main-color: #FBC664;
+  --main-color-dark: #e6b24f;
+  --main-shadow: rgba(251, 198, 100, 0.45);
+  --main-shadow-strong: rgba(251, 198, 100, 0.65);
+}
+
 /* BUTTONS */
 .btn {
   padding: 12px 28px;
@@ -222,24 +266,24 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, #e63946, #ff6b6b);
-  color: #fff;
-  box-shadow: 0 8px 22px rgba(230, 57, 70, 0.4);
+  background: linear-gradient(135deg, var(--main-color), var(--main-color-dark));
+  color: #ffffff;
+  box-shadow: 0 8px 22px var(--main-shadow);
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(230, 57, 70, 0.55);
+  box-shadow: 0 12px 30px var(--main-shadow-strong);
 }
 
 .btn-outline {
-  border: 2px solid #e63946;
-  color: #e63946;
+  border: 2px solid #FBC664;
+  color: #FBC664;
   background: transparent;
 }
 
 .btn-outline:hover {
-  background: #e63946;
+  background: #FBC664;
   color: #fff;
 }
 
@@ -320,12 +364,21 @@
 
 /* LEARN MORE BUTTON */
 .car-btn {
-  background: linear-gradient(135deg, #e63946, #ff6b6b);
-  color: #fff;
+  background: linear-gradient(135deg, var(--main-color), var(--main-color-dark));
+  color: #111;
   padding: 10px 22px;
   border-radius: 25px;
   font-size: 14px;
+  font-weight: 600;
+  box-shadow: 0 6px 18px var(--main-shadow);
+  transition: all 0.3s ease;
 }
+
+.car-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 25px var(--main-shadow-strong);
+}
+
 
 /* =========================
    CTA SECTION
@@ -334,8 +387,8 @@
 .cta-section {
   padding: 90px 24px;
   text-align: center;
-  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
-  color: #fff;
+  background: rgb(255, 255, 255);
+  color: #000000;
 }
 
 .cta-section h2 {
@@ -349,18 +402,29 @@
   max-width: 700px;
   margin: 0 auto 30px;
   line-height: 1.6;
-  color: #dfe6ed;
+  color: #000000;
 }
 
 .primary-btn {
-  background: linear-gradient(135deg, #ff4c29, #ff784e);
+  background: linear-gradient(135deg, #FBC664, #FFD27F); /* gradient using main color */
   color: #fff;
-  box-shadow: 0 8px 25px rgba(255, 76, 41, 0.5);
+  box-shadow: 0 8px 25px rgba(251, 198, 100, 0.5); /* shadow with main color tint */
+  border: none;
+  padding: 12px 30px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s ease;
 }
 
 .primary-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(255, 76, 41, 0.7);
+  box-shadow: 0 12px 30px rgba(251, 198, 100, 0.7); /* stronger shadow on hover */
+}
+
+.primary-btn:active {
+  transform: translateY(0);
+  box-shadow: 0 6px 20px rgba(251, 198, 100, 0.5); /* pressed effect */
 }
 
 /* =========================
@@ -454,7 +518,7 @@
 /* HEADING */
 .contact-container h2 {
   font-size: 32px;
-  color: #ff4c29;
+  color: #FBC664;
   margin-bottom: 10px;
   font-weight: 900;
 }
@@ -492,7 +556,7 @@
 .contact-container input:focus,
 .contact-container textarea:focus {
   background: rgb(255, 255, 255);
-  box-shadow: 0 0 10px rgba(255, 76, 41, 0.5);
+  box-shadow: 0 0 10px #FBC664;
 }
 
 .contact-container textarea {
@@ -505,7 +569,7 @@
   padding: 14px 28px;
   border-radius: 30px;
   border: none;
-  background: linear-gradient(135deg, #ff4c29, #ff784e);
+  background: linear-gradient(135deg, #FBC664, #FFD27F); /* updated gradient */
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -515,14 +579,18 @@
 
 .contact-container button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(255, 76, 41, 0.6);
+  box-shadow: 0 8px 25px rgba(251, 198, 100, 0.6); /* updated shadow to match main color */
 }
 
+.contact-container button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 15px rgba(251, 198, 100, 0.5); /* pressed effect */
+}
 /* MESSAGE TEXT */
 .form-message {
   margin-top: 10px;
   font-size: 15px;
-  color: #ff4c29;
+  color: #FBC664;
   font-weight: 500;
 }
 
@@ -632,7 +700,7 @@
 }
 
 .footer-logo-text span {
-  color: #ff4c29;
+  color: #FBC664;
 }
 
 .footer-desc {
@@ -656,7 +724,7 @@
 
 .footer-links h3 {
   font-size: 18px;
-  color: #ff4c29;
+  color:#FBC664;
   margin-bottom: 15px;
 }
 
@@ -676,7 +744,7 @@
 }
 
 .footer-links ul li a:hover {
-  color: #ff4c29;
+  color: #FBC664;
 }
 
 /* NEWSLETTER */
@@ -686,7 +754,7 @@
 
 .footer-newsletter h3 {
   font-size: 18px;
-  color: #ff4c29;
+  color: #FBC664;
   margin-bottom: 12px;
 }
 
@@ -717,7 +785,7 @@
   padding: 10px 20px;
   border-radius: 25px;
   border: none;
-  background: linear-gradient(135deg, #ff4c29, #ff784e);
+  background: linear-gradient(135deg, #FBC664, #FFD27F); /* updated gradient */
   color: #fff;
   cursor: pointer;
   font-weight: 600;
@@ -726,8 +794,14 @@
 
 .footer-newsletter button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(255,76,41,0.6);
+  box-shadow: 0 8px 20px rgba(251, 198, 100, 0.6); /* updated shadow to match main color */
 }
+
+.footer-newsletter button:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 15px rgba(251, 198, 100, 0.5); /* pressed effect */
+}
+
 
 /* SOCIAL ICONS */
 .footer-social {
@@ -736,7 +810,7 @@
 
 .footer-social h3 {
   font-size: 18px;
-  color: #ff4c29;
+  color: #FBC664;
   margin-bottom: 12px;
 }
 
@@ -759,7 +833,7 @@
 }
 
 .social-icons a:hover {
-  background: #ff4c29;
+  background: #FBC664;
   color: #fff;
   transform: translateY(-2px);
 }
@@ -772,6 +846,15 @@
   color: #888;
   border-top: 1px solid rgba(255,255,255,0.1);
   padding-top: 15px;
+}
+
+.logo-image-footer{
+  height: 60px;           /* Desktop default */
+  width: auto;
+  object-fit: contain;
+  display: block;
+  cursor: pointer;
+  transition: transform 0.3s ease;
 }
 
 /* =========================
@@ -797,6 +880,9 @@
   .footer-newsletter input[type="email"] {
     width: 100%;
   }
+  .logo-image-footer{
+    text-align: center;
+}
 }
 
 @media (max-width: 576px) {
@@ -953,7 +1039,7 @@ margin-bottom: 12px;
 
 .price {
 font-weight: 700;
-color: #e63946;
+color: #FBC664;
 }
 
 
@@ -1257,7 +1343,7 @@ grid-template-columns: 1fr;
 .brand-content li:last-child {
   font-size: 16px;
   font-weight: 700;
-  color: #e63946;
+  color:#FBC664;
 }
 
 /* =========================
