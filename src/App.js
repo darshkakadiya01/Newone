@@ -25,8 +25,6 @@ function App() {
         <Route path="/compare" element={<Compare />} />
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/contact" element={<Contact />} />
-
-        {/* Dynamic brand route */}
         <Route path="/brand/:brand" element={<BrandDetail />} />
       </Routes>
 
