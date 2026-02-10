@@ -6,7 +6,7 @@ const brandData = {
   bmw: [
     {
       name: "BMW M4 Competition",
-      image: "/BMW-M4-Coupe.afd009f75ddb268dc6505fffc31356c2.fc9fbf2e013d5612025dee6ed4bba9f2.webp",
+      image: "/bmw-m4-competition.webp",
       engine: "3.0L Twin‑Turbo Inline‑6",
       fuel: "Petrol",
       speed: "290 km/h",
