@@ -17,7 +17,7 @@ const brands = [
   { name: "Lamborghini", logo: "./LAMBORGHINI.jpg" },
   { name: "Maserati", logo: "./MASERATI.png" },
   { name: "Rolls-Royce", logo: "./ROLLS-ROYCE.png" },
-  { name: "Bentley", logo: "./BENTLEY.png" },
+  { name: "Bentley", logo: "./BENTLEY.jpg" },
   { name: "Aston Martin", logo: "./ASTON-MARTIN.jpg" },
   { name: "McLaren", logo: "./MCLAREN.jpg" },
   { name: "Bugatti", logo: "./BUGATTI.jpg" },
