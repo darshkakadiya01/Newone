@@ -12,7 +12,7 @@ const brands = [
   { name: "Tesla", logo: "./Tesla.png" },
   { name: "Jaguar", logo: "./JAGUAR.png" },
   { name: "Land Rover", logo: "./LANDROVER.jpg" },
-  { name: "Volvo", logo: "./VOLVO.jpg" },
+  { name: "Volvo", logo: "./VOLVO.png" },
   { name: "Ferrari", logo: "./FERRARI.png" },
   { name: "Lamborghini", logo: "./LAMBORGHINI.jpg" },
   { name: "Maserati", logo: "./MASERATI.png" },
