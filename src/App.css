@@ -1367,3 +1367,293 @@ grid-template-columns: 1fr;
     font-size: 14px;
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start Compare.js */
+/* ================= COMPARE PAGE ================= */
+
+.compare-wrapper {
+  background: linear-gradient(180deg, #ffffff, #f4f6f9);
+  min-height: 100vh;
+  padding-bottom: 80px;
+}
+
+.compare-hero {
+  text-align: center;
+  padding: 80px 20px 50px;
+}
+
+.compare-hero h1 {
+  font-size: 42px;
+  font-weight: 900;
+}
+
+.compare-hero p {
+  color: #555;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+/* GRID */
+
+.compare-grid {
+  max-width: 1300px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* CARD */
+
+.compare-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.compare-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.15);
+}
+
+/* CAR SIDE */
+
+.compare-car {
+  flex: 1;
+  text-align: center;
+}
+
+.compare-car img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 18px;
+  margin-bottom: 15px;
+}
+
+.compare-car h3 {
+  font-size: 20px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
+.compare-car p {
+  font-size: 14px;
+  color: #555;
+}
+
+.price {
+  margin-top: 8px;
+  font-weight: 700;
+  color: #FBC664;
+}
+
+/* VS DESIGN */
+
+.vs {
+  font-size: 28px;
+  font-weight: 900;
+  color: #FBC664;
+  padding: 20px;
+  border-radius: 50%;
+  background: rgba(251,198,100,0.1);
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .compare-card {
+    flex-direction: column;
+  }
+
+  .vs {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 600px) {
+  .compare-hero h1 {
+    font-size: 28px;
+  }
+
+  .compare-card {
+    padding: 20px;
+  }
+
+  .compare-car img {
+    max-height: 160px;
+  }
+}
+
+/* end Compare.js */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* start Reviews.js */
+/* ================= REVIEWS PAGE ================= */
+
+.reviews-wrapper {
+  background: linear-gradient(180deg, #ffffff, #f4f6f9);
+  min-height: 100vh;
+  padding-bottom: 80px;
+  font-family: "Poppins", sans-serif;
+}
+
+.reviews-hero {
+  text-align: center;
+  padding: 80px 20px 50px;
+}
+
+.reviews-hero h1 {
+  font-size: 42px;
+  font-weight: 900;
+  margin-bottom: 10px;
+}
+
+.reviews-hero p {
+  font-size: 16px;
+  color: #555;
+}
+
+/* GRID */
+
+.reviews-grid {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+/* CARD */
+
+.review-card {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 30px;
+  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
+  transition: all 0.3s ease;
+}
+
+.review-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 25px 45px rgba(0,0,0,0.15);
+}
+
+/* HEADER */
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.review-header img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-header h3 {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.car-name {
+  font-size: 14px;
+  color: #FBC664;
+}
+
+/* STARS */
+
+.stars {
+  color: #FBC664;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+/* TEXT */
+
+.review-text {
+  font-size: 14px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 1024px) {
+  .reviews-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .reviews-hero h1 {
+    font-size: 28px;
+  }
+
+  .reviews-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .review-card {
+    padding: 20px;
+  }
+
+  .review-header img {
+    width: 50px;
+    height: 50px;
+  }
+}
+
+/* end Reviews.js */
