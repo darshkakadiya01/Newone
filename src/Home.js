@@ -34,31 +34,25 @@ const Home = () => {
 
       {/* FEATURED CARS SECTION */}
       <section className="featured-cars">
-        <h2>Featured Cars</h2>
+      <h2>Featured Cars</h2>
         <div className="car-grid">
           <div className="car-card">
-            <img src="./download.jpg" alt="Car 1" />
-            <h3>BMW M4</h3>
+            <img src="./ROLLS-ROYCEBoatTail.jpg" alt="Car 1" />
+            <h3>ROLLS-ROYCE Boat Tail</h3>
             <p>Performance, style, and luxury all in one machine.</p>
-            <a href="/cars" className="btn car-btn">
-              Learn More
-            </a>
+            <a href="/boat-tail" className="btn car-btn">Learn More</a>
           </div>
           <div className="car-card">
-            <img src="./download.jpg" alt="Car 2" />
-            <h3>Audi RS7</h3>
+            <img src="./PAGANI-zonda.jpg" alt="Car 2" />
+            <h3>PAGANI Zonda</h3>
             <p>Elegant design meets extreme speed and power.</p>
-            <a href="/cars" className="btn car-btn">
-              Learn More
-            </a>
+            <a href="/pagani-zonda" className="btn car-btn">Learn More</a>
           </div>
           <div className="car-card">
-              <img src="./download.jpg" alt="Car 3" />
-              <h3>Tesla Model S</h3>
-            <p>The future of electric cars with unmatched performance.</p>
-            <a href="/cars" className="btn car-btn">
-              Learn More
-            </a>
+            <img src="./ROLLS-ROYCElarose.jpg" alt="Car 3" />
+            <h3>ROLLS-ROYCE La Rose Noire Droptail</h3>
+            <p>The future of luxury cars with unmatched performance.</p>
+            <a href="/la-rose-noire" className="btn car-btn">Learn More</a>
           </div>
         </div>
       </section>

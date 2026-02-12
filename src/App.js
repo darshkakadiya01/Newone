@@ -11,6 +11,9 @@ import Reviews from './Reviews';
 import Contact from './Contact';
 import Footer from './Footer';
 import BrandDetail from "./BrandDetail";
+import BoatTail from "./BoatTail";
+import PaganiZonda from "./PaganiZonda";
+import LaRoseNoire from "./LaRoseNoire";
 
 function App() {
   return (
@@ -27,6 +30,9 @@ function App() {
         <Route path="/reviews" element={<Reviews />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/brand/:brand" element={<BrandDetail />} />
+        <Route path="/boat-tail" element={<BoatTail />} />
+        <Route path="/pagani-zonda" element={<PaganiZonda />} />
+        <Route path="/la-rose-noire" element={<LaRoseNoire />} />
       </Routes>
 
       <Footer logoSrc="/CARVOCARZ_LOGO.png" />
