@@ -30,7 +30,7 @@ const Contact = () => {
 return (
       <>
       <head>
-        <title>CARVOCARZ - Premium Car Marketplace | Compare & Reviews</title>
+        <title>CARVOCARZ - About Cars Contact | Compare & Reviews</title>
 
         <meta name="description" content="CARVOCARZ is a premium car website where you can explore top brands, compare cars, check specifications and read expert reviews. Discover luxury, electric and performance cars in one place." />
 

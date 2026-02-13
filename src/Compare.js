@@ -88,7 +88,7 @@ const Compare = () => {
   return (
     <>
     <head>
-  <title>CARVOCARZ - Premium Car Marketplace | Compare & Reviews</title>
+  <title>CARVOCARZ - Branded Cars comparisons | Compare & Reviews</title>
 
   <meta name="description" content="CARVOCARZ is a premium car website where you can explore top brands, compare cars, check specifications and read expert reviews. Discover luxury, electric and performance cars in one place." />
 
