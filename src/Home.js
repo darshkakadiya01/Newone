@@ -49,7 +49,7 @@ const Home = () => {
               professional platform built for car lovers.
             </p>
             <div className="hero-actions">
-              <a href="/brands" className="btn btn-primary">Explore Cars</a>
+              <a href="/inventory" className="btn btn-primary">Explore Cars</a>
               <a href="/contact" className="btn btn-outline">Contact Us</a>
             </div>
         </div>
