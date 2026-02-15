@@ -133,6 +133,10 @@ const Brands = () => {
   <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
 
   <meta name="theme-color" content="#FBC664" />
+      <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7121971324804117"
+     crossorigin="anonymous">
+  </script>
+
 </head>
     <div className="brands-wrapper">
       <header className="brands-header">
