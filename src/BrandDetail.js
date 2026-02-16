@@ -422,7 +422,7 @@ const brandData = {
   maserati: [
     {
       name: "Maserati Ghibli",
-      image: "/maserati-ghibli.webp",
+      image: "/Maserati Ghibli.webp",
       engine: "3.0L Twin-Turbo V6",
       fuel: "Petrol",
       speed: "285 km/h",
@@ -430,7 +430,7 @@ const brandData = {
     },
     {
       name: "Maserati Levante",
-      image: "/maserati-levante.webp",
+      image: "/Maserati Levante.jpg",
       engine: "3.0L Twin-Turbo V6",
       fuel: "Petrol",
       speed: "260 km/h",
@@ -438,7 +438,7 @@ const brandData = {
     },
     {
       name: "Maserati Quattroporte",
-      image: "/maserati-quattroporte.webp",
+      image: "/Maserati Quattroporte.jpg",
       engine: "3.0L Twin-Turbo V6",
       fuel: "Petrol",
       speed: "285 km/h",
@@ -446,7 +446,7 @@ const brandData = {
     },
     {
       name: "Maserati MC20",
-      image: "/maserati-mc20.webp",
+      image: "/Maserati MC20.jpeg",
       engine: "3.0L Twin-Turbo V6",
       fuel: "Petrol",
       speed: "325 km/h",
@@ -456,7 +456,7 @@ const brandData = {
   rollsroyce: [
     {
       name: "Rolls-Royce Phantom",
-      image: "/rolls-royce-phantom.webp",
+      image: "/Rolls-Royce Phantom.jpg",
       engine: "6.75L V12",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -464,7 +464,7 @@ const brandData = {
     },
     {
       name: "Rolls-Royce Ghost",
-      image: "/rolls-royce-ghost.webp",
+      image: "/Rolls-Royce Ghost.webp",
       engine: "6.75L V12",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -472,7 +472,7 @@ const brandData = {
     },
     {
       name: "Rolls-Royce Wraith",
-      image: "/rolls-royce-wraith.webp",
+      image: "/Rolls-Royce Wraith.jpeg",
       engine: "6.6L V12",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -480,7 +480,7 @@ const brandData = {
     },
     {
       name: "Rolls-Royce Dawn",
-      image: "/rolls-royce-dawn.webp",
+      image: "/Rolls-Royce Dawn.jpg",
       engine: "6.6L V12",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -490,7 +490,7 @@ const brandData = {
   bentley: [
     {
       name: "Bentley Continental GT",
-      image: "/bentley-continental-gt.webp",
+      image: "/Bentley Continental GT.webp",
       engine: "4.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "318 km/h",
@@ -498,7 +498,7 @@ const brandData = {
     },
     {
       name: "Bentley Bentayga",
-      image: "/bentley-bentayga.webp",
+      image: "/Bentley Bentayga.jpg",
       engine: "4.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "306 km/h",
@@ -506,7 +506,7 @@ const brandData = {
     },
     {
       name: "Bentley Flying Spur",
-      image: "/bentley-flying-spur.webp",
+      image: "/Bentley Flying Spur.jpg",
       engine: "4.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "318 km/h",
@@ -514,7 +514,7 @@ const brandData = {
     },
     {
       name: "Bentley Mulsanne",
-      image: "/bentley-mulsanne.webp",
+      image: "/Bentley Mulsanne.jpg",
       engine: "6.75L V8",
       fuel: "Petrol",
       speed: "296 km/h",
@@ -524,7 +524,7 @@ const brandData = {
   astonmartin: [
     {
       name: "Aston Martin DB11",
-      image: "/aston-martin-db11.webp",
+      image: "/Aston Martin DB11.webp",
       engine: "4.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "322 km/h",
@@ -532,7 +532,7 @@ const brandData = {
     },
     {
       name: "Aston Martin Vantage",
-      image: "/aston-martin-vantage.webp",
+      image: "/Aston Martin Vantage.jpg",
       engine: "4.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "314 km/h",
@@ -540,7 +540,7 @@ const brandData = {
     },
     {
       name: "Aston Martin DBS Superleggera",
-      image: "/aston-martin-dbs-superleggera.webp",
+      image: "/Aston Martin DBS Superleggera.jpg",
       engine: "5.2L Twin-Turbo V12",
       fuel: "Petrol",
       speed: "340 km/h",
@@ -548,7 +548,7 @@ const brandData = {
     },
     {
       name: "Aston Martin Rapide",
-      image: "/aston-martin-rapide.webp",
+      image: "/Aston Martin Rapide.jpg",
       engine: "6.0L V12",
       fuel: "Petrol",
       speed: "305 km/h",
@@ -558,7 +558,7 @@ const brandData = {
   mclaren: [
     {
       name: "McLaren 720S",
-      image: "/mclaren-720s.webp",
+      image: "/McLaren 720S.jpg",
       engine: "4.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "341 km/h",
@@ -566,7 +566,7 @@ const brandData = {
     },
     {
       name: "McLaren Solos GT",
-      image: "/mclaren-solos-gt.webp",
+      image: "/McLaren Solos GT.webp",
       engine: "4.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "340 km/h",
@@ -574,7 +574,7 @@ const brandData = {
     },
     {
       name: "McLaren Artura",
-      image: "/mclaren-artura.webp",
+      image: "/McLaren Artura.jpg",
       engine: "3.0L Twin-Turbo V6 Hybrid",
       fuel: "Petrol / Hybrid",
       speed: "330 km/h",
@@ -582,7 +582,7 @@ const brandData = {
     },
     {
       name: "McLaren GT",
-      image: "/mclaren-gt.webp",
+      image: "/McLaren GT.jpg",
       engine: "4.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "326 km/h",
@@ -592,7 +592,7 @@ const brandData = {
   bugatti: [
     {
       name: "Bugatti Chiron",
-      image: "/bugatti-chiron.webp",
+      image: "/Bugatti Chiron.jpg",
       engine: "8.0L Quad-Turbo W16",
       fuel: "Petrol",
       speed: "420 km/h",
@@ -600,7 +600,7 @@ const brandData = {
     },
     {
       name: "Bugatti Veyron",
-      image: "/bugatti-veyron.webp",
+      image: "/Bugatti Veyron.jpg",
       engine: "8.0L Quad-Turbo W16",
       fuel: "Petrol",
       speed: "410 km/h",
@@ -608,7 +608,7 @@ const brandData = {
     },
     {
       name: "Bugatti Divo",
-      image: "/bugatti-divo.webp",
+      image: "/Bugatti Divo.jpg",
       engine: "8.0L Quad-Turbo W16",
       fuel: "Petrol",
       speed: "380 km/h",
@@ -616,7 +616,7 @@ const brandData = {
     },
     {
       name: "Bugatti Centodieci",
-      image: "/bugatti-centodieci.webp",
+      image: "/Bugatti Centodieci.webp",
       engine: "8.0L Quad-Turbo W16",
       fuel: "Petrol",
       speed: "380 km/h",
