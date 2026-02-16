@@ -64,7 +64,7 @@ const brandData = {
     },
     {
       name: "Audi e-tron GT",
-      image: "/Audie-trongt.jpg",
+      image: "/Audie-tronGT.jpg",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "240 km/h",
@@ -184,7 +184,7 @@ const brandData = {
   porsche: [
     {
       name: "Porsche 911",
-      image: "/porsche911.jpg",
+      image: "/Porsche911.webp",
       engine: "3.0L Twin-Turbo Flat-6",
       fuel: "Petrol",
       speed: "320 km/h",
@@ -286,7 +286,7 @@ const brandData = {
   landrover: [
     {
       name: "Land Rover Defender",
-      image: "/landroverdefender.jpg",
+      image: "/landroverdefender.webp",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel",
       speed: "200 km/h",
@@ -320,7 +320,7 @@ const brandData = {
   volvo: [
     {
       name: "Volvo XC90",
-      image: "/volvo-xc90.webp",
+      image: "/VolvoXC90.jpg",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel / Hybrid",
       speed: "210 km/h",
@@ -328,7 +328,7 @@ const brandData = {
     },
     {
       name: "Volvo S90",
-      image: "https://cdn.motor1.com/images/mgl/9mmkM/s1/volvo-s90.jpg",
+      image: "/VolvoS90.webp",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel / Hybrid",
       speed: "240 km/h",
@@ -336,7 +336,7 @@ const brandData = {
     },
     {
       name: "Volvo XC60",
-      image: "https://cdn.motor1.com/images/mgl/0eOZ6/s1/volvo-xc60.jpg",
+      image: "/VolvoXC60.jpg",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel / Hybrid",
       speed: "220 km/h",
@@ -344,7 +344,7 @@ const brandData = {
     },
     {
       name: "Volvo V90",
-      image: "https://cdn.motor1.com/images/mgl/qkkXr/s1/volvo-v90.jpg",
+      image: "/VolvoV90.webp",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel / Hybrid",
       speed: "230 km/h",
@@ -354,7 +354,7 @@ const brandData = {
   ferrari: [
     {
       name: "Ferrari 488",
-      image: "/ferrari-488.webp",
+      image: "/Ferrari-488.jpg",
       engine: "3.9L V8",
       fuel: "Petrol",
       speed: "330 km/h",
@@ -362,7 +362,7 @@ const brandData = {
     },
     {
       name: "Ferrari SF90",
-      image: "/ferrari-sf90.webp",
+      image: "/FerrariSF90.jpg",
       engine: "2.5L Turbo Hybrid V8",
       fuel: "Petrol / Hybrid",
       speed: "340 km/h",
@@ -370,7 +370,7 @@ const brandData = {
     },
     {
       name: "Ferrari Roma",
-      image: "/ferrari-roma.webp",
+      image: "/FerrariRoma.webp",
       engine: "3.9L V8",
       fuel: "Petrol",
       speed: "320 km/h",
@@ -378,7 +378,7 @@ const brandData = {
     },
     { 
       name: "Ferrari Portofino",
-      image: "/ferrari-portofino.webp",
+      image: "/FerrariPortofino.jpg",
       engine: "3.9L V8",
       fuel: "Petrol",
       speed: "320 km/h",
@@ -388,7 +388,7 @@ const brandData = {
     lamborghini: [
     {
       name: "Lamborghini Aventador",
-      image: "/lamborghini-aventador.webp",
+      image: "/LamborghiniAventador.webp",
       engine: "6.5L V12",
       fuel: "Petrol",
       speed: "350 km/h",
@@ -396,7 +396,7 @@ const brandData = {
     },
     {
       name: "Lamborghini Huracan",
-      image: "/lamborghini-huracan.webp",
+      image: "/LamborghiniHuracan.webp",
       engine: "5.2L V10",
       fuel: "Petrol",
       speed: "325 km/h",
@@ -404,7 +404,7 @@ const brandData = {
     },
     {
       name: "Lamborghini Urus",
-      image: "/lamborghini-urus.webp",
+      image: "/LamborghiniUrus.webp",
       engine: "4.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "305 km/h",
@@ -412,7 +412,7 @@ const brandData = {
     },
     {
       name: "Lamborghini Sian",
-      image: "/lamborghini-sian.webp",
+      image: "/LamborghiniSian.webp",
       engine: "6.5L V12 Hybrid",
       fuel: "Petrol / Hybrid",
       speed: "350 km/h",
