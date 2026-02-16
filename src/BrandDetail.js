@@ -14,7 +14,7 @@ const brandData = {
     },
     {
       name: "BMW X5",
-      image: "https://cdn.motor1.com/images/mgl/9mmkM/s1/bmw-x5.jpg",
+      image: "/BMWX5.jpg",
       engine: "3.0L Inline-6 Turbo",
       fuel: "Diesel",
       speed: "230 km/h",
@@ -22,7 +22,7 @@ const brandData = {
     },
     {
       name: "BMW 5 Series",
-      image: "https://cdn.motor1.com/images/mgl/0eOZ6/s1/bmw-5-series.jpg",
+      image: "/BMW5Series.jpg",
       engine: "2.0L Turbo", 
       fuel: "Petrol / Diesel",
       speed: "250 km/h",
@@ -30,7 +30,7 @@ const brandData = {
     },
     {
       name: "BMW i7",
-      image: "https://cdn.motor1.com/images/mgl/qkkXr/s1/bmw-i7.jpg",
+      image: "/BMWi7.jpg",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "240 km/h",
@@ -40,7 +40,7 @@ const brandData = {
   audi: [
     {
       name: "Audi RS7",
-      image: "/audi-rs7.webp",
+      image: "/AudiRS7.jpg",
       engine: "3.0L Twin-Turbo V6",
       fuel: "Petrol",
       speed: "290 km/h",
@@ -48,7 +48,7 @@ const brandData = {
     },
     {
       name: "Audi Q5",
-      image: "https://cdn.motor1.com/images/mgl/9mmkM/s1/audi-q5.jpg",
+      image: "/AudiQ5.webp",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel",
       speed: "230 km/h",
@@ -56,7 +56,7 @@ const brandData = {
     },
     {
       name: "Audi 5 Series",
-      image: "https://cdn.motor1.com/images/mgl/0eOZ6/s1/audi-5-series.jpg",
+      image: "/Audi5Series.jpg",
       engine: "2.0L Turbo", 
       fuel: "Petrol / Diesel",
       speed: "250 km/h",
@@ -64,7 +64,7 @@ const brandData = {
     },
     {
       name: "Audi e-tron GT",
-      image: "https://cdn.motor1.com/images/mgl/qkkXr/s1/audi-e-tron-gt.jpg",
+      image: "/Audie-trongt.jpg",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "240 km/h",
@@ -74,7 +74,7 @@ const brandData = {
   byd: [
     {
       name: "BYD Han EV",   
-      image: "/byd-han-ev.webp",
+      image: "/BYDHanEV.jpg",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "200 km/h",
@@ -82,7 +82,7 @@ const brandData = {
     },
     {
       name: "BYD Tang EV",
-      image: "https://cdn.motor1.com/images/mgl/9mmkM/s1/byd-tang-ev.jpg",
+      image: "/BYDTangEV.jpg",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "180 km/h",
@@ -90,7 +90,7 @@ const brandData = {
     },
     {
       name: "BYD e6",
-      image: "https://cdn.motor1.com/images/mgl/0eOZ6/s1/byd-e6.jpg",
+      image: "/BYDe6.jpg",
       engine: "Electric Single Motor",
       fuel: "Electric",
       speed: "150 km/h",
@@ -98,7 +98,7 @@ const brandData = {
     },
     {
       name: "BYD Yuan EV",
-      image: "https://cdn.motor1.com/images/mgl/qkkXr/s1/byd-yuan-ev.jpg",
+      image: "/BYDYuanEV.jpg",
       engine: "Electric Single Motor",
       fuel: "Electric",
       speed: "160 km/h",
@@ -107,8 +107,16 @@ const brandData = {
   ],
   mercedes: [
     {
+      name: "Mercedes AMG G63 G Wagon",
+      image: "/download.jpg",
+      engine: "4.0L Twin-Turbo V8",
+      fuel: "Diesel",
+      speed: "240 km/h",
+      price: "₹1.53 Crore"
+    },
+    {
       name: "Mercedes-AMG GT",
-      image: "/mercedes-amg-gt.webp",
+      image: "/Mercedes-AMGGT.jpg",
       engine: "4.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "310 km/h",
@@ -116,7 +124,7 @@ const brandData = {
     },  
     {
       name: "Mercedes GLE",
-      image: "https://cdn.motor1.com/images/mgl/9mmkM/s1/mercedes-gle.jpg", 
+      image: "/MercedesGLE.jpg", 
       engine: "3.0L Inline-6 Turbo",
       fuel: "Petrol / Diesel",
       speed: "230 km/h",
@@ -124,7 +132,7 @@ const brandData = {
     },
     { 
       name: "Mercedes E-Class",
-      image: "https://cdn.motor1.com/images/mgl/0eOZ6/s1/mercedes-e-class.jpg",
+      image: "/MercedesE-Class.jpg",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel",
       speed: "250 km/h",
@@ -132,7 +140,7 @@ const brandData = {
     },
     {
       name: "Mercedes EQS",
-      image: "https://cdn.motor1.com/images/mgl/qkkXr/s1/mercedes-eqs.jpg",
+      image: "/MercedesEQS.jpg",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "240 km/h",
@@ -142,7 +150,7 @@ const brandData = {
   lexus: [
     {
       name: "Lexus RX", 
-      image: "/lexus-rx.webp",
+      image: "/LexusRX.webp",
       engine: "3.5L V6",
       fuel: "Petrol / Hybrid",
       speed: "210 km/h",
@@ -150,7 +158,7 @@ const brandData = {
     },
     {
       name: "Lexus ES", 
-      image: "https://cdn.motor1.com/images/mgl/9mmkM/s1/lexus-es.jpg",
+      image: "/LexusES.jpg",
       engine: "2.5L Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "210 km/h",
@@ -158,7 +166,7 @@ const brandData = {
     },
     {
       name: "Lexus LS",
-      image: "https://cdn.motor1.com/images/mgl/0eOZ6/s1/lexus-ls.jpg",
+      image: "/LexusLS.webp",
       engine: "3.5L V6",
       fuel: "Petrol / Hybrid",
       speed: "250 km/h",
@@ -166,7 +174,7 @@ const brandData = {
     },
     {
       name: "Lexus UX",
-      image: "https://cdn.motor1.com/images/mgl/qkkXr/s1/lexus-ux.jpg",
+      image: "/LexusUX.jpg",
       engine: "2.0L Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -176,7 +184,7 @@ const brandData = {
   porsche: [
     {
       name: "Porsche 911",
-      image: "/porsche-911.webp",
+      image: "/porsche911.jpg",
       engine: "3.0L Twin-Turbo Flat-6",
       fuel: "Petrol",
       speed: "320 km/h",
@@ -184,7 +192,7 @@ const brandData = {
     },
     {
       name: "Porsche Cayenne",
-      image: "https://cdn.motor1.com/images/mgl/9mmkM/s1/porsche-cayenne.jpg",
+      image: "/PorscheCayenne.jpg",
       engine: "3.0L Turbo V6",
       fuel: "Petrol / Diesel",
       speed: "250 km/h",
@@ -192,7 +200,7 @@ const brandData = {
     },
     {
       name: "Porsche Panamera",
-      image: "https://cdn.motor1.com/images/mgl/0eOZ6/s1/porsche-panamera.jpg",
+      image: "/PorschePanamera.jpg",
       engine: "2.9L Twin-Turbo V6",
       fuel: "Petrol / Diesel",
       speed: "290 km/h",
@@ -200,7 +208,7 @@ const brandData = {
     },
     {
       name: "Porsche Taycan",
-      image: "https://cdn.motor1.com/images/mgl/qkkXr/s1/porsche-taycan.jpg",
+      image: "/PorscheTaycan.jpg",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "260 km/h",
@@ -210,7 +218,7 @@ const brandData = {
   tesla: [
     {
       name: "Tesla Model S",  
-      image: "/tesla-model-s.webp",
+      image: "/Tesla-ModelS.jpg",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "250 km/h",
@@ -218,7 +226,7 @@ const brandData = {
     },
     {
       name: "Tesla Model 3",
-      image: "https://cdn.motor1.com/images/mgl/9mmkM/s1/tesla-model-3.jpg",
+      image: "/Tesla-Model3.webp",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "225 km/h",
@@ -226,7 +234,7 @@ const brandData = {
     },
     {
       name: "Tesla Model X",
-      image: "https://cdn.motor1.com/images/mgl/0eOZ6/s1/tesla-model-x.jpg",
+      image: "/Tesla-ModelX.jpg",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "250 km/h",
@@ -234,7 +242,7 @@ const brandData = {
     },
     {
       name: "Tesla Model Y",
-      image: "https://cdn.motor1.com/images/mgl/qkkXr/s1/tesla-model-y.jpg",
+      image: "/Tesla-ModelY.webp",
       engine: "Electric Dual Motor",
       fuel: "Electric",
       speed: "210 km/h",
@@ -244,7 +252,7 @@ const brandData = {
   jaguar: [
       {
         name: "Jaguar F-Type",
-        image: "/jaguar-f-type.webp",
+        image: "/JaguarF-Type.jpg",
         engine: "3.0L Supercharged V6",
         fuel: "Petrol",
         speed: "300 km/h",
@@ -252,7 +260,7 @@ const brandData = {
       },
       {
         name: "Jaguar E-PACE",
-        image: "https://cdn.motor1.com/images/mgl/9mmkM/s1/jaguar-e-pace.jpg",
+        image: "/JaguarE-PACE.jpg",
         engine: "2.0L Turbo",
         fuel: "Petrol / Diesel",
         speed: "230 km/h",
@@ -260,7 +268,7 @@ const brandData = {
       },
       {
         name: "Jaguar XE",
-        image: "https://cdn.motor1.com/images/mgl/0eOZ6/s1/jaguar-xe.jpg",
+        image: "/JaguarXE.webp",
         engine: "2.0L Turbo",
         fuel: "Petrol / Diesel",
         speed: "250 km/h",
@@ -268,7 +276,7 @@ const brandData = {
       },
       {
         name: "Jaguar I-PACE",
-        image: "https://cdn.motor1.com/images/mgl/qkkXr/s1/jaguar-i-pace.jpg",
+        image: "/JaguarI-PACE.jpg",
         engine: "Electric Dual Motor",
         fuel: "Electric",
         speed: "200 km/h",
@@ -278,7 +286,7 @@ const brandData = {
   landrover: [
     {
       name: "Land Rover Defender",
-      image: "/land-rover-defender.webp",
+      image: "/landroverdefender.jpg",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel",
       speed: "200 km/h",
@@ -286,7 +294,7 @@ const brandData = {
     },
     {
       name: "Land Rover Range Rover",
-      image: "/land-rover-range-rover.webp",
+      image: "/landroverrangerover.jpg",
       engine: "3.0L Turbo V6",
       fuel: "Petrol / Diesel",
       speed: "250 km/h",
@@ -294,7 +302,7 @@ const brandData = {
     },
     {
       name: "Land Rover Discovery",
-      image: "/land-rover-discovery.webp",
+      image: "/landroverdiscovery.jpg",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel",
       speed: "210 km/h",
@@ -302,7 +310,7 @@ const brandData = {
     },
     {
       name: "Land Rover Range Rover Sport",
-      image: "/land-rover-range-rover-sport.webp",
+      image: "/RangeRoverSport.jpg",
       engine: "3.0L Turbo V6",
       fuel: "Petrol / Diesel",
       speed: "240 km/h",
@@ -2180,6 +2188,890 @@ const brandData = {
       speed: "250 km/h",
       price: "₹1.8 Crore"
     }
+  ],
+  hindustanmotors: [
+    {
+      name: "Hindustan Motors Ambassador",
+      image: "/hindustan-ambassador.webp",
+      engine: "2.0L Inline-4",
+      fuel: "Petrol",
+      speed: "140 km/h",
+      price: "₹15 Lakh"
+    },
+    {
+      name: "Hindustan Motors Contessa",
+      image: "/hindustan-contessa.webp",
+      engine: "1.6L Inline-4",
+      fuel: "Petrol",
+      speed: "130 km/h",
+      price: "₹12 Lakh"
+    },
+    {
+      name: "Hindustan Motors Landmaster",
+      image: "/hindustan-landmaster.webp",
+      engine: "2.0L Inline-4",
+      fuel: "Petrol",
+      speed: "140 km/h",
+      price: "₹18 Lakh"
+    },
+    {
+      name: "Hindustan Motors Minerva",
+      image: "/hindustan-minerva.webp",
+      engine: "1.5L Inline-4",
+      fuel: "Petrol",
+      speed: "130 km/h",
+      price: "₹10 Lakh"
+    }
+  ],
+  ashokleyland: [
+    {
+      name: "Ashok Leyland Dost",
+      image: "/ashok-dost.webp",
+      engine: "2.0L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "160 km/h",
+      price: "₹10 Lakh"
+    },
+    {
+      name: "Ashok Leyland Ecomet",
+      image: "/ashok-ecomet.webp",
+      engine: "3.0L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "150 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "Ashok Leyland Partner",
+      image: "/ashok-partner.webp",
+      engine: "2.0L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "160 km/h",
+      price: "₹15 Lakh"
+    },
+    {
+      name: "Ashok Leyland Stile",
+      image: "/ashok-stile.webp",
+      engine: "1.5L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "170 km/h",
+      price: "₹12 Lakh"
+    }
+  ],
+  polestar: [
+    {
+      name: "Polestar 2",
+      image: "/polestar-2.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "205 km/h",
+      price: "₹40 Lakh"
+    },
+    {
+      name: "Polestar 1",
+      image: "/polestar-1.webp",
+      engine: "Electric Motor + Petrol Engine",
+      fuel: "Hybrid",
+      speed: "250 km/h",
+      price: "₹1 Crore"
+    },
+    {
+      name: "Polestar 3",
+      image: "/polestar-3.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "200 km/h",
+      price: "₹50 Lakh"
+    },
+    {
+      name: "Polestar 4",
+      image: "/polestar-4.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "190 km/h",
+      price: "₹45 Lakh"
+    }
+  ],
+  rivian: [
+    {
+      name: "Rivian R1T",
+      image: "/rivian-r1t.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "200 km/h",
+      price: "₹50 Lakh"
+    },
+    {
+      name: "Rivian R1S",
+      image: "/rivian-r1s.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "190 km/h",
+      price: "₹55 Lakh"
+    },
+    {
+      name: "Rivian R2T",
+      image: "/rivian-r2t.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "180 km/h",
+      price: "₹45 Lakh"
+    },
+    {
+      name: "Rivian R2S",
+      image: "/rivian-r2s.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "170 km/h",
+      price: "₹40 Lakh"
+    }
+  ],
+  lucidmotors: [
+    {
+      name: "Lucid Air",
+      image: "/lucid-air.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "200 km/h",
+      price: "₹50 Lakh"
+    },
+    {
+      name: "Lucid Gravity",
+      image: "/lucid-gravity.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "190 km/h",
+      price: "₹45 Lakh"
+    },
+    {
+      name: "Lucid Air Dream Edition",
+      image: "/lucid-dream-edition.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "200 km/h",
+      price: "₹1 Crore"
+    },
+    {
+      name: "Lucid Air Touring",
+      image: "/lucid-air-touring.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "190 km/h",
+      price: "₹60 Lakh"
+    }
+  ],
+  fisker: [
+    {
+      name: "Fisker Ocean",
+      image: "/fisker-ocean.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "180 km/h",
+      price: "₹40 Lakh"
+    },
+    {
+      name: "Fisker Karma",
+      image: "/fisker-karma.webp",
+      engine: "Electric Motor + Petrol Engine",
+      fuel: "Hybrid",
+      speed: "200 km/h",
+      price: "₹55 Lakh"
+    },
+    {
+      name: "Fisker EMotion",
+      image: "/fisker-emotion.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "190 km/h",
+      price: "₹60 Lakh"
+    },
+    {
+      name: "Fisker PEAR",
+      image: "/fisker-pear.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "170 km/h",
+      price: "₹30 Lakh"
+    }
+  ],
+  saab: [
+    {
+      name: "Saab 9-3",
+      image: "/saab-9-3.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "210 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Saab 9-5",
+      image: "/saab-9-5.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "220 km/h",
+      price: "₹30 Lakh"
+    },
+    {
+      name: "Saab 9-4X",
+      image: "/saab-9-4x.webp",   
+      engine: "2.8L Turbo V6",
+      fuel: "Petrol / Hybrid",
+      speed: "200 km/h",
+      price: "₹35 Lakh"
+    },
+    {
+      name: "Saab 9-7X",
+      image: "/saab-9-7x.webp",
+      engine: "4.2L V8",
+      fuel: "Petrol / Hybrid",
+      speed: "190 km/h",
+      price: "₹40 Lakh"
+    }
+  ],
+  scion: [
+    {
+      name: "Scion tC",
+      image: "/scion-tc.webp",
+      engine: "2.5L Inline-4",
+      fuel: "Petrol",
+      speed: "190 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "Scion xB",
+      image: "/scion-xb.webp",
+      engine: "2.4L Inline-4",
+      fuel: "Petrol",
+      speed: "180 km/h",
+      price: "₹18 Lakh"
+    },
+    {
+      name: "Scion FR-S",
+      image: "/scion-frs.webp",
+      engine: "2.0L Flat-4",
+      fuel: "Petrol",
+      speed: "230 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Scion iA",
+      image: "/scion-ia.webp",
+      engine: "1.5L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "170 km/h",
+      price: "₹15 Lakh"
+    }
+  ],
+  hummer: [
+    {
+      name: "Hummer H2",
+      image: "/hummer-h2.webp",
+      engine: "6.0L V8",
+      fuel: "Petrol",
+      speed: "170 km/h",
+      price: "₹50 Lakh"
+    },
+    {
+      name: "Hummer H3",
+      image: "/hummer-h3.webp",
+      engine: "3.7L Inline-5",
+      fuel: "Petrol",
+      speed: "160 km/h",
+      price: "₹40 Lakh"
+    },
+    {
+      name: "Hummer H1",
+      image: "/hummer-h1.webp",
+      engine: "6.5L Turbo Diesel V8",
+      fuel: "Diesel",
+      speed: "150 km/h",
+      price: "₹60 Lakh"
+    },
+    {
+      name: "Hummer EV",
+      image: "/hummer-ev.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "200 km/h",
+      price: "₹1 Crore"
+    }
+  ],
+  gac: [
+    {
+      name: "GAC Trumpchi GS4",
+      image: "/gac-gs4.webp",
+      engine: "1.5L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "190 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "GAC Trumpchi GS8",
+      image: "/gac-gs8.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "200 km/h",
+      price: "₹30 Lakh"
+    },
+    {
+      name: "GAC Trumpchi GA4",
+      image: "/gac-ga4.webp",
+      engine: "1.5L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "180 km/h",
+      price: "₹15 Lakh"
+    },
+    {
+      name: "GAC Trumpchi GS5",
+      image: "/gac-gs5.webp",
+      engine: "1.5L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "190 km/h",
+      price: "₹25 Lakh"
+    }
+  ],
+  oldsmobile: [
+    {
+      name: "Oldsmobile Cutlass",
+      image: "/oldsmobile-cutlass.webp",
+      engine: "3.8L V6",
+      fuel: "Petrol",
+      speed: "190 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "Oldsmobile 88",
+      image: "/oldsmobile-88.webp",
+      engine: "3.8L V6",
+      fuel: "Petrol",
+      speed: "200 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Oldsmobile Alero",
+      image: "/oldsmobile-alero.webp",
+      engine: "2.4L Inline-4",
+      fuel: "Petrol",
+      speed: "180 km/h",
+      price: "₹15 Lakh"
+    },
+    {
+      name: "Oldsmobile Aurora",
+      image: "/oldsmobile-aurora.webp",
+      engine: "3.5L V6",
+      fuel: "Petrol",
+      speed: "210 km/h",
+      price: "₹30 Lakh"
+    }
+  ],
+  pontiac: [
+    {
+      name: "Pontiac GTO",
+      image: "/pontiac-gto.webp",
+      engine: "6.0L V8",
+      fuel: "Petrol",
+      speed: "250 km/h",
+      price: "₹40 Lakh"
+    },
+    {
+      name: "Pontiac Firebird",
+      image: "/pontiac-firebird.webp",
+      engine: "5.7L V8",
+      fuel: "Petrol",
+      speed: "240 km/h",
+      price: "₹35 Lakh"
+    },
+    {
+      name: "Pontiac Grand Prix",
+      image: "/pontiac-grand-prix.webp",
+      engine: "3.8L V6",
+      fuel: "Petrol",
+      speed: "200 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Pontiac Solstice",
+      image: "/pontiac-solstice.webp",
+      engine: "2.4L Inline-4",
+      fuel: "Petrol",
+      speed: "190 km/h",
+      price: "₹20 Lakh"
+    }
+  ],
+  saturn: [
+    {
+      name: "Saturn Ion",
+      image: "/saturn-ion.webp",
+      engine: "2.2L Inline-4",
+      fuel: "Petrol",
+      speed: "180 km/h",
+      price: "₹15 Lakh"
+    },
+    {
+      name: "Saturn Vue",
+      image: "/saturn-vue.webp",
+      engine: "2.2L Inline-4",
+      fuel: "Petrol",
+      speed: "190 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "Saturn Skyline",
+      image: "/saturn-skyline.webp",
+      engine: "2.4L Inline-4",
+      fuel: "Petrol",
+      speed: "195 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Saturn Aura",
+      image: "/saturn-aura.webp",
+      engine: "3.5L V6",
+      fuel: "Petrol",
+      speed: "200 km/h",
+      price: "₹30 Lakh"
+    }
+  ],
+  mercury: [
+    {
+      name: "Mercury Grand Marquis",
+      image: "/mercury-grand-marquis.webp",
+      engine: "4.6L V8",
+      fuel: "Petrol",
+      speed: "190 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Mercury Cougar",
+      image: "/mercury-cougar.webp",
+      engine: "2.5L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "200 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "Mercury Milan",
+      image: "/mercury-milan.webp",
+      engine: "2.5L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "190 km/h",
+      price: "₹15 Lakh"
+    },
+    {
+      name: "Mercury Mountaineer",
+      image: "/mercury-mountaineer.webp",
+      engine: "4.0L V6",
+      fuel: "Petrol",
+      speed: "180 km/h",
+      price: "₹30 Lakh"
+    }
+  ],
+  plymouth: [
+    {
+      name: "Plymouth Barracuda",
+      image: "/plymouth-barracuda.webp",
+      engine: "5.7L V8",
+      fuel: "Petrol",
+      speed: "240 km/h",
+      price: "₹35 Lakh"
+    },
+    {
+      name: "Plymouth Road Runner",
+      image: "/plymouth-road-runner.webp",
+      engine: "6.0L V8",
+      fuel: "Petrol",
+      speed: "250 km/h",
+      price: "₹40 Lakh"
+    },
+    {
+      name: "Plymouth Duster",
+      image: "/plymouth-duster.webp",
+      engine: "3.7L V6",
+      fuel: "Petrol",
+      speed: "200 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "Plymouth Fury",
+      image: "/plymouth-fury.webp",
+      engine: "3.8L V6",
+      fuel: "Petrol",
+      speed: "190 km/h",
+      price: "₹25 Lakh"
+    }
+  ],
+  hino: [
+    {
+      name: "Hino 300 Series",
+      image: "/hino-300.webp",
+      engine: "4.0L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "120 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "Hino 500 Series",
+      image: "/hino-500.webp",
+      engine: "6.0L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "110 km/h",
+      price: "₹30 Lakh"
+    },
+    {
+      name: "Hino 700 Series",
+      image: "/hino-700.webp",
+      engine: "9.0L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "100 km/h",
+      price: "₹50 Lakh"
+    },
+    {
+      name: "Hino Dutro",
+      image: "/hino-dutro.webp",
+      engine: "4.0L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "120 km/h",
+      price: "₹25 Lakh"
+    }
+  ],
+  isuzu: [
+    {
+      name: "Isuzu D-Max",
+      image: "/isuzu-dmax.webp",
+      engine: "1.9L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "170 km/h",
+      price: "₹15 Lakh"
+    },
+    {
+      name: "Isuzu MU-X",
+      image: "/isuzu-mux.webp",
+      engine: "3.0L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "180 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Isuzu MUX",
+      image: "/isuzu-mux.webp",
+      engine: "3.0L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "180 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Isuzu V-Cross",
+      image: "/isuzu-vcross.webp",
+      engine: "1.9L Turbo Diesel",
+      fuel: "Diesel",
+      speed: "170 km/h",
+      price: "₹20 Lakh"
+    }
+  ],
+  datsun: [
+    {
+      name: "Datsun RediGO",
+      image: "/datsun-redigo.webp",
+      engine: "1.0L Turbo Petrol",
+      fuel: "Petrol",
+      speed: "140 km/h",
+      price: "₹5 Lakh"
+    },
+    {
+      name: "Datsun GO",
+      image: "/datsun-go.webp",
+      engine: "1.2L Petrol",
+      fuel: "Petrol",
+      speed: "150 km/h",
+      price: "₹6 Lakh"
+    },
+    {
+      name: "Datsun Terao",
+      image: "/datsun-terao.webp",
+      engine: "1.2L Petrol",
+      fuel: "Petrol",
+      speed: "150 km/h",
+      price: "₹7 Lakh"
+    },
+    {
+      name: "Datsun Sunny B210",
+      image: "/datsun-sunny.webp",
+      engine: "1.2L Petrol",
+      fuel: "Petrol",
+      speed: "140 km/h",
+      price: "₹8 Lakh"
+    }
+  ],
+  lada: [
+    {
+      name: "Lada Niva",
+      image: "/lada-niva.webp",
+      engine: "1.7L Inline-4",
+      fuel: "Petrol",
+      speed: "150 km/h",
+      price: "₹10 Lakh"
+    },
+    {
+      name: "Lada Granta",
+      image: "/lada-granta.webp",
+      engine: "1.6L Inline-4",
+      fuel: "Petrol",
+      speed: "160 km/h",
+      price: "₹8 Lakh"
+    },
+    {
+      name: "Lada Vesta",
+      image: "/lada-vesta.webp",
+      engine: "1.6L Inline-4",
+      fuel: "Petrol",
+      speed: "170 km/h",
+      price: "₹9 Lakh"
+    },
+    {
+      name: "Lada Largus",
+      image: "/lada-largus.webp",
+      engine: "1.6L Inline-4",
+      fuel: "Petrol",
+      speed: "160 km/h",
+      price: "₹7 Lakh"
+    }
+  ],
+  zotye: [
+    {
+      name: "Zotye T600",
+      image: "/zotye-t600.webp",
+      engine: "1.5L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "190 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "Zotye T700",
+      image: "/zotye-t700.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "200 km/h",
+      price: "₹30 Lakh"
+    },
+    {
+      name: "Zotye T300",
+      image: "/zotye-t300.webp",
+      engine: "1.5L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "180 km/h",
+      price: "₹15 Lakh"
+    },
+    {
+      name: "Zotye E200",
+      image: "/zotye-e200.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "150 km/h",
+      price: "₹10 Lakh"
+    }
+  ],
+  morgan: [
+    {
+      name: "Morgan Plus 4",
+      image: "/morgan-plus4.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "200 km/h",
+      price: "₹30 Lakh"
+    },
+    {
+      name: "Morgan 3 Wheeler",
+      image: "/morgan-3wheeler.webp",
+      engine: "2.0L V-Twin",
+      fuel: "Petrol",
+      speed: "180 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Morgan Plus 8",
+      image: "/morgan-plus8.webp",
+      engine: "4.8L V8",
+      fuel: "Petrol",
+      speed: "250 km/h",
+      price: "₹50 Lakh"
+    },
+    {
+      name: "Morgan Aero 8",
+      image: "/morgan-aero8.webp",
+      engine: "4.8L V8",
+      fuel: "Petrol",
+      speed: "240 km/h",
+      price: "₹45 Lakh"
+    } 
+  ],
+  tvr: [
+    {
+      name: "TVR Griffith",
+      image: "/tvr-griffith.webp",
+      engine: "5.0L V8",
+      fuel: "Petrol",
+      speed: "320 km/h",
+      price: "₹1 Crore"
+    },
+    {
+      name: "TVR Tuscan",
+      image: "/tvr-tuscan.webp",
+      engine: "4.0L V8",
+      fuel: "Petrol",
+      speed: "300 km/h",  
+      price: "₹80 Lakh"
+    },
+    {
+      name: "TVR Sagaris",
+      image: "/tvr-sagaris.webp",
+      engine: "4.0L V8",
+      fuel: "Petrol",
+      speed: "290 km/h",
+      price: "₹70 Lakh"
+    },
+    {
+      name: "TVR Cerbera",
+      image: "/tvr-cerbera.webp",
+      engine: "4.5L V8",
+      fuel: "Petrol",
+      speed: "310 km/h",
+      price: "₹90 Lakh"
+    }
+  ],
+  ginetta: [
+    {
+      name: "Ginetta G5",
+      image: "/ginetta-g5.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "200 km/h",
+      price: "₹15 Lakh"
+    },
+    {
+      name: "Ginetta G4",
+      image: "/ginetta-g4.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "190 km/h",
+      price: "₹12 Lakh"
+    },
+    {
+      name: "Ginetta G3",
+      image: "/ginetta-g3.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "180 km/h",
+      price: "₹10 Lakh"
+    },
+    {
+      name: "Ginetta G40",
+      image: "/ginetta-g40.webp", 
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "210 km/h",
+      price: "₹20 Lakh"
+    }
+  ],
+  ariel: [
+    {
+      name: "Ariel Atom",
+      image: "/ariel-atom.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "220 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Ariel Manta",
+      image: "/ariel-manta.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "210 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "Ariel Nomad",
+      image: "/ariel-nomad.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "200 km/h",
+      price: "₹30 Lakh"
+    },
+    {
+      name: "Ariel Hipercar",
+      image: "/ariel-hipercar.webp",
+      engine: "Electric Motor",
+      fuel: "Electric",
+      speed: "300 km/h",
+      price: "₹1 Crore"
+    }
+  ],
+  caterham: [
+    {
+      name: "Caterham Seven",
+      image: "/caterham-seven.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "210 km/h",
+      price: "₹20 Lakh"
+    },
+    {
+      name: "Caterham 620R",
+      image: "/caterham-620r.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "220 km/h",
+      price: "₹25 Lakh"
+    },
+    {
+      name: "Caterham 420R",
+      image: "/caterham-420r.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "200 km/h",
+      price: "₹15 Lakh"
+    },
+    {
+      name: "Caterham 160",
+      image: "/caterham-160.webp",
+      engine: "1.6L Inline-4",
+      fuel: "Petrol",
+      speed: "180 km/h",
+      price: "₹10 Lakh"
+    }
+  ],
+  bac: [
+    {
+      name: "BAC Mono",
+      image: "/bac-mono.webp",
+      engine: "2.3L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "290 km/h",
+      price: "₹1 Crore"
+    },
+    {
+      name: "BAC Mono R",
+      image: "/bac-mono-r.webp",
+      engine: "2.3L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "300 km/h",
+      price: "₹1.2 Crore"
+    },
+    {
+      name: "BAC Mono 2.0",
+      image: "/bac-mono-2.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "280 km/h",
+      price: "₹90 Lakh"
+    },
+    {
+      name: "BAC Mono 1.5",
+      image: "/bac-mono-1.webp",
+      engine: "1.5L Turbo Inline-4",
+      fuel: "Petrol",
+      speed: "270 km/h",
+      price: "₹80 Lakh"
+    }
   ]
 };
 
@@ -2228,34 +3120,40 @@ const BrandDetail = () => {
   <meta name="theme-color" content="#FBC664" />
   
 </head>
-    <div className="brand-wrapper">
-      <section className="brand-hero">
-        <h1>{brand.toUpperCase()} Cars</h1>
-        <p>
-          Explore luxury, performance, and innovation from {brand.toUpperCase()}
-        </p>
-      </section>
+  <div className="carpage-container">
+    <section className="carpage-header">
+      <h1 className="carpage-title">{brand.toUpperCase()} Cars</h1>
+      <p className="carpage-subtitle">
+        Explore luxury, performance, and innovation from {brand.toUpperCase()}
+      </p>
+    </section>
 
-      <section className="brand-grid">
-        {cars.map((car, index) => (
-          <div className="brand-card" key={index}>
-            <div className="image-wrapper">
-              <img src={car.image} alt={car.name} />
-            </div>
-
-            <div className="card-content">
-              <h3>{car.name}</h3>
-
-              <p><strong>Engine:</strong> {car.engine}</p>
-              <p><strong>Fuel:</strong> {car.fuel}</p>
-              <p><strong>Top Speed:</strong> {car.speed}</p>
-
-              <div className="price">{car.price}</div>
-            </div>
+    <section className="carpage-layout">
+      {cars.map((car, index) => (
+        <div className="car-card" key={index}>
+          
+          <div className="car-image-box">
+            <img 
+              className="car-image" 
+              src={car.image} 
+              alt={car.name} 
+            />
           </div>
-        ))}
-      </section>
-    </div>
+
+          <div className="car-info">
+            <h3 className="car-name">{car.name}</h3>
+
+            <p><span>Engine:</span> {car.engine}</p>
+            <p><span>Fuel:</span> {car.fuel}</p>
+            <p><span>Top Speed:</span> {car.speed}</p>
+
+            <div className="car-price">{car.price}</div>
+          </div>
+
+        </div>
+      ))}
+    </section>
+  </div>
     </>
   );
 };
