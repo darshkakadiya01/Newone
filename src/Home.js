@@ -40,7 +40,7 @@ const Home = () => {
       {/* HERO SECTION */}
       <section className="hero">
         <div className="hero-left">
-          <span className="hero-badge">Premium Car Marketplace</span>
+          <span className="hero-badge">Branded Premium Cars</span>
             <h1>
               Find Your <span>Perfect Car</span>
             </h1>
