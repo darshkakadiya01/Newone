@@ -112,7 +112,7 @@ const brandData = {
       engine: "4.0L Twin-Turbo V8",
       fuel: "Diesel",
       speed: "240 km/h",
-      price: "₹1.53 Crore"
+      price: "₹4 Crore"
     },
     {
       name: "Mercedes-AMG GT",
@@ -1851,7 +1851,7 @@ const brandData = {
   lotus: [
     {
       name: "Lotus Elise",  
-      image: "/lotus-elise.webp",
+      image: "/Lotus Elise.webp",
       engine: "1.8L Turbo Inline-4",
       fuel: "Petrol",
       speed: "220 km/h",
@@ -1859,7 +1859,7 @@ const brandData = {
     },
     {
       name: "Lotus Exige",
-      image: "/lotus-exige.webp",
+      image: "/Lotus Exige.webp",
       engine: "3.5L V6",
       fuel: "Petrol",
       speed: "290 km/h",
@@ -1867,7 +1867,7 @@ const brandData = {
     },
     {
       name: "Lotus Evora",
-      image: "/lotus-evora.webp",
+      image: "/Lotus Evora.webp",
       engine: "3.5L V6",
       fuel: "Petrol",
       speed: "280 km/h",
@@ -1875,7 +1875,7 @@ const brandData = {
     },
     {
       name: "Lotus Emira",
-      image: "/lotus-emira.webp",
+      image: "/Lotus Emira.webp",
       engine: "3.5L V6",
       fuel: "Petrol",
       speed: "290 km/h",
@@ -1885,7 +1885,7 @@ const brandData = {
   mini: [
     {
       name: "Mini Cooper",
-      image: "/mini-cooper.webp",
+      image: "/Mini Cooper.webp",
       engine: "1.5L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1893,7 +1893,7 @@ const brandData = {
     },
     {
       name: "Mini Countryman",
-      image: "/mini-countryman.webp",
+      image: "/Mini Countryman.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -1901,7 +1901,7 @@ const brandData = {
     },
     {
       name: "Mini Clubman",
-      image: "/mini-clubman.webp",
+      image: "/Mini Clubman.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -1909,7 +1909,7 @@ const brandData = {
     },
     {
       name: "Mini John Cooper Works",
-      image: "/mini-jcw.webp",
+      image: "/Mini John Cooper Works.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "230 km/h",
@@ -1919,7 +1919,7 @@ const brandData = {
   forcemotors: [
     {
       name: "Force Gurkha",
-      image: "/force-gurkha.webp",
+      image: "/Force Gurkha.webp",
       engine: "2.6L Turbo Diesel",
       fuel: "Diesel",
       speed: "170 km/h",
@@ -1927,7 +1927,7 @@ const brandData = {
     },
     {
       name: "Force Traveller",
-      image: "/force-traveller.webp",
+      image: "/Force Traveller.webp",
       engine: "2.6L Turbo Diesel",
       fuel: "Diesel",
       speed: "160 km/h",
@@ -1935,25 +1935,25 @@ const brandData = {
     },
     {
       name: "Force One",
-      image: "/force-one.webp",
+      image: "/Force One.webp",
       engine: "2.2L Turbo Diesel",
       fuel: "Diesel",
       speed: "180 km/h",
       price: "₹25 Lakh"
     },
     {
-      name: "Force Motors Supro",
-      image: "/force-supro.webp",
+      name: "Force Motors Trax Cruiser",
+      image: "/Force Motors Trax Cruiser.webp",
       engine: "2.2L Turbo Diesel",
       fuel: "Diesel",
       speed: "160 km/h",
-      price: "₹18 Lakh"
+      price: "₹15 Lakh"
     }
   ],
   gelly: [
     {
       name: "Gelly Emgrand",
-      image: "/gelly-emgrand.webp",
+      image: "/Gelly Emgrand.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -1961,7 +1961,7 @@ const brandData = {
     },
     {
       name: "Gelly Atlas",
-      image: "/gelly-atlas.webp",
+      image: "/Gelly Atlas.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1969,7 +1969,7 @@ const brandData = {
     },
     {
       name: "Gelly Coolray",
-      image: "/gelly-coolray.webp",
+      image: "/Gelly Coolray.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1977,7 +1977,7 @@ const brandData = {
     },
     {
       name: "Gelly Icon",
-      image: "/gelly-icon.webp",
+      image: "/Gelly Icon.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -1987,7 +1987,7 @@ const brandData = {
   chery: [
     {
       name: "Chery Tiggo 7 Pro",
-      image: "/chery-tiggo.webp",
+      image: "/Chery Tiggo 7 Pro.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1995,7 +1995,7 @@ const brandData = {
     },
     {
       name: "Chery Arrizo 5",
-      image: "/chery-arrizo.webp",
+      image: "/Chery Arrizo 5.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -2003,7 +2003,7 @@ const brandData = {
     },
     {
       name: "Chery Tiggo 8 Pro",
-      image: "/chery-tiggo8.webp",
+      image: "/Chery Tiggo 8 Pro.webp",
       engine: "1.6L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -2011,7 +2011,7 @@ const brandData = {
     },
     {
       name: "Chery eQ1",
-      image: "/chery-eq1.webp",
+      image: "/Chery eQ1.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "150 km/h",
@@ -2021,7 +2021,7 @@ const brandData = {
   rimac: [
     {
       name: "Rimac C_Two",
-      image: "/rimac-c_two.webp",
+      image: "/Rimac C_Two.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "415 km/h",
@@ -2029,7 +2029,7 @@ const brandData = {
     },
     {
       name: "Rimac Concept One",
-      image: "/rimac-concept-one.webp",
+      image: "/Rimac Concept One.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "355 km/h",
@@ -2037,15 +2037,15 @@ const brandData = {
     },
     {
       name: "Rimac Nevera",
-      image: "/rimac-nevera.webp",
+      image: "/Rimac Nevera.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "412 km/h",
       price: "₹250 Crore"
     },
     {
-      name: "Rimac E-M3",
-      image: "/rimac-em3.webp",
+      name: "Rimac Concept S",
+      image: "/Rimac Concept S.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "300 km/h",
@@ -2054,8 +2054,16 @@ const brandData = {
   ],
   mg: [
     {
+      name: "MG Majestor",
+      image: "/MG Majestor.webp",
+      engine: "1.5L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "190 km/h",
+      price: "₹45 Lakh"      
+    },
+    {
       name: "MG Hector",
-      image: "/mg-hector.webp",
+      image: "/MG Hector.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -2063,7 +2071,7 @@ const brandData = {
     },
     {
       name: "MG ZS EV",
-      image: "/mg-zs-ev.webp",
+      image: "/MG ZS EV.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "140 km/h",
@@ -2071,7 +2079,7 @@ const brandData = {
     },
     {
       name: "MG Gloster",
-      image: "/mg-gloster.webp",
+      image: "/MG Gloster.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -2079,7 +2087,7 @@ const brandData = {
     },
     {
       name: "MG Astor",
-      image: "/mg-astor.webp",
+      image: "/MG Astor.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -2089,7 +2097,7 @@ const brandData = {
   smart: [
     {
       name: "Smart EQ ForTwo",
-      image: "/smart-eq.webp",
+      image: "/Smart EQ ForTwo.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "130 km/h",
@@ -2097,7 +2105,7 @@ const brandData = {
     },
     {
       name: "Smart EQ ForFour",
-      image: "/smart-eq4.webp",
+      image: "/Smart EQ ForFour.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "130 km/h",
@@ -2105,7 +2113,7 @@ const brandData = {
     },
     {
       name: "Smart EQ Fortwo Cabrio",
-      image: "/smart-fortwo-cabrio.webp",
+      image: "/Smart EQ Fortwo Cabrio.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "130 km/h",
@@ -2113,7 +2121,7 @@ const brandData = {
     },
     {
       name: "Smart EQ ForFour Cabrio",
-      image: "/smart-forfour-cabrio.webp",
+      image: "/Smart EQ ForFour Cabrio.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "130 km/h",
@@ -2123,7 +2131,7 @@ const brandData = {
   opel: [
     {
       name: "Opel Astra",
-      image: "/opel-astra.webp",
+      image: "/Opel Astra.webp",
       engine: "1.4L Turbo Inline-4",  
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -2131,7 +2139,7 @@ const brandData = {
     },
     {
       name: "Opel Corsa",
-      image: "/opel-corsa.webp",
+      image: "/Opel Corsa.webp",
       engine: "1.2L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -2139,7 +2147,7 @@ const brandData = {
     },
     {
       name: "Opel Grandland X",
-      image: "/opel-grandland.webp",
+      image: "/Opel Grandland X.webp",
       engine: "1.6L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -2147,7 +2155,7 @@ const brandData = {
     },
     {
       name: "Opel Crossland X",
-      image: "/opel-crossland.webp",
+      image: "/Opel Crossland X.webp",
       engine: "1.2L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -2157,7 +2165,7 @@ const brandData = {
   maybach: [
     {
       name: "Maybach S-Class",
-      image: "/maybach-s-class.webp",
+      image: "/Maybach S-Class.webp",
       engine: "6.0L V12",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -2165,7 +2173,7 @@ const brandData = {
     },
     {
       name: "Maybach GLS",
-      image: "/maybach-gls.webp",
+      image: "/Maybach GLS.webp",
       engine: "4.0L V8",
       fuel: "Petrol",
       speed: "240 km/h",
@@ -2174,7 +2182,7 @@ const brandData = {
 
     {
       name: "Maybach G-Class",
-      image: "/maybach-g-class.webp",
+      image: "/Maybach G-Class.webp",
       engine: "4.0L V8",
       fuel: "Petrol", 
       speed: "220 km/h",
@@ -2182,7 +2190,7 @@ const brandData = {
     },
     {
       name: "Maybach S-Class Cabriolet",
-      image: "/maybach-s-cabriolet.webp",
+      image: "/Maybach S-Class Cabriolet.webp",
       engine: "6.0L V12",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -2192,7 +2200,7 @@ const brandData = {
   hindustanmotors: [
     {
       name: "Hindustan Motors Ambassador",
-      image: "/hindustan-ambassador.webp",
+      image: "/Hindustan Motors Ambassador.webp",
       engine: "2.0L Inline-4",
       fuel: "Petrol",
       speed: "140 km/h",
@@ -2200,7 +2208,7 @@ const brandData = {
     },
     {
       name: "Hindustan Motors Contessa",
-      image: "/hindustan-contessa.webp",
+      image: "/Hindustan Motors Contessa.webp",
       engine: "1.6L Inline-4",
       fuel: "Petrol",
       speed: "130 km/h",
@@ -2208,7 +2216,7 @@ const brandData = {
     },
     {
       name: "Hindustan Motors Landmaster",
-      image: "/hindustan-landmaster.webp",
+      image: "/Hindustan Motors Landmaster.webp",
       engine: "2.0L Inline-4",
       fuel: "Petrol",
       speed: "140 km/h",
@@ -2216,7 +2224,7 @@ const brandData = {
     },
     {
       name: "Hindustan Motors Minerva",
-      image: "/hindustan-minerva.webp",
+      image: "/Hindustan Motors Minerva.webp",
       engine: "1.5L Inline-4",
       fuel: "Petrol",
       speed: "130 km/h",
@@ -2226,7 +2234,7 @@ const brandData = {
   ashokleyland: [
     {
       name: "Ashok Leyland Dost",
-      image: "/ashok-dost.webp",
+      image: "/Ashok Leyland Dost.webp",
       engine: "2.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "160 km/h",
@@ -2234,7 +2242,7 @@ const brandData = {
     },
     {
       name: "Ashok Leyland Ecomet",
-      image: "/ashok-ecomet.webp",
+      image: "/Ashok Leyland Ecomet.webp",
       engine: "3.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "150 km/h",
@@ -2242,7 +2250,7 @@ const brandData = {
     },
     {
       name: "Ashok Leyland Partner",
-      image: "/ashok-partner.webp",
+      image: "/Ashok Leyland Partner.webp",
       engine: "2.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "160 km/h",
@@ -2250,7 +2258,7 @@ const brandData = {
     },
     {
       name: "Ashok Leyland Stile",
-      image: "/ashok-stile.webp",
+      image: "/Ashok Leyland Stile.webp",
       engine: "1.5L Turbo Diesel",
       fuel: "Diesel",
       speed: "170 km/h",
@@ -2260,7 +2268,7 @@ const brandData = {
   polestar: [
     {
       name: "Polestar 2",
-      image: "/polestar-2.webp",
+      image: "/Polestar 2.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "205 km/h",
@@ -2268,7 +2276,7 @@ const brandData = {
     },
     {
       name: "Polestar 1",
-      image: "/polestar-1.webp",
+      image: "/Polestar 1.webp",
       engine: "Electric Motor + Petrol Engine",
       fuel: "Hybrid",
       speed: "250 km/h",
@@ -2276,7 +2284,7 @@ const brandData = {
     },
     {
       name: "Polestar 3",
-      image: "/polestar-3.webp",
+      image: "/Polestar 3.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "200 km/h",
@@ -2284,7 +2292,7 @@ const brandData = {
     },
     {
       name: "Polestar 4",
-      image: "/polestar-4.webp",
+      image: "/Polestar 4.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "190 km/h",
@@ -2294,7 +2302,7 @@ const brandData = {
   rivian: [
     {
       name: "Rivian R1T",
-      image: "/rivian-r1t.webp",
+      image: "/Rivian R1T.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "200 km/h",
@@ -2302,7 +2310,7 @@ const brandData = {
     },
     {
       name: "Rivian R1S",
-      image: "/rivian-r1s.webp",
+      image: "/Rivian R1S.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "190 km/h",
@@ -2310,7 +2318,7 @@ const brandData = {
     },
     {
       name: "Rivian R2T",
-      image: "/rivian-r2t.webp",
+      image: "/Rivian R2T.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "180 km/h",
@@ -2318,7 +2326,7 @@ const brandData = {
     },
     {
       name: "Rivian R2S",
-      image: "/rivian-r2s.webp",
+      image: "/Rivian R2S.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "170 km/h",
@@ -2328,7 +2336,7 @@ const brandData = {
   lucidmotors: [
     {
       name: "Lucid Air",
-      image: "/lucid-air.webp",
+      image: "/Lucid Air.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "200 km/h",
@@ -2336,7 +2344,7 @@ const brandData = {
     },
     {
       name: "Lucid Gravity",
-      image: "/lucid-gravity.webp",
+      image: "/Lucid Gravity.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "190 km/h",
@@ -2344,7 +2352,7 @@ const brandData = {
     },
     {
       name: "Lucid Air Dream Edition",
-      image: "/lucid-dream-edition.webp",
+      image: "/Lucid Air Dream Edition.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "200 km/h",
@@ -2352,7 +2360,7 @@ const brandData = {
     },
     {
       name: "Lucid Air Touring",
-      image: "/lucid-air-touring.webp",
+      image: "/Lucid Air Touring.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "190 km/h",
@@ -2362,7 +2370,7 @@ const brandData = {
   fisker: [
     {
       name: "Fisker Ocean",
-      image: "/fisker-ocean.webp",
+      image: "/Fisker Ocean.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "180 km/h",
@@ -2370,7 +2378,7 @@ const brandData = {
     },
     {
       name: "Fisker Karma",
-      image: "/fisker-karma.webp",
+      image: "/Fisker Karma.webp",
       engine: "Electric Motor + Petrol Engine",
       fuel: "Hybrid",
       speed: "200 km/h",
@@ -2378,7 +2386,7 @@ const brandData = {
     },
     {
       name: "Fisker EMotion",
-      image: "/fisker-emotion.webp",
+      image: "/Fisker EMotion.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "190 km/h",
@@ -2386,7 +2394,7 @@ const brandData = {
     },
     {
       name: "Fisker PEAR",
-      image: "/fisker-pear.webp",
+      image: "/Fisker PEAR.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "170 km/h",
@@ -2396,7 +2404,7 @@ const brandData = {
   saab: [
     {
       name: "Saab 9-3",
-      image: "/saab-9-3.webp",
+      image: "/Saab 9-3.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "210 km/h",
@@ -2404,7 +2412,7 @@ const brandData = {
     },
     {
       name: "Saab 9-5",
-      image: "/saab-9-5.webp",
+      image: "/Saab 9-5.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "220 km/h",
@@ -2412,7 +2420,7 @@ const brandData = {
     },
     {
       name: "Saab 9-4X",
-      image: "/saab-9-4x.webp",   
+      image: "/Saab 9-4X.webp",   
       engine: "2.8L Turbo V6",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -2420,7 +2428,7 @@ const brandData = {
     },
     {
       name: "Saab 9-7X",
-      image: "/saab-9-7x.webp",
+      image: "/Saab 9-7X.webp",
       engine: "4.2L V8",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -2430,7 +2438,7 @@ const brandData = {
   scion: [
     {
       name: "Scion tC",
-      image: "/scion-tc.webp",
+      image: "/Scion tC.webp",
       engine: "2.5L Inline-4",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -2438,7 +2446,7 @@ const brandData = {
     },
     {
       name: "Scion xB",
-      image: "/scion-xb.webp",
+      image: "/Scion xB.webp",
       engine: "2.4L Inline-4",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -2446,7 +2454,7 @@ const brandData = {
     },
     {
       name: "Scion FR-S",
-      image: "/scion-frs.webp",
+      image: "/Scion FR-S.webp",
       engine: "2.0L Flat-4",
       fuel: "Petrol",
       speed: "230 km/h",
@@ -2454,7 +2462,7 @@ const brandData = {
     },
     {
       name: "Scion iA",
-      image: "/scion-ia.webp",
+      image: "/Scion iA.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol",
       speed: "170 km/h",
@@ -2464,7 +2472,7 @@ const brandData = {
   hummer: [
     {
       name: "Hummer H2",
-      image: "/hummer-h2.webp",
+      image: "/Hummer H2.webp",
       engine: "6.0L V8",
       fuel: "Petrol",
       speed: "170 km/h",
@@ -2472,7 +2480,7 @@ const brandData = {
     },
     {
       name: "Hummer H3",
-      image: "/hummer-h3.webp",
+      image: "/Hummer H3.webp",
       engine: "3.7L Inline-5",
       fuel: "Petrol",
       speed: "160 km/h",
@@ -2480,7 +2488,7 @@ const brandData = {
     },
     {
       name: "Hummer H1",
-      image: "/hummer-h1.webp",
+      image: "/Hummer H1.webp",
       engine: "6.5L Turbo Diesel V8",
       fuel: "Diesel",
       speed: "150 km/h",
@@ -2488,7 +2496,7 @@ const brandData = {
     },
     {
       name: "Hummer EV",
-      image: "/hummer-ev.webp",
+      image: "/Hummer EV.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "200 km/h",
@@ -2498,7 +2506,7 @@ const brandData = {
   gac: [
     {
       name: "GAC Trumpchi GS4",
-      image: "/gac-gs4.webp",
+      image: "/GAC Trumpchi GS4.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -2506,7 +2514,7 @@ const brandData = {
     },
     {
       name: "GAC Trumpchi GS8",
-      image: "/gac-gs8.webp",
+      image: "/GAC Trumpchi GS8.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -2514,7 +2522,7 @@ const brandData = {
     },
     {
       name: "GAC Trumpchi GA4",
-      image: "/gac-ga4.webp",
+      image: "/GAC Trumpchi GA4.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -2522,7 +2530,7 @@ const brandData = {
     },
     {
       name: "GAC Trumpchi GS5",
-      image: "/gac-gs5.webp",
+      image: "/GAC Trumpchi GS5.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -2532,7 +2540,7 @@ const brandData = {
   oldsmobile: [
     {
       name: "Oldsmobile Cutlass",
-      image: "/oldsmobile-cutlass.webp",
+      image: "/Oldsmobile Cutlass.webp",
       engine: "3.8L V6",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -2540,7 +2548,7 @@ const brandData = {
     },
     {
       name: "Oldsmobile 88",
-      image: "/oldsmobile-88.webp",
+      image: "/Oldsmobile 88.webp",
       engine: "3.8L V6",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -2548,7 +2556,7 @@ const brandData = {
     },
     {
       name: "Oldsmobile Alero",
-      image: "/oldsmobile-alero.webp",
+      image: "/Oldsmobile Alero.webp",
       engine: "2.4L Inline-4",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -2556,7 +2564,7 @@ const brandData = {
     },
     {
       name: "Oldsmobile Aurora",
-      image: "/oldsmobile-aurora.webp",
+      image: "/Oldsmobile Aurora.webp",
       engine: "3.5L V6",
       fuel: "Petrol",
       speed: "210 km/h",
@@ -2566,7 +2574,7 @@ const brandData = {
   pontiac: [
     {
       name: "Pontiac GTO",
-      image: "/pontiac-gto.webp",
+      image: "/Pontiac GTO.webp",
       engine: "6.0L V8",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -2574,7 +2582,7 @@ const brandData = {
     },
     {
       name: "Pontiac Firebird",
-      image: "/pontiac-firebird.webp",
+      image: "/Pontiac Firebird.webp",
       engine: "5.7L V8",
       fuel: "Petrol",
       speed: "240 km/h",
@@ -2582,7 +2590,7 @@ const brandData = {
     },
     {
       name: "Pontiac Grand Prix",
-      image: "/pontiac-grand-prix.webp",
+      image: "/Pontiac Grand Prix.webp",
       engine: "3.8L V6",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -2590,7 +2598,7 @@ const brandData = {
     },
     {
       name: "Pontiac Solstice",
-      image: "/pontiac-solstice.webp",
+      image: "/Pontiac Solstice.webp",
       engine: "2.4L Inline-4",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -2600,7 +2608,7 @@ const brandData = {
   saturn: [
     {
       name: "Saturn Ion",
-      image: "/saturn-ion.webp",
+      image: "/Saturn Ion.webp",
       engine: "2.2L Inline-4",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -2608,7 +2616,7 @@ const brandData = {
     },
     {
       name: "Saturn Vue",
-      image: "/saturn-vue.webp",
+      image: "/Saturn Vue.webp",
       engine: "2.2L Inline-4",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -2616,7 +2624,7 @@ const brandData = {
     },
     {
       name: "Saturn Skyline",
-      image: "/saturn-skyline.webp",
+      image: "/Saturn Skyline.webp",
       engine: "2.4L Inline-4",
       fuel: "Petrol",
       speed: "195 km/h",
@@ -2624,7 +2632,7 @@ const brandData = {
     },
     {
       name: "Saturn Aura",
-      image: "/saturn-aura.webp",
+      image: "/Saturn Aura.webp",
       engine: "3.5L V6",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -2634,7 +2642,7 @@ const brandData = {
   mercury: [
     {
       name: "Mercury Grand Marquis",
-      image: "/mercury-grand-marquis.webp",
+      image: "/Mercury Grand Marquis.webp",
       engine: "4.6L V8",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -2642,7 +2650,7 @@ const brandData = {
     },
     {
       name: "Mercury Cougar",
-      image: "/mercury-cougar.webp",
+      image: "/Mercury Cougar.webp",
       engine: "2.5L Turbo Inline-4",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -2650,7 +2658,7 @@ const brandData = {
     },
     {
       name: "Mercury Milan",
-      image: "/mercury-milan.webp",
+      image: "/Mercury Milan.webp",
       engine: "2.5L Turbo Inline-4",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -2658,7 +2666,7 @@ const brandData = {
     },
     {
       name: "Mercury Mountaineer",
-      image: "/mercury-mountaineer.webp",
+      image: "/Mercury Mountaineer.webp",
       engine: "4.0L V6",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -2668,7 +2676,7 @@ const brandData = {
   plymouth: [
     {
       name: "Plymouth Barracuda",
-      image: "/plymouth-barracuda.webp",
+      image: "/Plymouth Barracuda.webp",
       engine: "5.7L V8",
       fuel: "Petrol",
       speed: "240 km/h",
@@ -2676,7 +2684,7 @@ const brandData = {
     },
     {
       name: "Plymouth Road Runner",
-      image: "/plymouth-road-runner.webp",
+      image: "/Plymouth Road Runner.webp",
       engine: "6.0L V8",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -2684,7 +2692,7 @@ const brandData = {
     },
     {
       name: "Plymouth Duster",
-      image: "/plymouth-duster.webp",
+      image: "/Plymouth Duster.webp",
       engine: "3.7L V6",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -2692,7 +2700,7 @@ const brandData = {
     },
     {
       name: "Plymouth Fury",
-      image: "/plymouth-fury.webp",
+      image: "/Plymouth Fury.webp",
       engine: "3.8L V6",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -2702,7 +2710,7 @@ const brandData = {
   hino: [
     {
       name: "Hino 300 Series",
-      image: "/hino-300.webp",
+      image: "/Hino 300 Series.webp",
       engine: "4.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "120 km/h",
@@ -2710,7 +2718,7 @@ const brandData = {
     },
     {
       name: "Hino 500 Series",
-      image: "/hino-500.webp",
+      image: "/Hino 500 Series.webp",
       engine: "6.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "110 km/h",
@@ -2718,7 +2726,7 @@ const brandData = {
     },
     {
       name: "Hino 700 Series",
-      image: "/hino-700.webp",
+      image: "/Hino 700 Series.webp",
       engine: "9.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "100 km/h",
@@ -2726,7 +2734,7 @@ const brandData = {
     },
     {
       name: "Hino Dutro",
-      image: "/hino-dutro.webp",
+      image: "/Hino Dutro.webp",
       engine: "4.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "120 km/h",
@@ -2736,7 +2744,7 @@ const brandData = {
   isuzu: [
     {
       name: "Isuzu D-Max",
-      image: "/isuzu-dmax.webp",
+      image: "/Isuzu D-Max.webp",
       engine: "1.9L Turbo Diesel",
       fuel: "Diesel",
       speed: "170 km/h",
@@ -2744,7 +2752,7 @@ const brandData = {
     },
     {
       name: "Isuzu MU-X",
-      image: "/isuzu-mux.webp",
+      image: "/Isuzu MU-X.webp",
       engine: "3.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "180 km/h",
@@ -2752,7 +2760,7 @@ const brandData = {
     },
     {
       name: "Isuzu MUX",
-      image: "/isuzu-mux.webp",
+      image: "/Isuzu MUX.webp",
       engine: "3.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "180 km/h",
@@ -2760,7 +2768,7 @@ const brandData = {
     },
     {
       name: "Isuzu V-Cross",
-      image: "/isuzu-vcross.webp",
+      image: "/Isuzu V-Cross.webp",
       engine: "1.9L Turbo Diesel",
       fuel: "Diesel",
       speed: "170 km/h",
@@ -2770,7 +2778,7 @@ const brandData = {
   datsun: [
     {
       name: "Datsun RediGO",
-      image: "/datsun-redigo.webp",
+      image: "/Datsun RediGO.webp",
       engine: "1.0L Turbo Petrol",
       fuel: "Petrol",
       speed: "140 km/h",
@@ -2778,7 +2786,7 @@ const brandData = {
     },
     {
       name: "Datsun GO",
-      image: "/datsun-go.webp",
+      image: "/Datsun GO.webp",
       engine: "1.2L Petrol",
       fuel: "Petrol",
       speed: "150 km/h",
@@ -2786,7 +2794,7 @@ const brandData = {
     },
     {
       name: "Datsun Terao",
-      image: "/datsun-terao.webp",
+      image: "/Datsun Terao.webp",
       engine: "1.2L Petrol",
       fuel: "Petrol",
       speed: "150 km/h",
@@ -2794,7 +2802,7 @@ const brandData = {
     },
     {
       name: "Datsun Sunny B210",
-      image: "/datsun-sunny.webp",
+      image: "/Datsun Sunny B210.webp",
       engine: "1.2L Petrol",
       fuel: "Petrol",
       speed: "140 km/h",
@@ -2804,7 +2812,7 @@ const brandData = {
   lada: [
     {
       name: "Lada Niva",
-      image: "/lada-niva.webp",
+      image: "/Lada Niva.webp",
       engine: "1.7L Inline-4",
       fuel: "Petrol",
       speed: "150 km/h",
@@ -2812,7 +2820,7 @@ const brandData = {
     },
     {
       name: "Lada Granta",
-      image: "/lada-granta.webp",
+      image: "/Lada Granta.webp",
       engine: "1.6L Inline-4",
       fuel: "Petrol",
       speed: "160 km/h",
@@ -2820,7 +2828,7 @@ const brandData = {
     },
     {
       name: "Lada Vesta",
-      image: "/lada-vesta.webp",
+      image: "/Lada Vesta.webp",
       engine: "1.6L Inline-4",
       fuel: "Petrol",
       speed: "170 km/h",
@@ -2828,7 +2836,7 @@ const brandData = {
     },
     {
       name: "Lada Largus",
-      image: "/lada-largus.webp",
+      image: "/Lada Largus.webp",
       engine: "1.6L Inline-4",
       fuel: "Petrol",
       speed: "160 km/h",
@@ -2838,7 +2846,7 @@ const brandData = {
   zotye: [
     {
       name: "Zotye T600",
-      image: "/zotye-t600.webp",
+      image: "/Zotye T600.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -2846,7 +2854,7 @@ const brandData = {
     },
     {
       name: "Zotye T700",
-      image: "/zotye-t700.webp",
+      image: "/Zotye T700.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -2854,7 +2862,7 @@ const brandData = {
     },
     {
       name: "Zotye T300",
-      image: "/zotye-t300.webp",
+      image: "/Zotye T300.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -2862,7 +2870,7 @@ const brandData = {
     },
     {
       name: "Zotye E200",
-      image: "/zotye-e200.webp",
+      image: "/Zotye E200.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "150 km/h",
@@ -2872,7 +2880,7 @@ const brandData = {
   morgan: [
     {
       name: "Morgan Plus 4",
-      image: "/morgan-plus4.webp",
+      image: "/Morgan Plus 4.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -2880,7 +2888,7 @@ const brandData = {
     },
     {
       name: "Morgan 3 Wheeler",
-      image: "/morgan-3wheeler.webp",
+      image: "/Morgan 3 Wheeler.webp",
       engine: "2.0L V-Twin",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -2888,7 +2896,7 @@ const brandData = {
     },
     {
       name: "Morgan Plus 8",
-      image: "/morgan-plus8.webp",
+      image: "/Morgan Plus 8.webp",
       engine: "4.8L V8",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -2896,7 +2904,7 @@ const brandData = {
     },
     {
       name: "Morgan Aero 8",
-      image: "/morgan-aero8.webp",
+      image: "/Morgan Aero 8.webp",
       engine: "4.8L V8",
       fuel: "Petrol",
       speed: "240 km/h",
@@ -2906,7 +2914,7 @@ const brandData = {
   tvr: [
     {
       name: "TVR Griffith",
-      image: "/tvr-griffith.webp",
+      image: "/TVR Griffith.webp",
       engine: "5.0L V8",
       fuel: "Petrol",
       speed: "320 km/h",
@@ -2914,7 +2922,7 @@ const brandData = {
     },
     {
       name: "TVR Tuscan",
-      image: "/tvr-tuscan.webp",
+      image: "/TVR Tuscan.webp",
       engine: "4.0L V8",
       fuel: "Petrol",
       speed: "300 km/h",  
@@ -2922,7 +2930,7 @@ const brandData = {
     },
     {
       name: "TVR Sagaris",
-      image: "/tvr-sagaris.webp",
+      image: "/TVR Sagaris.webp",
       engine: "4.0L V8",
       fuel: "Petrol",
       speed: "290 km/h",
@@ -2930,7 +2938,7 @@ const brandData = {
     },
     {
       name: "TVR Cerbera",
-      image: "/tvr-cerbera.webp",
+      image: "/TVR Cerbera.webp",
       engine: "4.5L V8",
       fuel: "Petrol",
       speed: "310 km/h",
@@ -2940,7 +2948,7 @@ const brandData = {
   ginetta: [
     {
       name: "Ginetta G5",
-      image: "/ginetta-g5.webp",
+      image: "/Ginetta G5.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -2948,7 +2956,7 @@ const brandData = {
     },
     {
       name: "Ginetta G4",
-      image: "/ginetta-g4.webp",
+      image: "/Ginetta G4.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -2956,7 +2964,7 @@ const brandData = {
     },
     {
       name: "Ginetta G3",
-      image: "/ginetta-g3.webp",
+      image: "/Ginetta G3.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -2964,7 +2972,7 @@ const brandData = {
     },
     {
       name: "Ginetta G40",
-      image: "/ginetta-g40.webp", 
+      image: "/Ginetta G40.webp", 
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "210 km/h",
@@ -2974,7 +2982,7 @@ const brandData = {
   ariel: [
     {
       name: "Ariel Atom",
-      image: "/ariel-atom.webp",
+      image: "/Ariel Atom.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "220 km/h",
@@ -2982,7 +2990,7 @@ const brandData = {
     },
     {
       name: "Ariel Manta",
-      image: "/ariel-manta.webp",
+      image: "/Ariel Manta.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "210 km/h",
@@ -2990,7 +2998,7 @@ const brandData = {
     },
     {
       name: "Ariel Nomad",
-      image: "/ariel-nomad.webp",
+      image: "/Ariel Nomad.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -2998,7 +3006,7 @@ const brandData = {
     },
     {
       name: "Ariel Hipercar",
-      image: "/ariel-hipercar.webp",
+      image: "/Ariel Hipercar.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "300 km/h",
@@ -3008,7 +3016,7 @@ const brandData = {
   caterham: [
     {
       name: "Caterham Seven",
-      image: "/caterham-seven.webp",
+      image: "/Caterham Seven.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "210 km/h",
@@ -3016,7 +3024,7 @@ const brandData = {
     },
     {
       name: "Caterham 620R",
-      image: "/caterham-620r.webp",
+      image: "/Caterham 620R.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "220 km/h",
@@ -3024,7 +3032,7 @@ const brandData = {
     },
     {
       name: "Caterham 420R",
-      image: "/caterham-420r.webp",
+      image: "/Caterham 420R.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -3032,7 +3040,7 @@ const brandData = {
     },
     {
       name: "Caterham 160",
-      image: "/caterham-160.webp",
+      image: "/Caterham 160.webp",
       engine: "1.6L Inline-4",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -3042,7 +3050,7 @@ const brandData = {
   bac: [
     {
       name: "BAC Mono",
-      image: "/bac-mono.webp",
+      image: "/BAC Mono.webp",
       engine: "2.3L Turbo Inline-4",
       fuel: "Petrol",
       speed: "290 km/h",
@@ -3050,7 +3058,7 @@ const brandData = {
     },
     {
       name: "BAC Mono R",
-      image: "/bac-mono-r.webp",
+      image: "/BAC Mono R.webp",
       engine: "2.3L Turbo Inline-4",
       fuel: "Petrol",
       speed: "300 km/h",
@@ -3058,7 +3066,7 @@ const brandData = {
     },
     {
       name: "BAC Mono 2.0",
-      image: "/bac-mono-2.webp",
+      image: "/BAC Mono 2.0.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "280 km/h",
@@ -3066,7 +3074,7 @@ const brandData = {
     },
     {
       name: "BAC Mono 1.5",
-      image: "/bac-mono-1.webp",
+      image: "/BAC Mono 1.5.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol",
       speed: "270 km/h",
