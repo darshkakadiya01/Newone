@@ -626,7 +626,7 @@ const brandData = {
   pagani: [    
     {
       name: "Pagani Zonda",
-      image: "/pagani-zonda.webp",
+      image: "/Pagani Zonda.webp",
       engine: "7.3L V12",
       fuel: "Petrol",
       speed: "350 km/h",
@@ -634,7 +634,7 @@ const brandData = {
     },
     {
       name: "Pagani Huayra",
-      image: "/pagani-huayra.webp",
+      image: "/Pagani Huayra.webp",
       engine: "6.0L Twin-Turbo V12",
       fuel: "Petrol",
       speed: "370 km/h",
@@ -642,7 +642,7 @@ const brandData = {
     },
     {
       name: "Pagani Imola",
-      image: "/pagani-imola.webp",
+      image: "/Pagani Imola.webp",
       engine: "6.0L Twin-Turbo V12",
       fuel: "Petrol",
       speed: "380 km/h",
@@ -650,7 +650,7 @@ const brandData = {
     },
     {
       name: "Pagani Utopia",
-      image: "/pagani-utopia.webp",
+      image: "/Pagani Utopia.webp",
       engine: "6.0L Twin-Turbo V12",
       fuel: "Petrol", 
       speed: "360 km/h",
@@ -660,7 +660,7 @@ const brandData = {
   koenigsegg: [
     {
       name: "Koenigsegg Agera RS",
-      image: "/koenigsegg-agera-rs.webp",
+      image: "/Koenigsegg Agera RS.webp",
       engine: "5.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "447 km/h",
@@ -668,7 +668,7 @@ const brandData = {
     },
     {
       name: "Koenigsegg Jesko",
-      image: "/koenigsegg-jesko.webp",
+      image: "/Koenigsegg Jesko.webp",
       engine: "5.0L Twin-Turbo V8",
       fuel: "Petrol",
       speed: "480 km/h",
@@ -676,7 +676,7 @@ const brandData = {
     },
     {
       name: "Koenigsegg Regera",
-      image: "/koenigsegg-regera.webp",
+      image: "/Koenigsegg Regera.webp",
       engine: "5.0L Twin-Turbo V8 Hybrid",
       fuel: "Petrol / Hybrid",
       speed: "410 km/h",
@@ -684,7 +684,7 @@ const brandData = {
     },
     {
       name: "Koenigsegg Gemera",
-      image: "/koenigsegg-gemera.webp",
+      image: "/Koenigsegg Gemera.webp",
       engine: "2.0L Twin-Turbo Inline-3 Hybrid",
       fuel: "Petrol / Hybrid",
       speed: "400 km/h",
@@ -694,7 +694,7 @@ const brandData = {
   alfaromeo: [
     {
       name: "Alfa Romeo Giulia",
-      image: "/alfa-romeo-giulia.webp",
+      image: "/Alfa Romeo Giulia.jpg",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "240 km/h",
@@ -702,7 +702,7 @@ const brandData = {
     },
     {
       name: "Alfa Romeo Stelvio",
-      image: "/alfa-romeo-stelvio.webp",
+      image: "/Alfa Romeo Stelvio.jpeg",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "230 km/h",
@@ -710,7 +710,7 @@ const brandData = {
     },
     {
       name: "Alfa Romeo 4C",
-      image: "/alfa-romeo-4c.webp",
+      image: "/Alfa Romeo 4C.webp",
       engine: "1.7L Turbo Inline-4",
       fuel: "Petrol",
       speed: "258 km/h",
@@ -718,7 +718,7 @@ const brandData = {
     },
     {
       name: "Alfa Romeo Tonale",
-      image: "/alfa-romeo-tonale.webp",
+      image: "/Alfa Romeo Tonale.webp",
       engine: "2.0L Turbo Inline-4 Hybrid",
       fuel: "Petrol / Hybrid",
       speed: "220 km/h",
@@ -728,7 +728,7 @@ const brandData = {
   cadillac: [
     {
       name: "Cadillac Escalade",
-      image: "/cadillac-escalade.webp",
+      image: "/Cadillac Escalade.webp",
       engine: "3.0L Turbo Inline-6",
       fuel: "Petrol",
       speed: "220 km/h",
@@ -736,7 +736,7 @@ const brandData = {
     },
     {
       name: "Cadillac CT5",
-      image: "/cadillac-ct5.webp",
+      image: "/Cadillac CT5.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "230 km/h",
@@ -744,7 +744,7 @@ const brandData = {
     },
     {
       name: "Cadillac CT4",
-      image: "/cadillac-ct4.webp",
+      image: "/Cadillac CT4.jpg",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "230 km/h",
@@ -752,7 +752,7 @@ const brandData = {
     },
     {
       name: "Cadillac XT5",
-      image: "/cadillac-xt5.webp",
+      image: "/Cadillac XT5.webp",
       engine: "2.0L Turbo Inline-4 Hybrid", 
       fuel: "Petrol / Hybrid", 
       speed: "210 km/h", 
@@ -762,7 +762,7 @@ const brandData = {
   infiniti: [
     {
       name: "Infiniti Q50",
-      image: "/infiniti-q50.webp",
+      image: "/Infiniti Q50.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "240 km/h",
@@ -770,7 +770,7 @@ const brandData = {
     },
     {
       name: "Infiniti QX60",
-      image: "/infiniti-qx60.webp",
+      image: "/Infiniti QX60.jpg",
       engine: "3.5L V6",
       fuel: "Petrol",
       speed: "210 km/h",
@@ -778,7 +778,7 @@ const brandData = {
     },
     {
       name: "Infiniti QX80",
-      image: "/infiniti-qx80.webp",
+      image: "/Infiniti QX80.webp",
       engine: "5.6L V8",
       fuel: "Petrol",
       speed: "230 km/h",
@@ -786,7 +786,7 @@ const brandData = {
     },
     {
       name: "Infiniti QX50",
-      image: "/infiniti-qx50.webp",
+      image: "/Infiniti QX50.png",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "220 km/h",
@@ -796,7 +796,7 @@ const brandData = {
   acura: [
     {
       name: "Acura ILX",
-      image: "/acura-ilx.webp",
+      image: "/Acura ILX.jpg",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "220 km/h",
@@ -804,7 +804,7 @@ const brandData = {
     },
     {
       name: "Acura MDX",
-      image: "/acura-mdx.webp",
+      image: "/Acura MDX.webp",
       engine: "3.5L V6",
       fuel: "Petrol",
       speed: "210 km/h",
@@ -812,7 +812,7 @@ const brandData = {
     },
     {
       name: "Acura RDX",
-      image: "/acura-rdx.webp",
+      image: "/Acura RDX.webp",
       engine: "2.0L Turbo Inline-4 Hybrid", 
       fuel: "Petrol / Hybrid", 
       speed: "210 km/h", 
@@ -820,7 +820,7 @@ const brandData = {
     },
     {
       name: "Acura NSX",
-      image: "/acura-nsx.webp",
+      image: "/Acura NSX.jpg",
       engine: "3.5L Twin-Turbo V6 Hybrid",
       fuel: "Petrol / Hybrid",
       speed: "307 km/h",
@@ -830,7 +830,7 @@ const brandData = {
   genesis: [
     {
       name: "Genesis G70",
-      image: "/genesis-g70.webp",
+      image: "/Genesis G70.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "240 km/h",
@@ -838,7 +838,7 @@ const brandData = {
     },
     {
       name: "Genesis G80",
-      image: "/genesis-g80.webp",
+      image: "/Genesis G80.jpg",
       engine: "2.5L Turbo Inline-4",
       fuel: "Petrol",
       speed: "230 km/h",
@@ -846,7 +846,7 @@ const brandData = {
     },
     {
       name: "Genesis GV80",
-      image: "/genesis-gv80.webp",
+      image: "/Genesis GV80.webp",
       engine: "3.5L V6",
       fuel: "Petrol",
       speed: "210 km/h",
@@ -854,7 +854,7 @@ const brandData = {
     },
     {
       name: "Genesis G90",
-      image: "/genesis-g90.webp",
+      image: "/Genesis G90.webp",
       engine: "3.3L Twin-Turbo V6",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -864,7 +864,7 @@ const brandData = {
   lincoln: [
     {
       name: "Lincoln Navigator",
-      image: "/lincoln-navigator.webp",
+      image: "/Lincoln Navigator.webp",
       engine: "3.0L Turbo Inline-6",
       fuel: "Petrol",
       speed: "210 km/h",
@@ -872,7 +872,7 @@ const brandData = {
     },
     {
       name: "Lincoln Continental",
-      image: "/lincoln-continental.webp",
+      image: "/Lincoln Continental.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "230 km/h",
@@ -880,7 +880,7 @@ const brandData = {
     },
     {
       name: "Lincoln Aviator",
-      image: "/lincoln-aviator.webp",
+      image: "/Lincoln Aviator.webp",
       engine: "3.0L Turbo V6 Hybrid",
       fuel: "Petrol / Hybrid",  
       speed: "210 km/h",
@@ -888,7 +888,7 @@ const brandData = {
     },
     {
       name: "Lincoln Corsair",
-      image: "/lincoln-corsair.webp",
+      image: "/Lincoln Corsair.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "220 km/h",
@@ -898,7 +898,7 @@ const brandData = {
   mitsubishi: [
     {
       name: "Mitsubishi Xpander",
-      image: "/mitsubishi-xpander.webp",
+      image: "/Mitsubishi Xpander.webp",
       engine: "1.5L Inline-4",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -906,7 +906,7 @@ const brandData = {
     },
     {
       name: "Mitsubishi Outlander",
-      image: "/mitsubishi-outlander.webp",
+      image: "/Mitsubishi Outlander.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -914,7 +914,7 @@ const brandData = {
     },
     {
       name: "Mitsubishi Pajero",
-      image: "/mitsubishi-pajero.webp",
+      image: "/Mitsubishi Pajero.webp",
       engine: "2.4L Turbo Inline-4",
       fuel: "Diesel / Hybrid", 
       speed: "190 km/h",
@@ -922,7 +922,7 @@ const brandData = {
     },
     {
       name: "Mitsubishi Eclipse Cross",
-      image: "/mitsubishi-eclipse-cross.webp",
+      image: "/Mitsubishi Eclipse Cross.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -932,7 +932,7 @@ const brandData = {
   subaru: [
     {
       name: "Subaru Outback",
-      image: "/subaru-outback.webp",
+      image: "/Subaru Outback.webp",
       engine: "2.5L Inline-4",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -940,7 +940,7 @@ const brandData = {
     },
     {
       name: "Subaru Forester",
-      image: "/subaru-forester.webp",
+      image: "/Subaru Forester.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -948,7 +948,7 @@ const brandData = {
     },
     {
       name: "Subaru WRX",
-      image: "/subaru-wrx.webp",
+      image: "/Subaru WRX.webp",
       engine: "2.0L Turbo Inline-4", 
       fuel: "Petrol", 
       speed: "230 km/h", 
@@ -956,7 +956,7 @@ const brandData = {
     },
     {
       name: "Subaru Ascent",
-      image: "/subaru-ascent.webp",
+      image: "/Subaru Ascent.webp",
       engine: "2.5L Turbo Inline-4 Hybrid", 
       fuel: "Petrol / Hybrid", 
       speed: "190 km/h", 
@@ -966,7 +966,7 @@ const brandData = {
   mazda: [
     {
       name: "Mazda CX-5",
-      image: "/mazda-cx5.webp",
+      image: "/Mazda CX-5.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "210 km/h",
@@ -974,7 +974,7 @@ const brandData = {
     },
     {
       name: "Mazda CX-9",
-      image: "/mazda-cx9.webp",
+      image: "/Mazda CX-9.webp",
       engine: "2.5L Turbo Inline-4",
       fuel: "Petrol",
       speed: "200 km/h",
@@ -982,7 +982,7 @@ const brandData = {
     },
     {
       name: "Mazda MX-5 Miata",
-      image: "/mazda-mx5.webp",
+      image: "/Mazda MX-5 Miata.webp",
       engine: "2.0L Inline-4",
       fuel: "Petrol", 
       speed: "180 km/h", 
@@ -990,7 +990,7 @@ const brandData = {
     },
     {
       name: "Mazda 3",
-      image: "/mazda-3.webp",
+      image: "/Mazda 3.webp",
       engine: "2.0L Inline-4",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -1000,7 +1000,7 @@ const brandData = {
   honda: [
     {
       name: "Honda Accord",
-      image: "/honda-accord.webp",
+      image: "/Honda Accord.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "210 km/h",
@@ -1008,7 +1008,7 @@ const brandData = {
     },
     {
       name: "Honda CR-V",
-      image: "/honda-crv.webp",
+      image: "/Honda CR-V.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1016,7 +1016,7 @@ const brandData = {
     },
     {
       name: "Honda Civic",
-      image: "/honda-civic.webp",
+      image: "/Honda Civic.webp",
       engine: "2.0L Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -1024,7 +1024,7 @@ const brandData = {
     },
     {
       name: "Honda HR-V",
-      image: "/honda-hrv.webp",
+      image: "/Honda HR-V.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1034,7 +1034,7 @@ const brandData = {
   toyota: [
     {
       name: "Toyota Camry",
-      image: "/toyota-camry.webp",
+      image: "/Toyota Camry.webp",
       engine: "2.5L Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -1042,7 +1042,7 @@ const brandData = {
     },
     {
       name: "Toyota Corolla", 
-      image: "/toyota-corolla.webp",
+      image: "/Toyota Corolla.webp",
       engine: "1.8L Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -1050,7 +1050,7 @@ const brandData = {
     },
     {
       name: "Toyota Fortuner", 
-      image: "/toyota-fortuner.webp",
+      image: "/Toyota Fortuner.webp",
       engine: "2.8L Turbo V6",
       fuel: "Diesel / Hybrid", 
       speed: "190 km/h",
@@ -1058,7 +1058,7 @@ const brandData = {
     },
     { 
       name: "Toyota RAV4",
-      image: "/toyota-rav4.webp",
+      image: "/Toyota RAV4.webp",
       engine: "2.5L Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1068,7 +1068,7 @@ const brandData = {
   nissan: [
     {
       name: "Nissan Altima",
-      image: "/nissan-altima.webp",
+      image: "/Nissan Altima.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "210 km/h",
@@ -1077,7 +1077,7 @@ const brandData = {
     },
     {
       name: "Nissan Rogue",
-      image: "/nissan-rogue.webp",
+      image: "/Nissan Rogue.webp",
       engine: "2.5L Inline-4",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -1085,7 +1085,7 @@ const brandData = {
     },
     {
       name: "Nissan GT-R",
-      image: "/nissan-gtr.webp",
+      image: "/Nissan GT-R.webp",
       engine: "3.8L Twin-Turbo V6",
       fuel: "Petrol",
       speed: "315 km/h",
@@ -1093,7 +1093,7 @@ const brandData = {
     },
     {
       name: "Nissan Leaf",
-      image: "/nissan-leaf.webp",
+      image: "/Nissan Leaf.webp",
       engine: "Electric Motor",
       fuel: "Electric",
       speed: "150 km/h",
@@ -1103,7 +1103,7 @@ const brandData = {
   hyundai: [
     {
       name: "Hyundai Sonata",
-      image: "/hyundai-sonata.webp",
+      image: "/Hyundai Sonata.jpg",
       engine: "2.5L Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -1111,7 +1111,7 @@ const brandData = {
     },
     {
       name: "Hyundai Creta",
-      image: "/hyundai-creta.webp",
+      image: "/Hyundai Creta.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1119,7 +1119,7 @@ const brandData = {
     },
     {
       name: "Hyundai Elantra",
-      image: "/hyundai-elantra.webp",
+      image: "/Hyundai Elantra.jpg",
       engine: "2.0L Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1127,7 +1127,7 @@ const brandData = {
     },
     {
       name: "Hyundai Tucson",
-      image: "/hyundai-tucson.webp",
+      image: "/Hyundai Tucson.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -1137,7 +1137,7 @@ const brandData = {
   kia: [
     {
       name: "Kia Stinger",
-      image: "/kia-stinger.webp",
+      image: "/Kia Stinger.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "240 km/h",
@@ -1145,7 +1145,7 @@ const brandData = {
     },
     {
       name: "Kia Sorento",
-      image: "/kia-sorento.webp",
+      image: "/Kia Sorento.webp",
       engine: "2.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "210 km/h",
@@ -1153,7 +1153,7 @@ const brandData = {
     },
     {
       name: "Kia Seltos",
-      image: "/kia-seltos.webp",
+      image: "/Kia Seltos.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1161,7 +1161,7 @@ const brandData = {
     },
     {
       name: "Kia Carnival",
-      image: "/kia-carnival.webp",
+      image: "/Kia Carnival.jpg",
       engine: "2.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1171,7 +1171,7 @@ const brandData = {
   jeep: [
     {
       name: "Jeep Wrangler",
-      image: "/jeep-wrangler.webp",
+      image: "/Jeep Wrangler.webp",
       engine: "3.6L V6",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -1179,7 +1179,7 @@ const brandData = {
     },
     {
       name: "Jeep Grand Cherokee",
-      image: "/jeep-grand-cherokee.webp",
+      image: "/Jeep Grand Cherokee.webp",
       engine: "3.6L V6",
       fuel: "Petrol / Diesel",
       speed: "210 km/h",
@@ -1187,7 +1187,7 @@ const brandData = {
     },
     {
       name: "Jeep Compass",
-      image: "/jeep-compass.webp",
+      image: "/Jeep Compass.webp",
       engine: "1.4L Turbo Inline-4",
       fuel: "Petrol / Diesel",
       speed: "190 km/h",
@@ -1195,7 +1195,7 @@ const brandData = {
     },
     {
       name: "Jeep Renegade",
-      image: "/jeep-renegade.webp",
+      image: "/Jeep Renegade.webp",
       engine: "1.3L Turbo Inline-4",
       fuel: "Petrol / Diesel",
       speed: "180 km/h",
@@ -1205,7 +1205,7 @@ const brandData = {
   chevrolet: [
     {
       name: "Chevrolet Camaro",
-      image: "/chevrolet-camaro.webp",
+      image: "/Chevrolet Camaro.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -1213,7 +1213,7 @@ const brandData = {
     },
     {
       name: "Chevrolet Silverado",
-      image: "/chevrolet-silverado.webp",
+      image: "/Chevrolet Silverado.webp",
       engine: "5.3L V8",
       fuel: "Petrol / Diesel",
       speed: "190 km/h",
@@ -1221,7 +1221,7 @@ const brandData = {
     },
     {
       name: "Chevrolet Equinox",
-      image: "/chevrolet-equinox.webp",
+      image: "/Chevrolet Equinox.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1229,7 +1229,7 @@ const brandData = {
     },
     {
       name: "Chevrolet Traverse",
-      image: "/chevrolet-traverse.webp",
+      image: "/Chevrolet Traverse.webp",
       engine: "3.6L V6",
       fuel: "Petrol / Hybrid",
       speed: "210 km/h",
@@ -1239,7 +1239,7 @@ const brandData = {
   ford: [
     {
       name: "Ford Mustang",
-      image: "/ford-mustang.webp",
+      image: "/Ford Mustang.webp",
       engine: "2.3L Turbo Inline-4",
       fuel: "Petrol",
       speed: "250 km/h",
@@ -1247,7 +1247,7 @@ const brandData = {
     },
     {
       name: "Ford F-150",
-      image: "/ford-f150.webp",
+      image: "/Ford F-150.jpg",
       engine: "3.5L V6",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1255,7 +1255,7 @@ const brandData = {
     },
     {
       name: "Ford Explorer",
-      image: "/ford-explorer.webp",
+      image: "/Ford Explorer.webp",
       engine: "2.3L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "210 km/h",
@@ -1263,7 +1263,7 @@ const brandData = {
     },
     {
       name: "Ford Escape",
-      image: "/ford-escape.webp",
+      image: "/Ford Escape.jpg",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1273,7 +1273,7 @@ const brandData = {
   volkswagen: [
     {
       name: "Volkswagen Golf",
-      image: "/volkswagen-golf.webp",
+      image: "/Volkswagen Golf.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "240 km/h",
@@ -1281,7 +1281,7 @@ const brandData = {
     },
     {
       name: "Volkswagen Passat",
-      image: "/volkswagen-passat.webp",
+      image: "/Volkswagen Passat.jpg",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "210 km/h",
@@ -1289,7 +1289,7 @@ const brandData = {
     },
     {
       name: "Volkswagen Tiguan",
-      image: "/volkswagen-tiguan.webp",
+      image: "/Volkswagen Tiguan.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -1297,7 +1297,7 @@ const brandData = {
     },
     {
       name: "Volkswagen Atlas",
-      image: "/volkswagen-atlas.webp",
+      image: "/Volkswagen Atlas.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
