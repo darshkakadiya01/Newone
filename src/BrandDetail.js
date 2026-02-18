@@ -1307,7 +1307,7 @@ const brandData = {
   renault: [
     {
       name: "Renault Duster",
-      image: "/renault-duster.webp",
+      image: "/Renault Duster.jpeg",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Diesel",
       speed: "180 km/h",
@@ -1315,7 +1315,7 @@ const brandData = {
     },
     {
       name: "Renault Kiger",
-      image: "/renault-kiger.webp",
+      image: "/Renault Kiger.webp",
       engine: "1.2L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "170 km/h",
@@ -1323,7 +1323,7 @@ const brandData = {
     },
     {
       name: "Renault Scala",
-      image: "/renault-scala.webp",
+      image: "/Renault Scala.webp",
       engine: "1.0L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "160 km/h",
@@ -1331,51 +1331,17 @@ const brandData = {
     },
     {
       name: "Renault Triber",
-      image: "/renault-triber.webp",
+      image: "/Renault Triber.webp",
       engine: "1.2L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "170 km/h",
       price: "₹18 Lakh"
     }
   ],
-  skoda: [
-    {
-      name: "Skoda Octavia",
-      image: "/skoda-octavia.webp",
-      engine: "2.0L Turbo Inline-4",
-      fuel: "Petrol / Hybrid",
-      speed: "210 km/h",
-      price: "₹30 Lakh"
-    },
-    {
-      name: "Skoda Superb",
-      image: "/skoda-superb.webp",
-      engine: "2.0L Turbo Inline-4",
-      fuel: "Petrol / Hybrid",
-      speed: "220 km/h",
-      price: "₹40 Lakh"
-    },
-    {
-      name: "Skoda Kodiaq",
-      image: "/skoda-kodiaq.webp",
-      engine: "2.0L Turbo Inline-4",
-      fuel: "Petrol / Hybrid",
-      speed: "200 km/h",
-      price: "₹35 Lakh"
-    },
-    { 
-      name: "Skoda Kamiq",
-      image: "/skoda-kamiq.webp",
-      engine: "1.5L Turbo Inline-4",
-      fuel: "Petrol / Hybrid",
-      speed: "190 km/h",
-      price: "₹25 Lakh"
-    }
-  ],
-  peugeot: [
+    peugeot: [
     {
       name: "Peugeot 308",
-      image: "/peugeot-308.webp",
+      image: "/Peugeot 308.webp",
       engine: "1.2L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -1383,7 +1349,7 @@ const brandData = {
     },
     {
       name: "Peugeot 508",
-      image: "/peugeot-508.webp",
+      image: "/Peugeot 508.jpg",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "210 km/h",
@@ -1391,7 +1357,7 @@ const brandData = {
     },
     {
       name: "Peugeot 2008",
-      image: "/peugeot-2008.webp",
+      image: "/Peugeot 2008.jpg",
       engine: "1.2L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "170 km/h",
@@ -1399,7 +1365,7 @@ const brandData = {
     },
     {
       name: "Peugeot 3008",
-      image: "/peugeot-3008.webp",
+      image: "/Peugeot 3008.webp",
       engine: "1.6L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1409,7 +1375,7 @@ const brandData = {
   citroën: [
     {
       name: "Citroën C3",
-      image: "/citroen-c3.webp",
+      image: "/Citroën C3.jpg",
       engine: "1.2L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "170 km/h",
@@ -1417,7 +1383,7 @@ const brandData = {
     },
     {
       name: "Citroën C4",
-      image: "/citroen-c4.webp",
+      image: "/Citroën C4.jpg",
       engine: "1.6L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1425,7 +1391,7 @@ const brandData = {
     },
     {
       name: "Citroën C5 Aircross",
-      image: "/citroen-c5-aircross.webp",
+      image: "/Citroën C5 Aircross.webp",
       engine: "1.6L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1433,17 +1399,51 @@ const brandData = {
     },
     {
       name: "Citroën Berlingo",
-      image: "/citroen-berlingo.webp",
+      image: "/Citroën Berlingo.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "160 km/h",
       price: "₹20 Lakh"
     }
   ],
+  skoda: [
+    {
+      name: "Skoda Octavia",
+      image: "/Skoda Octavia.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "210 km/h",
+      price: "₹30 Lakh"
+    },
+    {
+      name: "Skoda Superb",
+      image: "/Skoda Superb.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "220 km/h",
+      price: "₹40 Lakh"
+    },
+    {
+      name: "Skoda Kodiaq",
+      image: "/Skoda Kodiaq.webp",
+      engine: "2.0L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "200 km/h",
+      price: "₹35 Lakh"
+    },
+    { 
+      name: "Skoda Kamiq",
+      image: "/Skoda Kamiq.webp",
+      engine: "1.5L Turbo Inline-4",
+      fuel: "Petrol / Hybrid",
+      speed: "190 km/h",
+      price: "₹25 Lakh"
+    }
+  ],
   seat: [
     {
       name: "Seat Leon",
-      image: "/seat-leon.webp",
+      image: "/Seat Leon.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1451,7 +1451,7 @@ const brandData = {
     },
     {
       name: "Seat Ateca",
-      image: "/seat-ateca.webp",
+      image: "/Seat Ateca.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1459,7 +1459,7 @@ const brandData = {
     },
     {
       name: "Seat Arona",
-      image: "/seat-arona.webp",
+      image: "/Seat Arona.webp",
       engine: "1.0L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "170 km/h",
@@ -1467,7 +1467,7 @@ const brandData = {
     },
     {
       name: "Seat Tarraco",
-      image: "/seat-tarraco.webp",
+      image: "/Seat Tarraco.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "200 km/h",
@@ -1477,7 +1477,7 @@ const brandData = {
   fiat: [
     {
       name: "Fiat Punto",
-      image: "/fiat-punto.webp",
+      image: "/Fiat Punto.jpg",
       engine: "1.2L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "160 km/h",
@@ -1485,7 +1485,7 @@ const brandData = {
     },
     {
       name: "Fiat Linea",
-      image: "/fiat-linea.webp",
+      image: "/Fiat Linea.webp",
       engine: "1.3L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "170 km/h",
@@ -1493,7 +1493,7 @@ const brandData = {
     },
     {
       name: "Fiat 500X",
-      image: "/fiat-500x.webp",
+      image: "/Fiat 500X.webp",
       engine: "1.4L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "180 km/h",
@@ -1501,7 +1501,7 @@ const brandData = {
     },
     {
       name: "Fiat Argo",
-      image: "/fiat-argo.webp",
+      image: "/Fiat Argo.webp",
       engine: "1.5L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1511,7 +1511,7 @@ const brandData = {
   lancia: [
     {
       name: "Lancia Ypsilon",     
-      image: "/lancia-ypsilon.webp",
+      image: "/Lancia Ypsilon.webp",
       engine: "1.2L Turbo Inline-3",
       fuel: "Petrol / Hybrid",
       speed: "170 km/h",
@@ -1519,7 +1519,7 @@ const brandData = {
     },
     {
       name: "Lancia Delta",
-      image: "/lancia-delta.webp",
+      image: "/Lancia Delta.webp",
       engine: "1.4L Turbo Inline-4",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1527,7 +1527,7 @@ const brandData = {
     },
     {
       name: "Lancia Thema",
-      image: "/lancia-thema.webp",
+      image: "/Lancia Thema.webp",
       engine: "3.0L V6",
       fuel: "Petrol / Hybrid",
       speed: "210 km/h",
@@ -1535,7 +1535,7 @@ const brandData = {
     },
     {
       name: "Lancia Voyager",
-      image: "/lancia-voyager.webp",
+      image: "/Lancia Voyager.webp",
       engine: "3.6L V6",
       fuel: "Petrol / Hybrid",
       speed: "190 km/h",
@@ -1545,7 +1545,7 @@ const brandData = {
   dodge: [
       {
         name: "Dodge Charger",
-        image: "/dodge-charger.webp",
+        image: "/Dodge Charger.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "200 km/h",
@@ -1553,7 +1553,7 @@ const brandData = {
       },
       {
         name: "Dodge Durango",
-        image: "/dodge-durango.webp",
+        image: "/Dodge Durango.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "190 km/h",
@@ -1561,7 +1561,7 @@ const brandData = {
       },  
       {
         name: "Dodge Challenger",
-        image: "/dodge-challenger.webp",
+        image: "/Dodge Challenger.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "210 km/h",
@@ -1569,7 +1569,7 @@ const brandData = {
       },
       {
         name: "Dodge Ram 1500",
-        image: "/dodge-ram.webp",
+        image: "/Dodge Ram 1500.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "190 km/h",
@@ -1579,7 +1579,7 @@ const brandData = {
   ram: [
       {
         name: "Ram 1500",
-        image: "/ram-1500.webp",
+        image: "/Ram 1500.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "190 km/h",
@@ -1587,7 +1587,7 @@ const brandData = {
       },
       {
         name: "Ram 2500",
-        image: "/ram-2500.webp",
+        image: "/Ram 2500.webp",
         engine: "6.4L V8",
         fuel: "Petrol",
         speed: "180 km/h",
@@ -1595,7 +1595,7 @@ const brandData = {
       },
       {
         name: "Ram 3500",
-        image: "/ram-3500.webp",
+        image: "/Ram 3500.webp",
         engine: "6.7L Turbo Diesel I6",
         fuel: "Diesel",
         speed: "170 km/h",
@@ -1603,7 +1603,7 @@ const brandData = {
       },
       {
         name: "Ram ProMaster",
-        image: "/ram-promaster.webp",
+        image: "/Ram ProMaster.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "160 km/h",
@@ -1613,7 +1613,7 @@ const brandData = {
   gmc: [
       {        
         name: "GMC Sierra 1500",
-        image: "/gmc-sierra.webp",
+        image: "/GMC Sierra 1500.webp",
         engine: "3.0L Turbo Inline-6",
         fuel: "Petrol",
         speed: "190 km/h",
@@ -1621,7 +1621,7 @@ const brandData = {
       },
       {
         name: "GMC Yukon",
-        image: "/gmc-yukon.webp",
+        image: "/GMC Yukon.webp",
         engine: "5.3L V8",
         fuel: "Petrol",
         speed: "210 km/h",
@@ -1629,7 +1629,7 @@ const brandData = {
       },
       {
         name: "GMC Acadia",
-        image: "/gmc-acadia.webp",
+        image: "/GMC Acadia.webp",
         engine: "2.0L Turbo Inline-4",
         fuel: "Petrol",
         speed: "190 km/h",
@@ -1637,7 +1637,7 @@ const brandData = {
       },
       {
         name: "GMC Terrain",
-        image: "/gmc-terrain.webp",
+        image: "/GMC Terrain.webp",
         engine: "1.5L Turbo Inline-4",
         fuel: "Petrol",
         speed: "180 km/h",
@@ -1647,7 +1647,7 @@ const brandData = {
   chrysler: [
       {
         name: "Chrysler 300",
-        image: "/chrysler-300.webp",
+        image: "/Chrysler 300.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "200 km/h",
@@ -1655,7 +1655,7 @@ const brandData = {
       },
       {
         name: "Chrysler Pacifica",
-        image: "/chrysler-pacifica.webp",
+        image: "/Chrysler Pacifica.webp",
         engine: "2.4L Turbo Inline-4",
         fuel: "Petrol",
         speed: "180 km/h",
@@ -1663,7 +1663,7 @@ const brandData = {
       },
       {
         name: "Chrysler Town & Country",
-        image: "/chrysler-town-country.webp",
+        image: "/Chrysler Town & Country.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "190 km/h",
@@ -1671,7 +1671,7 @@ const brandData = {
       },
       {
         name: "Chrysler Voyager",
-        image: "/chrysler-voyager.webp",
+        image: "/Chrysler Voyager.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "190 km/h",
@@ -1681,7 +1681,7 @@ const brandData = {
   buick: [
       {
         name: "Buick Enclave",
-        image: "/buick-enclave.webp",
+        image: "/Buick Enclave.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "190 km/h",
@@ -1689,7 +1689,7 @@ const brandData = {
       },
       {
         name: "Buick Encore",
-        image: "/buick-encore.webp",
+        image: "/Buick Encore.webp",
         engine: "1.4L Turbo Inline-4",
         fuel: "Petrol",
         speed: "180 km/h",
@@ -1697,7 +1697,7 @@ const brandData = {
       },
       {
         name: "Buick LaCrosse",
-        image: "/buick-lacrosse.webp",
+        image: "/Buick LaCrosse.webp",
         engine: "3.6L V6",
         fuel: "Petrol",
         speed: "200 km/h",
@@ -1705,7 +1705,7 @@ const brandData = {
       },
       {
         name: "Buick Regal",
-        image: "/buick-regal.webp",
+        image: "/Buick Regal.webp",
         engine: "2.0L Turbo Inline-4",
         fuel: "Petrol",
         speed: "190 km/h",
@@ -1714,16 +1714,16 @@ const brandData = {
   ],
   xiaomi: [
       {
-        name: "Xiaomi Mi Car",
-        image: "/xiaomi-mi-car.webp",
+        name: "Xiaomi Mi SU7",
+        image: "/Xiaomi Mi SU7.webp",
         engine: "Electric Motor",
         fuel: "Electric",
         speed: "150 km/h",
         price: "₹25 Lakh"
       },
       {
-        name: "Xiaomi Mi SUV",
-        image: "/xiaomi-mi-suv.webp",
+        name: "Xiaomi Mi YU7",
+        image: "/Xiaomi Mi YU7.webp",
         engine: "Electric Motor",
         fuel: "Electric",
         speed: "160 km/h",
@@ -1731,7 +1731,7 @@ const brandData = {
       },
       {
         name: "Xiaomi Mi Sedan",
-        image: "/xiaomi-mi-sedan.webp",
+        image: "/Xiaomi Mi Sedan.webp",
         engine: "Electric Motor",
         fuel: "Electric",
         speed: "140 km/h",
@@ -1739,7 +1739,7 @@ const brandData = {
       },
       {
         name: "Xiaomi Mi Hatchback",
-        image: "/xiaomi-mi-hatchback.webp",
+        image: "/Xiaomi Mi Hatchback.webp",
         engine: "Electric Motor",
         fuel: "Electric",
         speed: "130 km/h",
@@ -1749,7 +1749,7 @@ const brandData = {
     suzuki:[
     {
       name: "Suzuki Swift",
-      image: "/suzuki-swift.webp",
+      image: "/Suzuki Swift.webp",
       engine: "1.2L Inline-4",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -1757,7 +1757,7 @@ const brandData = {
     },
     {
       name: "Suzuki Vitara",
-      image: "/suzuki-vitara.webp",
+      image: "/Suzuki Vitara.webp",
       engine: "1.4L Turbo Inline-4",
       fuel: "Petrol",
       speed: "190 km/h",
@@ -1765,7 +1765,7 @@ const brandData = {
     },
     {
       name: "Suzuki Jimny",
-      image: "/suzuki-jimny.webp",
+      image: "/Suzuki Jimny.webp",
       engine: "1.5L Inline-4",
       fuel: "Petrol",
       speed: "170 km/h",
@@ -1773,7 +1773,7 @@ const brandData = {
     },
     {
       name: "Suzuki Baleno",
-      image: "/suzuki-baleno.webp",
+      image: "/Suzuki Baleno.webp",
       engine: "1.2L Inline-4",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -1783,7 +1783,7 @@ const brandData = {
   mahindra: [
     {
       name: "Mahindra Thar",
-      image: "/mahindra-thar.webp",
+      image: "/Mahindra Thar.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Diesel",
       speed: "180 km/h",
@@ -1791,7 +1791,7 @@ const brandData = {
     },
     {
       name: "Mahindra XUV700",
-      image: "/mahindra-xuv700.webp",
+      image: "/Mahindra XUV700.webp",
       engine: "2.0L Turbo Inline-4",
       fuel: "Petrol / Diesel",
       speed: "190 km/h",
@@ -1799,7 +1799,7 @@ const brandData = {
     },
     {
       name: "Mahindra Scorpio",
-      image: "/mahindra-scorpio.webp",
+      image: "/Mahindra Scorpio.webp",
       engine: "2.2L Turbo Diesel",
       fuel: "Diesel",
       speed: "170 km/h",
@@ -1807,7 +1807,7 @@ const brandData = {
     },
     {
       name: "Mahindra Bolero",
-      image: "/mahindra-bolero.webp",
+      image: "/Mahindra Bolero.webp",
       engine: "1.5L Turbo Diesel",
       fuel: "Diesel",
       speed: "160 km/h",
@@ -1817,7 +1817,7 @@ const brandData = {
   tata: [
     {
       name: "Tata Harrier",
-      image: "/tata-harrier.webp",
+      image: "/Tata Harrier.webp",
       engine: "2.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "190 km/h",
@@ -1825,7 +1825,7 @@ const brandData = {
     },
     {
       name: "Tata Nexon",
-      image: "/tata-nexon.webp",
+      image: "/Tata Nexon.webp",
       engine: "1.5L Turbo Petrol",
       fuel: "Petrol",
       speed: "180 km/h",
@@ -1833,7 +1833,7 @@ const brandData = {
     },
     {
       name: "Tata Safari",
-      image: "/tata-safari.webp",
+      image: "/Tata Safari.webp",
       engine: "2.0L Turbo Diesel",
       fuel: "Diesel",
       speed: "190 km/h",
@@ -1841,7 +1841,7 @@ const brandData = {
     },
     {
       name: "Tata Altroz",
-      image: "/tata-altroz.webp",
+      image: "/Tata Altroz.webp",
       engine: "1.5L Turbo Petrol",
       fuel: "Petrol",
       speed: "170 km/h",
