@@ -2221,48 +2221,6 @@ const brandData = {
       fuel: "Petrol",
       speed: "140 km/h",
       price: "₹18 Lakh"
-    },
-    {
-      name: "Hindustan Motors Minerva",
-      image: "/Hindustan Motors Minerva.webp",
-      engine: "1.5L Inline-4",
-      fuel: "Petrol",
-      speed: "130 km/h",
-      price: "₹10 Lakh"
-    }
-  ],
-  ashokleyland: [
-    {
-      name: "Ashok Leyland Dost",
-      image: "/Ashok Leyland Dost.webp",
-      engine: "2.0L Turbo Diesel",
-      fuel: "Diesel",
-      speed: "160 km/h",
-      price: "₹10 Lakh"
-    },
-    {
-      name: "Ashok Leyland Ecomet",
-      image: "/Ashok Leyland Ecomet.webp",
-      engine: "3.0L Turbo Diesel",
-      fuel: "Diesel",
-      speed: "150 km/h",
-      price: "₹20 Lakh"
-    },
-    {
-      name: "Ashok Leyland Partner",
-      image: "/Ashok Leyland Partner.webp",
-      engine: "2.0L Turbo Diesel",
-      fuel: "Diesel",
-      speed: "160 km/h",
-      price: "₹15 Lakh"
-    },
-    {
-      name: "Ashok Leyland Stile",
-      image: "/Ashok Leyland Stile.webp",
-      engine: "1.5L Turbo Diesel",
-      fuel: "Diesel",
-      speed: "170 km/h",
-      price: "₹12 Lakh"
     }
   ],
   polestar: [
@@ -2323,14 +2281,6 @@ const brandData = {
       fuel: "Electric",
       speed: "180 km/h",
       price: "₹45 Lakh"
-    },
-    {
-      name: "Rivian R2S",
-      image: "/Rivian R2S.webp",
-      engine: "Electric Motor",
-      fuel: "Electric",
-      speed: "170 km/h",
-      price: "₹40 Lakh"
     }
   ],
   lucidmotors: [
@@ -2707,40 +2657,6 @@ const brandData = {
       price: "₹25 Lakh"
     }
   ],
-  hino: [
-    {
-      name: "Hino 300 Series",
-      image: "/Hino 300 Series.webp",
-      engine: "4.0L Turbo Diesel",
-      fuel: "Diesel",
-      speed: "120 km/h",
-      price: "₹20 Lakh"
-    },
-    {
-      name: "Hino 500 Series",
-      image: "/Hino 500 Series.webp",
-      engine: "6.0L Turbo Diesel",
-      fuel: "Diesel",
-      speed: "110 km/h",
-      price: "₹30 Lakh"
-    },
-    {
-      name: "Hino 700 Series",
-      image: "/Hino 700 Series.webp",
-      engine: "9.0L Turbo Diesel",
-      fuel: "Diesel",
-      speed: "100 km/h",
-      price: "₹50 Lakh"
-    },
-    {
-      name: "Hino Dutro",
-      image: "/Hino Dutro.webp",
-      engine: "4.0L Turbo Diesel",
-      fuel: "Diesel",
-      speed: "120 km/h",
-      price: "₹25 Lakh"
-    }
-  ],
   isuzu: [
     {
       name: "Isuzu D-Max",
@@ -3004,14 +2920,6 @@ const brandData = {
       speed: "200 km/h",
       price: "₹30 Lakh"
     },
-    {
-      name: "Ariel Hipercar",
-      image: "/Ariel Hipercar.webp",
-      engine: "Electric Motor",
-      fuel: "Electric",
-      speed: "300 km/h",
-      price: "₹1 Crore"
-    }
   ],
   caterham: [
     {
