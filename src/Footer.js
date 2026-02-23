@@ -18,7 +18,7 @@ const Footer = () => {
             </div>
           </div>
           <p className="footer-desc">
-            Carvocarz brings you detailed information about all car brands, models, and reviews. Explore the world of performance, luxury, and style.
+            Carvocarz brings you detailed information about all new car brands and update, models, and reviews. Explore the world of new ev cars performance, luxury, and style.
           </p>
         </div>
 
