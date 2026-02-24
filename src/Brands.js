@@ -104,58 +104,108 @@ const Brands = () => {
 
   return (
     <>
-    <head>
-  <title>CARVOCARZ - Branded Car Marketplace | Compare & Reviews</title>
+      <head>
+        <title>
+          All Car Brands in India | Luxury, SUV & Electric Cars – CARVOCARZ
+        </title>
 
-  <meta name="description" content="CARVOCARZ is a premium car website where you can explore top brands, compare cars, check specifications and read expert reviews. Discover luxury, electric and performance cars in one place." />
+        <meta
+          name="description"
+          content="Explore all branded car companies including luxury cars, SUV cars, electric cars and premium brands. Compare car price in India and read expert car reviews."
+        />
 
-  <meta name="keywords" content="CARVOCARZ, car comparison, all car Brands cars, car reviews, About branded cars, new ev cars, Branded ev car price, cng cars, About cars, carvoc carz, cars, car prise in india, car price, branded car price, about branded cars, compare branded cars, branded cars review, indian cars, type of cars, History of cars timeline, About cars in english, When Were cars popularized, facts about cars, all car price, Top 10 indian cars, paragraph about cars, most expansive cars in the world, pagani cars, pagani, volvo, cars build quality,  luxury cars, BMW, Audi, Mercedes, Tesla, SUV cars, electric cars India" />
+        <meta
+          name="keywords"
+          content="all car brands, luxury car brands, about branded cars, electric car brands in india, SUV cars, car price in india, compare branded cars, BMW, Audi, Mercedes, Tesla, Toyota, Tata, Mahindra"
+        />
 
-  <meta name="author" content="CARVOCARZ" />
+        <meta name="author" content="CARVOCARZ" />
+        <meta name="google-site-verification" content="cc6m8lYZbZqvaqNc19af3idK47cz4WRJbg38JIaQYBU" />
 
-  <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
-  <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://carvocarz.vercel.app/" />
-  <meta property="og:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
+        <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
+        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://carvocarz.vercel.app/brands" />
+        <meta property="og:image" content="https://carvocarz.vercel.app/BMW.jpg" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="CARVOCARZ - Compare & Explore Cars" />
-  <meta name="twitter:description" content="Find your perfect car. Compare models and read reviews at CARVOCARZ." />
-  <meta name="twitter:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="CARVOCARZ - Compare & Explore Cars" />
+        <meta name="twitter:description" content="Find your perfect car. Compare models and read reviews at CARVOCARZ." />
+        <meta name="twitter:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
 
-  <link rel="canonical" href="https://carvocarz.vercel.app/" />
+        <link rel="canonical" href="https://carvocarz.vercel.app/" />
 
-  <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
+        <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
 
-  <meta name="theme-color" content="#FBC664" />
-</head>
-    <div className="brands-wrapper">
-      <header className="brands-header">
-        <h1>Our Luxury Car Brands</h1>
-        <p>Click on a brand to see its cars</p>
-      </header>
+        <meta name="theme-color" content="#FBC664" />
+      </head>
 
-      <div className="brands-grid">
-        {brands.map((brand, index) => (
-          <div
-            className="brand-card"
-            key={index}
-            onClick={() => handleClick(brand.name)}
-            style={{ cursor: "pointer" }}
-          >
-          <div className="logo-box">
-            <img src={brand.logo} alt={brand.name} />
-          </div>
-          <h3>{brand.name}</h3>
-          </div>
-        ))}
+      <div className="brands-wrapper">
+        <header className="brands-header">
+          <h1>Explore All Branded Car Companies</h1>
+          <p>
+            Discover luxury cars, SUV cars, electric cars in India and compare
+            branded car prices easily.
+          </p>
+        </header>
+
+        <div className="brands-grid">
+          {brands.map((brand, index) => (
+            <div
+              className="brand-card"
+              key={index}
+              onClick={() => handleClick(brand.name)}
+              style={{ cursor: "pointer" }}
+            >
+              <div className="logo-box">
+                <img src={brand.logo} alt={brand.name} />
+              </div>
+              <h3>{brand.name}</h3>
+            </div>
+          ))}
+        </div>
+        <section className="brands-seo-section">
+          <h2>Top Luxury, SUV & Electric Car Brands in India</h2>
+
+          <p>
+            CARVOCARZ brings together all major car brands in India and
+            worldwide. From premium luxury cars like BMW, Mercedes and Audi
+            to high-performance sports cars such as Ferrari, Lamborghini and
+            Bugatti, our platform helps you explore every segment in one place.
+          </p>
+
+          <p>
+            If you are searching for the latest electric cars in India, brands
+            like Tesla, BYD, Tata and MG offer innovative EV technology with
+            impressive range and performance. For reliable SUV cars and family
+            vehicles, Toyota, Hyundai, Mahindra and Kia provide excellent build
+            quality and competitive car prices in India.
+          </p>
+
+          <h3>Compare Car Price & Specifications Easily</h3>
+
+          <p>
+            With so many branded cars available in the market, comparing car
+            price, engine specifications, mileage, fuel type and features is
+            important before making a decision. CARVOCARZ simplifies car
+            comparison by providing detailed information, expert reviews and
+            updated pricing for Indian cars and global brands.
+          </p>
+
+          <h3>Find the Perfect Car for Your Lifestyle</h3>
+
+          <p>
+            Whether you want a luxury sedan, a powerful SUV, a fuel-efficient
+            hatchback or a modern electric vehicle, our car marketplace helps
+            you explore top car brands and choose the right vehicle based on
+            your budget and driving needs.
+          </p>
+        </section>
       </div>
-    </div>
     </>
   );
 };

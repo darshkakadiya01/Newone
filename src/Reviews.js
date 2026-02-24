@@ -247,63 +247,111 @@ const reviews = [
 const Reviews = () => {
   return (
     <>
-    <head>
-  <title>CARVOCARZ - Branded Car Reviews | Compare & Reviews</title>
+      <head>
+        <title>
+          Car Reviews in India | Luxury, SUV & Electric Car Reviews
+        </title>
 
-  <meta name="description" content="CARVOCARZ is a premium car website where you can explore top brands, compare cars, check specifications and read expert reviews. Discover luxury, electric and performance cars in one place." />
+        <meta
+          name="description"
+          content="Read real customer car reviews in India. Explore luxury car reviews, SUV reviews, electric car reviews and compare branded cars with detailed feedback."
+        />
 
-  <meta name="keywords" content="CARVOCARZ, review of all cars by people, car comparison, About branded cars, new ev cars, Branded ev car price, cng cars, car reviews, About cars, carvoc carz, cars, car prise in india, car price, branded car price, about branded cars, compare branded cars, branded cars review, indian cars, type of cars, History of cars timeline, About cars in english, When Were cars popularized, facts about cars, all car price, Top 10 indian cars, paragraph about cars, most expansive cars in the world, pagani cars, pagani, volvo, cars build quality,  luxury cars, BMW, Audi, Mercedes, Tesla, SUV cars, electric cars India" />
+        <meta
+          name="keywords"
+          content="car reviews in india, luxury car reviews, suv reviews india, electric car reviews, branded car price, compare cars, customer car review, best cars in india"
+        />
 
-  <meta name="author" content="CARVOCARZ" />
+        <meta name="author" content="CARVOCARZ" />
+        <meta name="google-site-verification" content="cc6m8lYZbZqvaqNc19af3idK47cz4WRJbg38JIaQYBU" />
 
-  <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
-  <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://carvocarz.vercel.app/" />
-  <meta property="og:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
+        <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
+        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://carvocarz.vercel.app/reviews" />
+        <meta property="og:image" content="https://carvocarz.vercel.app/RangeRoverSport.jpg" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="CARVOCARZ - Compare & Explore Cars" />
-  <meta name="twitter:description" content="Find your perfect car. Compare models and read reviews at CARVOCARZ." />
-  <meta name="twitter:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="CARVOCARZ - Compare & Explore Cars" />
+        <meta name="twitter:description" content="Find your perfect car. Compare models and read reviews at CARVOCARZ." />
+        <meta name="twitter:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
 
-  <link rel="canonical" href="https://carvocarz.vercel.app/" />
+        <link rel="canonical" href="https://carvocarz.vercel.app/" />
 
-  <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
+        <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
 
-  <meta name="theme-color" content="#FBC664" />
-</head>
-    <div className="reviews-wrapper">
-      <section className="reviews-hero">
-        <h1>Customer Reviews</h1>
-        <p>See what our customers say about their dream cars.</p>
-      </section>
+        <meta name="theme-color" content="#FBC664" />
+      </head>
 
-      <section className="reviews-grid">
-        {reviews.map((item, index) => (
-          <div className="review-card" key={index}>
-            <div className="review-header">
-              <img src={item.image} alt={item.name} />
-              <div>
-                <h3>{item.name}</h3>
-                <span className="car-name">{item.car}</span>
+      <div className="reviews-wrapper">
+        <section className="reviews-hero">
+          <h1>Customer Car Reviews & Ratings</h1>
+          <p>
+            Read genuine customer reviews about luxury cars, SUVs, electric cars
+            and branded vehicles in India. Compare cars based on real driving<br></br>
+            experience, performance, mileage and build quality.
+          </p>
+        </section>
+        <section className="reviews-seo-section">
+          <h2>Trusted Car Reviews in India</h2>
+
+          <p>
+            At CARVOCARZ, we provide detailed car reviews in India covering
+            luxury cars, SUV cars, electric vehicles, hybrid cars and premium
+            branded cars. Our platform helps buyers compare cars based on
+            engine performance, fuel efficiency, safety features, interior
+            quality and overall driving experience.
+          </p>
+
+          <p>
+            Whether you are searching for the best SUV in India, a premium
+            luxury sedan, or the latest electric car price in India, our
+            customer reviews give real insights into performance, comfort,
+            maintenance cost and branded car price value.
+          </p>
+
+          <h3>Luxury & Performance Car Reviews</h3>
+          <p>
+            Explore expert and user reviews of top brands like BMW, Audi,
+            Mercedes, Tesla, Porsche and other premium car manufacturers.
+            Compare specifications, top speed, engine power and advanced
+            technology features before making your decision.
+          </p>
+
+          <h3>Why Customer Reviews Matter?</h3>
+          <p>
+            Real car reviews help buyers understand long-term reliability,
+            mileage, safety ratings and overall ownership experience. From
+            budget-friendly cars to the most expensive cars in the world,
+            customer feedback makes car comparison simple and transparent.
+          </p>
+        </section>
+
+        <section className="reviews-grid">
+          {reviews.map((item, index) => (
+            <div className="review-card" key={index}>
+              <div className="review-header">
+                <img src={item.image} alt={item.name} />
+                <div>
+                  <h3>{item.name}</h3>
+                  <span className="car-name">{item.car}</span>
+                </div>
               </div>
-            </div>
 
-            <div className="stars">
-              {"★".repeat(item.rating)}
-              {"☆".repeat(5 - item.rating)}
-            </div>
+              <div className="stars">
+                {"★".repeat(item.rating)}
+                {"☆".repeat(5 - item.rating)}
+              </div>
 
-            <p className="review-text">"{item.review}"</p>
-          </div>
-        ))}
-      </section>
-    </div>
+              <p className="review-text">"{item.review}"</p>
+            </div>
+          ))}
+        </section>
+      </div>
     </>
   );
 };

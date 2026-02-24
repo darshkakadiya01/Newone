@@ -286,7 +286,7 @@ const brandData = {
   landrover: [
     {
       name: "Land Rover Defender",
-      image: "/landroverdefender.jpg",
+      image: "/defender.jpg",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel",
       speed: "200 km/h",
@@ -294,7 +294,7 @@ const brandData = {
     },
     {
       name: "Land Rover Range Rover",
-      image: "/landroverrangerover.webp",
+      image: "/RangeRoverSport.jpg",
       engine: "3.0L Turbo V6",
       fuel: "Petrol / Diesel",
       speed: "250 km/h",
@@ -302,7 +302,7 @@ const brandData = {
     },
     {
       name: "Land Rover Discovery",
-      image: "/landroverdiscovery.jpg",
+      image: "/Discovery.jpg",
       engine: "2.0L Turbo",
       fuel: "Petrol / Diesel",
       speed: "210 km/h",

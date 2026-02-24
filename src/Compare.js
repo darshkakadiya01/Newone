@@ -47,7 +47,7 @@ const comparisons = [
       image: "/FordEndeavour.webp",
       engine: "2.0L Turbo",
       power: "210 HP",
-      price: "₹36.27 lakh"
+      price: "₹36.27 Lakh"
     }
   },
   {
@@ -79,7 +79,7 @@ const comparisons = [
       image: "/BYDSeal.jpg",
       engine: "Electric",
       power: "308 HP",
-      price: " ₹53.15 lakh"
+      price: "₹53.15 Lakh"
     }
   }
 ];
@@ -87,69 +87,117 @@ const comparisons = [
 const Compare = () => {
   return (
     <>
-    <head>
-  <title>CARVOCARZ - Branded Cars comparisons | Compare & Reviews</title>
+      <head>
+        <title>
+          Compare Cars in India | SUV, Luxury & Electric Car Comparison
+        </title>
 
-  <meta name="description" content="CARVOCARZ is a premium car website where you can explore top brands, compare cars, check specifications and read expert reviews. Discover luxury, electric and performance cars in one place." />
+        <meta
+          name="description"
+          content="Compare cars side by side including SUV cars, luxury cars and electric cars in India. Check car price, engine, power and specifications before buying."
+        />
 
-  <meta name="keywords" content="CARVOCARZ, car comparison, About branded cars, new ev cars, Branded ev car price, cng cars, car reviews, About cars, carvoc carz, cars, car prise in india, car price, branded car price, about branded cars, compare branded cars, branded cars review, indian cars, type of cars, History of cars timeline, About cars in english, When Were cars popularized, facts about cars, all car price, Top 10 indian cars, paragraph about cars, most expansive cars in the world, pagani cars, pagani, volvo, cars build quality,  luxury cars, BMW, Audi, Mercedes, Tesla, SUV cars, electric cars India" />
+        <meta
+          name="keywords"
+          content="car comparison india, compare cars in india, compare car price, SUV comparison, luxury car comparison, electric cars india, BMW vs Mercedes, Toyota Fortuner vs Endeavour, Tesla vs BYD"
+        />
 
-  <meta name="author" content="CARVOCARZ" />
+        <meta name="author" content="CARVOCARZ" />
+        <meta name="google-site-verification" content="cc6m8lYZbZqvaqNc19af3idK47cz4WRJbg38JIaQYBU" />
 
-  <meta name="robots" content="index, follow" />
+        <meta name="robots" content="index, follow" />
 
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
-  <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
-  <meta property="og:type" content="website" />
-  <meta property="og:url" content="https://carvocarz.vercel.app/" />
-  <meta property="og:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
+        <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
+        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://carvocarz.vercel.app/compare" />
+        <meta property="og:image" content="https://carvocarz.vercel.app/KiaSeltos.jpg" />
 
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="CARVOCARZ - Compare & Explore Cars" />
-  <meta name="twitter:description" content="Find your perfect car. Compare models and read reviews at CARVOCARZ." />
-  <meta name="twitter:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="CARVOCARZ - Compare & Explore Cars" />
+        <meta name="twitter:description" content="Find your perfect car. Compare models and read reviews at CARVOCARZ." />
+        <meta name="twitter:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
 
-  <link rel="canonical" href="https://carvocarz.vercel.app/" />
+        <link rel="canonical" href="https://carvocarz.vercel.app/" />
 
-  <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
+        <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
 
-  <meta name="theme-color" content="#FBC664" />
-  
-</head>
-    <div className="compare-wrapper">
-      <section className="compare-hero">
-        <h1>Car Comparison Hub</h1>
-        <p>Compare the most popular cars side-by-side and choose the best one for you.</p>
-      </section>
+        <meta name="theme-color" content="#FBC664" />
+      </head>
 
-      <section className="compare-grid">
-        {comparisons.map((item, index) => (
-          <div className="compare-card" key={index}>
-            
-            <div className="compare-car">
-              <img src={item.car1.image} alt={item.car1.name} />
-              <h3>{item.car1.name}</h3>
-              <p><strong>Engine:</strong> {item.car1.engine}</p>
-              <p><strong>Power:</strong> {item.car1.power}</p>
-              <p className="price">{item.car1.price}</p>
+      <div className="compare-wrapper">
+        <section className="compare-hero">
+          <h1>Car Comparison Tool – Compare Car Price & Specifications</h1>
+          <p>
+            Compare the most popular SUV cars, luxury cars and electric cars in
+            India side by side. Check engine specifications, power output and
+            latest car price in India before making your final decision.
+          </p>
+        </section>
+
+        <section className="compare-grid">
+          {comparisons.map((item, index) => (
+            <div className="compare-card" key={index}>
+              <div className="compare-car">
+                <img src={item.car1.image} alt={item.car1.name} />
+                <h3>{item.car1.name}</h3>
+                <p><strong>Engine:</strong> {item.car1.engine}</p>
+                <p><strong>Power:</strong> {item.car1.power}</p>
+                <p className="price">{item.car1.price}</p>
+              </div>
+
+              <div className="vs">VS</div>
+
+              <div className="compare-car">
+                <img src={item.car2.image} alt={item.car2.name} />
+                <h3>{item.car2.name}</h3>
+                <p><strong>Engine:</strong> {item.car2.engine}</p>
+                <p><strong>Power:</strong> {item.car2.power}</p>
+                <p className="price">{item.car2.price}</p>
+              </div>
             </div>
+          ))}
+        </section>
+        <section className="compare-seo-section">
+          <h2>Why Car Comparison is Important Before Buying</h2>
 
-            <div className="vs">VS</div>
+          <p>
+            Comparing cars helps buyers understand differences in car price,
+            engine performance, fuel type, mileage and overall value. Whether
+            you are choosing between luxury cars like BMW and Mercedes or SUV
+            cars such as Toyota Fortuner and Ford Endeavour, side-by-side car
+            comparison makes the decision easier.
+          </p>
 
-            <div className="compare-car">
-              <img src={item.car2.image} alt={item.car2.name} />
-              <h3>{item.car2.name}</h3>
-              <p><strong>Engine:</strong> {item.car2.engine}</p>
-              <p><strong>Power:</strong> {item.car2.power}</p>
-              <p className="price">{item.car2.price}</p>
-            </div>
+          <p>
+            With rising demand for electric cars in India, comparing EV models
+            like Tesla and BYD is also essential. Buyers can evaluate battery
+            range, charging time, performance and overall cost before investing
+            in a premium electric vehicle.
+          </p>
 
-          </div>
-        ))}
-      </section>
-    </div>
+          <h3>Compare SUV, Luxury & Electric Cars in India</h3>
+
+          <p>
+            The Indian car market offers a wide range of options including
+            budget hatchbacks, premium sedans, powerful SUV cars and high-end
+            sports cars. By using a car comparison tool, you can analyze
+            specifications, compare branded car prices and find the best car
+            according to your budget and lifestyle needs.
+          </p>
+
+          <h3>Check Latest Car Price in India</h3>
+
+          <p>
+            Car prices vary depending on variant, features and fuel type.
+            Comparing the latest car price in India ensures that you get the
+            best value for your money. Always consider maintenance cost,
+            resale value and brand reliability before making a purchase.
+          </p>
+        </section>
+      </div>
     </>
   );
 };

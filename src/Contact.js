@@ -34,7 +34,7 @@ return (
 
         <meta name="description" content="CARVOCARZ is a premium car website where you can explore top brands, compare cars, check specifications and read expert reviews. Discover luxury, electric and performance cars in one place." />
 
-        <meta name="keywords" content="CARVOCARZ, contact, About branded cars, new ev cars, Branded ev car price, cng cars, new cars, car comparison, car reviews, About cars, carvoc carz, cars, car prise in india, car price, branded car price, about branded cars, compare branded cars, branded cars review, indian cars, type of cars, History of cars timeline, About cars in english, When Were cars popularized, facts about cars, all car price, Top 10 indian cars, paragraph about cars, most expansive cars in the world, pagani cars, pagani, volvo, cars build quality,  luxury cars, BMW, Audi, Mercedes, Tesla, SUV cars, electric cars India" />
+        <meta name="keywords" content="CARVOCARZ, contact, contact for branded cars," />
 
         <meta name="author" content="CARVOCARZ" />
 
@@ -46,7 +46,7 @@ return (
         <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://carvocarz.vercel.app/" />
-        <meta property="og:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
+        <meta property="og:image" content="https://carvocarz.vercel.app/CARVOCARZ_LOGO.png" />
 
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="CARVOCARZ - Compare & Explore Cars" />

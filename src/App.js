@@ -1,6 +1,7 @@
 import React from "react";
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { useEffect } from "react";
 import ScrollToTop from "./ScrollToTop";
 import Navbar from "./Navbar";
 import Home from './Home';
@@ -16,6 +17,16 @@ import PaganiZonda from "./PaganiZonda";
 import LaRoseNoire from "./LaRoseNoire";
 
 function App() {
+    useEffect(() => {
+    const script = document.createElement("script");
+    script.src = "https://example.com/script.js";
+    script.async = true;
+    document.body.appendChild(script);
+
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   return (
     <BrowserRouter>
       <ScrollToTop />
