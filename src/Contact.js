@@ -46,12 +46,6 @@ return (
         <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://carvocarz.vercel.app/" />
-        <meta property="og:image" content="https://carvocarz.vercel.app/CARVOCARZ_LOGO.png" />
-
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="CARVOCARZ - Compare & Explore Cars" />
-        <meta name="twitter:description" content="Find your perfect car. Compare models and read reviews at CARVOCARZ." />
-        <meta name="twitter:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
 
         <link rel="canonical" href="https://carvocarz.vercel.app/" />
 

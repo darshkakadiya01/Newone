@@ -32,11 +32,6 @@ const LaRoseNoire = () => {
         <meta property="og:url" content="https://carvocarz.vercel.app/la-rose-noire" />
         <meta property="og:image" content="https://carvocarz.vercel.app/ROLLS-ROYCELaRoseNoireDroptail.png" />
 
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="CARVOCARZ - Compare & Explore Cars" />
-        <meta name="twitter:description" content="Find your perfect car. Compare models and read reviews at CARVOCARZ." />
-        <meta name="twitter:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
-
         <link rel="canonical" href="https://carvocarz.vercel.app/" />
 
         <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
