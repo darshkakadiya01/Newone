@@ -1,8 +1,37 @@
-import React from "react";
+import React, { useState } from "react";
 import "./App.css";
 
 const Home = () => {
-  return (
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const faqData = [
+    {
+      question: "What can I write about a car?",
+      answer:
+        "You can write about engine performance, horsepower, torque, top speed, fuel efficiency, design, interior features, safety systems, infotainment technology, car price in India, and brand history. Car comparisons and driving experience are also important topics."
+    },
+    {
+      question: "Did you know facts about cars?",
+      answer:
+        "The first petrol-powered car was invented in 1886. Some hypercars can exceed 400 km/h. Electric cars are growing rapidly in India due to eco-friendly technology and lower running costs. Modern cars include advanced AI-based safety systems."
+    },
+    {
+      question: "What do I know about cars?",
+      answer:
+        "Cars are motor vehicles used for transportation. They include sedans, hatchbacks, SUVs, luxury cars, sports cars, hybrid cars, and electric vehicles. Cars run on petrol, diesel, hybrid, or fully electric engines."
+    },
+    {
+      question: "What is detail in a car?",
+      answer:
+        "Car details include engine type, horsepower, torque, transmission, fuel type, mileage, seating capacity, safety rating, suspension, braking system, infotainment system, and build quality."
+    }
+  ];
+
+  const toggleFAQ = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+  
+return (
     <>
       <head>
         <title>
@@ -164,6 +193,32 @@ const Home = () => {
           <a href="/brands" className="btn primary-btn">
             Browse All Car Brands
           </a>
+        </section>
+        <section className="faq-section">
+          <h2>Car FAQs – Everything You Need to Know</h2>
+
+          <div className="faq-container">
+            {faqData.map((item, index) => (
+              <div
+                key={index}
+                className={`faq-item ${activeIndex === index ? "active" : ""}`}
+              >
+                <div
+                  className="faq-question"
+                  onClick={() => toggleFAQ(index)}
+                >
+                  <h3>{item.question}</h3>
+                  <span>{activeIndex === index ? "-" : "+"}</span>
+                </div>
+
+                {activeIndex === index && (
+                  <div className="faq-answer">
+                    <p>{item.answer}</p>
+                  </div>
+                )}
+              </div>
+            ))}
+          </div>
         </section>
       </div>
     </>
