@@ -29,14 +29,14 @@ const Inventory = () => {
         <meta property="og:title" content="CARZOO - Premium Car Marketplace" />
         <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARZOO." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://carvocarz.vercel.app/inventory" />
-        <meta property="og:image" content="https://carvocarz.vercel.app/MercedesAMGGT.jpg" />
+        <meta property="og:url" content="https://carzoo.vercel.app/inventory" />
+        <meta property="og:image" content="https://carzoo.vercel.app/MercedesAMGGT.jpg" />
 
-        <link rel="canonical" href="https://carvocarz.vercel.app/" />
+        <link rel="canonical" href="https://carzoo.vercel.app/" />
 
         <link rel="icon" type="image/png" href="/CARZOO-favicon.png" />
 
-        <meta name="theme-color" content="#FBC664" />
+        <meta name="theme-color" content="#E35E56" />
       </head>
 
       <div className="inventory-wrapper">

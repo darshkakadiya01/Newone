@@ -51,7 +51,7 @@ return (
 
         <link rel="icon" type="image/png" href="/CARZOO-favicon.png" />
 
-        <meta name="theme-color" content="#FBC664" />
+        <meta name="theme-color" content="#E35E56" />
       </head>
     <div className="contact-page">
       <div className="contact-container">
