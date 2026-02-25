@@ -29,7 +29,7 @@
 }
 
 .logo-highlight {
-  color:#FBC664;
+  color:#E35E56;
 }
 
 .navbar-links {
@@ -48,12 +48,12 @@
 }
 
 .navbar-links li a:hover {
-  color:#FBC664;
+  color:#E35E56;
 }
 
 .contact-btn {
   padding: 10px 18px;
-  background:#FBC664;
+  background:#E35E56;
   color: #fff !important;
   border-radius: 30px;
   font-size: 14px;
@@ -61,7 +61,7 @@
 }
 
 .contact-btn:hover {
-  background: #FBC664;
+  background: #E35E56;
 }
 
 .hamburger {
@@ -179,7 +179,7 @@
   content: "";
   width: 70px;
   height: 4px;
-  background: #FBC664;
+  background: #E35E56;
   display: block;
   margin: 12px auto 0;
   border-radius: 2px;
@@ -211,7 +211,7 @@
   content: "";
   width: 70px;
   height: 4px;
-  background: #FBC664;
+  background: #E35E56;
   display: block;
   margin: 12px auto 0;
   border-radius: 2px;
@@ -238,7 +238,7 @@
 .why-section ul li:hover {
   transform: translateY(-5px);
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-  border-left: 5px solid #FBC664;
+  border-left: 5px solid #E35E56;
 }
 
 .faq-section {
@@ -251,7 +251,7 @@
 .faq-section h2 {
   font-size: 32px;
   margin-bottom: 40px;
-  color: #FBC664;
+  color: #E35E56;
 }
 
 .faq-container {
@@ -278,7 +278,7 @@
 
 .faq-question h3 {
   font-size: 16px;
-  color: #FBC664;
+  color: #E35E56;
 }
 
 .faq-question span {
@@ -299,7 +299,7 @@
 }
 
 .faq-item.active {
-  border-color: #FBC664;
+  border-color: #E35E56;
   box-shadow: 0 8px 20px rgba(251, 198, 100, 0.2);
 }
 
@@ -382,7 +382,7 @@
 }
 
 .hero h1 span {
-  color: #FBC664;
+  color: #E35E56;
 }
 
 .hero p {
@@ -399,7 +399,7 @@
 }
 
 :root {
-  --main-color: #FBC664;
+  --main-color: #E35E56;
   --main-color-dark: #e6b24f;
   --main-shadow: rgba(251, 198, 100, 0.45);
   --main-shadow-strong: rgba(251, 198, 100, 0.65);
@@ -425,13 +425,13 @@
 }
 
 .btn-outline {
-  border: 2px solid #FBC664;
-  color: #FBC664;
+  border: 2px solid #E35E56;
+  color: #E35E56;
   background: transparent;
 }
 
 .btn-outline:hover {
-  background: #FBC664;
+  background: #E35E56;
   color: #fff;
 }
 
@@ -541,7 +541,7 @@
 }
 
 .primary-btn {
-  background: linear-gradient(135deg, #FBC664, #FFD27F);
+  background: linear-gradient(135deg, #E35E56, #FFD27F);
   color: #fff;
   box-shadow: 0 8px 25px rgba(251, 198, 100, 0.5); 
   border: none;
@@ -644,7 +644,7 @@
 
 .contact-container h2 {
   font-size: 32px;
-  color: #FBC664;
+  color: #E35E56;
   margin-bottom: 10px;
   font-weight: 900;
 }
@@ -681,7 +681,7 @@
 .contact-container input:focus,
 .contact-container textarea:focus {
   background: rgb(255, 255, 255);
-  box-shadow: 0 0 10px #FBC664;
+  box-shadow: 0 0 10px #E35E56;
 }
 
 .contact-container textarea {
@@ -693,7 +693,7 @@
   padding: 14px 28px;
   border-radius: 30px;
   border: none;
-  background: linear-gradient(135deg, #FBC664, #FFD27F); 
+  background: linear-gradient(135deg, #E35E56, #FFD27F); 
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -714,7 +714,7 @@
 .form-message {
   margin-top: 10px;
   font-size: 15px;
-  color: #FBC664;
+  color: #E35E56;
   font-weight: 500;
 }
 
@@ -817,7 +817,7 @@
 }
 
 .footer-logo-text span {
-  color: #FBC664;
+  color: #E35E56;
 }
 
 .footer-desc {
@@ -840,7 +840,7 @@
 
 .footer-links h3 {
   font-size: 18px;
-  color:#FBC664;
+  color:#E35E56;
   margin-bottom: 15px;
 }
 
@@ -860,7 +860,7 @@
 }
 
 .footer-links ul li a:hover {
-  color: #FBC664;
+  color: #E35E56;
 }
 
 .footer-newsletter {
@@ -869,7 +869,7 @@
 
 .footer-newsletter h3 {
   font-size: 18px;
-  color: #FBC664;
+  color: #E35E56;
   margin-bottom: 12px;
 }
 
@@ -900,7 +900,7 @@
   padding: 10px 20px;
   border-radius: 25px;
   border: none;
-  background: linear-gradient(135deg, #FBC664, #FFD27F); 
+  background: linear-gradient(135deg, #E35E56, #FFD27F); 
   color: #fff;
   cursor: pointer;
   font-weight: 600;
@@ -923,7 +923,7 @@
 
 .footer-social h3 {
   font-size: 18px;
-  color: #FBC664;
+  color: #E35E56;
   margin-bottom: 12px;
 }
 
@@ -946,7 +946,7 @@
 }
 
 .social-icons a:hover {
-  background: #FBC664;
+  background: #E35E56;
   color: #fff;
   transform: translateY(-2px);
 }
@@ -1058,7 +1058,7 @@ font-size: 16px;
   content: "";
   width: 70px;
   height: 4px;
-  background: #FBC664;
+  background: #E35E56;
   display: block;
   margin: 12px auto 0;
   border-radius: 3px;
@@ -1200,7 +1200,7 @@ margin-bottom: 12px;
 
 .price {
 font-weight: 700;
-color: #FBC664;
+color: #E35E56;
 }
 
 @media (max-width: 1024px) {
@@ -1261,7 +1261,7 @@ grid-template-columns: 1fr;
   content: "";
   width: 70px;
   height: 4px;
-  background: #FBC664;
+  background: #E35E56;
   display: block;
   margin: 12px auto 0;
   border-radius: 3px;
@@ -1516,7 +1516,7 @@ grid-template-columns: 1fr;
   margin-top: 14px;
   font-size: 18px;
   font-weight: 800;
-  color: #FBC664;
+  color: #E35E56;
 }
 
 @media (max-width: 1024px) {
@@ -1585,7 +1585,7 @@ grid-template-columns: 1fr;
 .price {
   font-size: 20px;
   font-weight: bold;
-  color: #FBC664;
+  color: #E35E56;
   margin-bottom: 20px;
 }
 
@@ -1660,7 +1660,7 @@ grid-template-columns: 1fr;
   content: "";
   width: 70px;
   height: 4px;
-  background: #FBC664;
+  background: #E35E56;
   display: block;
   margin: 12px auto 0;
   border-radius: 3px;
@@ -1772,13 +1772,13 @@ grid-template-columns: 1fr;
 .price {
   margin-top: 8px;
   font-weight: 700;
-  color: #FBC664;
+  color: #E35E56;
 }
 
 .vs {
   font-size: 28px;
   font-weight: 900;
-  color: #FBC664;
+  color: #E35E56;
   padding: 20px;
   border-radius: 50%;
   background: rgba(251,198,100,0.1);
@@ -1851,7 +1851,7 @@ grid-template-columns: 1fr;
   content: "";
   width: 70px;
   height: 4px;
-  background: #FBC664;
+  background: #E35E56;
   display: block;
   margin: 12px auto 0;
   border-radius: 3px;
@@ -1956,11 +1956,11 @@ grid-template-columns: 1fr;
 
 .car-name {
   font-size: 14px;
-  color: #FBC664;
+  color: #E35E56;
 }
 
 .stars {
-  color: #FBC664;
+  color: #E35E56;
   font-size: 18px;
   margin-bottom: 12px;
 }
@@ -2030,7 +2030,7 @@ grid-template-columns: 1fr;
   content: "";
   width: 70px;
   height: 4px;
-  background: #FBC664;
+  background: #E35E56;
   display: block;
   margin: 12px auto 0;
   border-radius: 3px;
@@ -2097,7 +2097,7 @@ grid-template-columns: 1fr;
   content: "";
   width: 70px;
   height: 4px;
-  background: #FBC664;
+  background: #E35E56;
   display: block;
   margin: 12px auto 0;
   border-radius: 3px;
@@ -2173,7 +2173,7 @@ grid-template-columns: 1fr;
   content: "";
   width: 70px;
   height: 4px;
-  background: #FBC664;
+  background: #E35E56;
   display: block;
   margin: 12px auto 0;
   border-radius: 3px;

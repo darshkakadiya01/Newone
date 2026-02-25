@@ -262,22 +262,22 @@ const Reviews = () => {
           content="car reviews in india, luxury car reviews, suv reviews india, electric car reviews, branded car price, compare cars, customer car review, best cars in india"
         />
 
-        <meta name="author" content="CARVOCARZ" />
+        <meta name="author" content="CARZOO" />
         <meta name="google-site-verification" content="cc6m8lYZbZqvaqNc19af3idK47cz4WRJbg38JIaQYBU" />
 
         <meta name="robots" content="index, follow" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
-        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
+        <meta property="og:title" content="CARZOO - Premium Car Marketplace" />
+        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARZOO." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://carvocarz.vercel.app/reviews" />
         <meta property="og:image" content="https://carvocarz.vercel.app/RangeRoverSport.jpg" /> 
 
         <link rel="canonical" href="https://carvocarz.vercel.app/" />
 
-        <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
+        <link rel="icon" type="image/png" href="/CARZOO-favicon.png" />
 
         <meta name="theme-color" content="#FBC664" />
       </head>
@@ -295,7 +295,7 @@ const Reviews = () => {
           <h2>Trusted Car Reviews in India</h2>
 
           <p>
-            At CARVOCARZ, we provide detailed car reviews in India covering
+            At CARZOO, we provide detailed car reviews in India covering
             luxury cars, SUV cars, electric vehicles, hybrid cars and premium
             branded cars. Our platform helps buyers compare cars based on
             engine performance, fuel efficiency, safety features, interior

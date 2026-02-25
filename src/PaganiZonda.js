@@ -18,22 +18,22 @@ const PaganiZonda = () => {
           name="keywords"
           content="Pagani Zonda price in india, pagani hypercar, most expensive cars in the world, luxury sports car, V12 engine car, branded car price, premium cars"
         />
-        <meta name="author" content="CARVOCARZ" />
+        <meta name="author" content="CARZOO" />
         <meta name="google-site-verification" content="cc6m8lYZbZqvaqNc19af3idK47cz4WRJbg38JIaQYBU" />
 
         <meta name="robots" content="index, follow" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
-        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
+        <meta property="og:title" content="CARZOO - Premium Car Marketplace" />
+        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARZOO." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://carvocarz.vercel.app/PAGANIZondaa.png" />
-        <meta property="og:image" content="https://carvocarz.vercel.app/CARVOCARZ-favicon.png" />
+        <meta property="og:image" content="https://carvocarz.vercel.app/CARZOO-favicon.png" />
 
         <link rel="canonical" href="https://carvocarz.vercel.app/" />
 
-        <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
+        <link rel="icon" type="image/png" href="/CARZOO-favicon.png" />
 
         <meta name="theme-color" content="#FBC664" />
       </head>

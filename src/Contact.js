@@ -30,32 +30,32 @@ const Contact = () => {
 return (
       <>
       <head>
-        <title>CARVOCARZ - About Cars Contact | Compare & Reviews</title>
+        <title>CARZOO - About Cars Contact | Compare & Reviews</title>
 
-        <meta name="description" content="CARVOCARZ is a premium car website where you can explore top brands, compare cars, check specifications and read expert reviews. Discover luxury, electric and performance cars in one place." />
+        <meta name="description" content="CARZOO is a premium car website where you can explore top brands, compare cars, check specifications and read expert reviews. Discover luxury, electric and performance cars in one place." />
 
-        <meta name="keywords" content="CARVOCARZ, contact, contact for branded cars," />
+        <meta name="keywords" content="CARZOO, contact, contact for branded cars," />
 
-        <meta name="author" content="CARVOCARZ" />
+        <meta name="author" content="CARZOO" />
 
         <meta name="robots" content="index, follow" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
-        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
+        <meta property="og:title" content="CARZOO - Premium Car Marketplace" />
+        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARZOO." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://carvocarz.vercel.app/" />
+        <meta property="og:url" content="https://carzoo.vercel.app/" />
 
-        <link rel="canonical" href="https://carvocarz.vercel.app/" />
+        <link rel="canonical" href="https://carzoo.vercel.app/" />
 
-        <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
+        <link rel="icon" type="image/png" href="/CARZOO-favicon.png" />
 
         <meta name="theme-color" content="#FBC664" />
       </head>
     <div className="contact-page">
       <div className="contact-container">
-        <h2>Contact Carvocarz</h2>
+        <h2>Contact CARZOO</h2>
         <p className="contact-subtitle">
           Have questions or suggestions? Fill the form below and we will get back to you.
         </p>

@@ -11,14 +11,14 @@ const Footer = () => {
           <div className="logo-container">
             <div className="navbar-logo">
               <img
-                src="/CARVOCARZ_LOGO.png" // fixed absolute path from public folder
+                src="/carzoo-logo.png" // fixed absolute path from public folder
                 alt="Car Logo"
                 className="logo-image-footer"
               />
             </div>
           </div>
           <p className="footer-desc">
-            Carvocarz brings you detailed information about all new branded cars and update in new cars, new technology of ev car models, and reviews form people. Explore the world of new ev cars performance, luxury of Branded cars, and style.
+            carzoo brings you detailed information about all new branded cars and update in new cars, new technology of ev car models, and reviews form people. Explore the world of new ev cars performance, luxury of Branded cars, and style.
           </p>
         </div>
 
@@ -57,7 +57,7 @@ const Footer = () => {
 
       {/* Bottom Text */}
       <div className="footer-bottom">
-        <p>© 2026 Carvocarz. All rights reserved.</p>
+        <p>© 2026 CARZOO. All rights reserved.</p>
       </div>
     </footer>
   );

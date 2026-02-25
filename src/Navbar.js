@@ -14,7 +14,7 @@ const Navbar = () => {
         {/* LOGO */}
         <div className="navbar-logo">
           {/* Logo from public folder */}
-          <img src="/CARVOCARZ_LOGO.png" alt="Car Logo" className="logo-image" />
+          <img src="/carzoo-logo.png" alt="Car Logo" className="logo-image" />
         </div>
 
         {/* HAMBURGER MENU */}

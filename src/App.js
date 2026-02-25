@@ -31,7 +31,7 @@ function App() {
     <BrowserRouter>
       <ScrollToTop />
 
-      <Navbar logoSrc="/CARVOCARZ_LOGO.png" />
+      <Navbar logoSrc="/carzoo-logo.png" />
 
       <Routes>
         <Route path="/" element={<Home />} />
@@ -46,7 +46,7 @@ function App() {
         <Route path="/la-rose-noire" element={<LaRoseNoire />} />
       </Routes>
 
-      <Footer logoSrc="/CARVOCARZ_LOGO.png" />
+      <Footer logoSrc="/carzoo-logo.png" />
     </BrowserRouter>
   );
 }

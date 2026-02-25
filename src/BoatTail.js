@@ -19,22 +19,22 @@ const BoatTail = () => {
           content="Rolls Royce Boat Tail price in india, Engine & Performance, ultra-luxury car, most expensive car in the world, luxury cars, branded car price, Rolls Royce price, V12 engine car, premium cars, exotic cars"
         />
 
-        <meta name="author" content="CARVOCARZ" />
+        <meta name="author" content="CARZOO" />
         <meta name="google-site-verification" content="cc6m8lYZbZqvaqNc19af3idK47cz4WRJbg38JIaQYBU" />
 
         <meta name="robots" content="index, follow" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
-        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
+        <meta property="og:title" content="CARZOO - Premium Car Marketplace" />
+        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARZOO." />
         <meta property="og:type" content="website" />
-        <meta property="og:url" content="https://carvocarz.vercel.app/boat-tail" />
-        <meta property="og:image" content="https://carvocarz.vercel.app/ROLLS-ROYCEBoatTaill.jpg" />
+        <meta property="og:url" content="https://carzoo.vercel.app/boat-tail" />
+        <meta property="og:image" content="https://carzoo.vercel.app/ROLLS-ROYCEBoatTaill.jpg" />
 
-        <link rel="canonical" href="https://carvocarz.vercel.app/" />
+        <link rel="canonical" href="https://carzoo.vercel.app/" />
 
-        <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
+        <link rel="icon" type="image/png" href="/CARZOO-favicon.png" />
 
         <meta name="theme-color" content="#FBC664" />
       </head>

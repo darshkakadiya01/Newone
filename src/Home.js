@@ -35,35 +35,35 @@ return (
     <>
       <head>
         <title>
-          CARVOCARZ - Premium Branded Cars in India | Compare Car Price & Reviews
+          CARZOO - Premium Branded Cars in India | Compare Car Price & Reviews
         </title>
 
         <meta
           name="description"
-          content="CARVOCARZ is India's premium branded car marketplace where you can explore luxury cars, electric cars, SUV cars, compare car prices, check specifications and read expert car reviews."
+          content="CARZOO is India's premium branded car marketplace where you can explore luxury cars, electric cars, SUV cars, compare car prices, check specifications and read expert car reviews."
         />
 
         <meta
           name="keywords"
-          content="CARVOCARZ, car price in india, about cars, branded cars, car lovers, luxury cars, electric cars India, SUV cars, compare cars, car reviews, BMW, Audi, Mercedes, Tesla, Pagani, Rolls Royce, indian cars, top 10 indian cars, most expensive cars in the world"
+          content="CARZOO, car price in india, about cars, branded cars, car lovers, luxury cars, electric cars India, SUV cars, compare cars, car reviews, BMW, Audi, Mercedes, Tesla, Pagani, Rolls Royce, indian cars, top 10 indian cars, most expensive cars in the world"
         />
 
-        <meta name="author" content="CARVOCARZ" />
+        <meta name="author" content="CARZOO" />
         <meta name="google-site-verification" content="cc6m8lYZbZqvaqNc19af3idK47cz4WRJbg38JIaQYBU" />
 
         <meta name="robots" content="index, follow" />
 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-        <meta property="og:title" content="CARVOCARZ - Premium Car Marketplace" />
-        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARVOCARZ." />
+        <meta property="og:title" content="CARZOO - Premium Car Marketplace" />
+        <meta property="og:description" content="Explore luxury cars, compare models and read reviews at CARZOO." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://carvocarz.vercel.app/" />
         <meta property="og:image" content="https://carvocarz.vercel.app/download.jpg" />
 
         <link rel="canonical" href="https://carvocarz.vercel.app/" />
 
-        <link rel="icon" type="image/png" href="/CARVOCARZ-favicon.png" />
+        <link rel="icon" type="image/png" href="/CARZOO-favicon.png" />
 
         <meta name="theme-color" content="#FBC664" />
       </head>
@@ -78,7 +78,7 @@ return (
             </h1>
 
             <p>
-              Welcome to <strong>CARVOCARZ</strong>, your complete destination
+              Welcome to <strong>CARZOO</strong>, your complete destination
               for exploring branded cars, checking the latest car price in India,
               comparing luxury cars, electric cars, SUV cars, and reading expert
               car reviews. Whether you are searching for BMW, Audi, Mercedes,
@@ -106,9 +106,9 @@ return (
           </div>
         </section>
         <section className="about-section">
-          <h2>About CARVOCARZ – Compare Branded Cars Easily</h2>
+          <h2>About CARZOO – Compare Branded Cars Easily</h2>
           <p>
-            CARVOCARZ is designed for car lovers who want detailed information
+            CARZOO is designed for car lovers who want detailed information
             about Indian cars and international luxury brands. From new EV cars
             and CNG cars to high-performance sports cars, our platform allows
             users to compare branded cars, explore specifications, check build
@@ -118,7 +118,7 @@ return (
           <p>
             If you are looking for the top 10 Indian cars, searching for the
             latest electric cars in India, or curious about the history of cars
-            timeline and how cars became popular, CARVOCARZ provides reliable
+            timeline and how cars became popular, CARZOO provides reliable
             and updated content written in simple English for every user.
           </p>
         </section>
@@ -173,7 +173,7 @@ return (
           </div>
         </section>
         <section className="why-section">
-          <h2>Why Choose CARVOCARZ for Car Comparison?</h2>
+          <h2>Why Choose CARZOO for Car Comparison?</h2>
           <ul>
             <li>Compare car prices in India easily</li>
             <li>Explore luxury cars, SUV cars, and electric vehicles</li>
@@ -187,7 +187,7 @@ return (
           <p>
             Browse our complete collection of branded cars, compare models,
             explore car prices, and find the perfect car for your lifestyle.
-            CARVOCARZ makes car research simple, professional, and reliable.
+            CARZOO makes car research simple, professional, and reliable.
           </p>
 
           <a href="/brands" className="btn primary-btn">
