@@ -414,14 +414,12 @@
 }
 
 .btn-primary {
-  background: linear-gradient(135deg, var(--main-color), var(--main-color-dark));
+  background: #E35E56;
   color: #ffffff;
-  box-shadow: 0 8px 22px var(--main-shadow);
 }
 
 .btn-primary:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 30px var(--main-shadow-strong);
 }
 
 .btn-outline {
@@ -504,19 +502,17 @@
 }
 
 .car-btn {
-  background: linear-gradient(135deg, var(--main-color), var(--main-color-dark));
+  background: #E35E56;
   color: #ffffff;
   padding: 10px 22px;
   border-radius: 25px;
   font-size: 14px;
   font-weight: 600;
-  box-shadow: 0 6px 18px var(--main-shadow);
   transition: all 0.3s ease;
 }
 
 .car-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 25px var(--main-shadow-strong);
 }
 
 .cta-section {
@@ -541,9 +537,8 @@
 }
 
 .primary-btn {
-  background: linear-gradient(135deg, #E35E56, #FFD27F);
+  background: #E35E56;
   color: #fff;
-  box-shadow: 0 8px 25px rgba(251, 198, 100, 0.5); 
   border: none;
   padding: 12px 30px;
   border-radius: 8px;
@@ -554,12 +549,10 @@
 
 .primary-btn:hover {
   transform: translateY(-3px);
-  box-shadow: 0 12px 30px rgba(251, 198, 100, 0.7); 
 }
 
 .primary-btn:active {
   transform: translateY(0);
-  box-shadow: 0 6px 20px rgba(251, 198, 100, 0.5); 
 }
 
 @media (max-width: 1024px) {
@@ -693,7 +686,7 @@
   padding: 14px 28px;
   border-radius: 30px;
   border: none;
-  background: linear-gradient(135deg, #E35E56, #FFD27F); 
+  background: #E35E56; 
   color: #fff;
   font-size: 16px;
   font-weight: 600;
@@ -703,12 +696,10 @@
 
 .contact-container button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 25px rgba(251, 198, 100, 0.6); 
 }
 
 .contact-container button:active {
   transform: translateY(0);
-  box-shadow: 0 4px 15px rgba(251, 198, 100, 0.5); 
 }
 
 .form-message {
@@ -900,7 +891,7 @@
   padding: 10px 20px;
   border-radius: 25px;
   border: none;
-  background: linear-gradient(135deg, #E35E56, #FFD27F); 
+  background: #E35E56; 
   color: #fff;
   cursor: pointer;
   font-weight: 600;
@@ -909,12 +900,10 @@
 
 .footer-newsletter button:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 20px rgba(251, 198, 100, 0.6); 
 }
 
 .footer-newsletter button:active {
   transform: translateY(0);
-  box-shadow: 0 4px 15px rgba(251, 198, 100, 0.5); 
 }
 
 .footer-social {
