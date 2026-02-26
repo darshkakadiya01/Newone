@@ -8,16 +8,22 @@ const Navbar = () => {
   const toggleMenu = () => setOpen(!open);
   const closeMenu = () => setOpen(false);
 
+  const refreshPage = () => {
+    window.location.href = "/";
+    window.location.reload();
+  };
+
   return (
     <header className="navbar-wrapper">
       <nav className="navbar">
-        {/* LOGO */}
-        <div className="navbar-logo">
-          {/* Logo from public folder */}
-          <img src="/carzoo-logo.png" alt="Car Logo" className="logo-image" />
+        <div className="navbar-logo" onClick={refreshPage} style={{ cursor: "pointer" }}>
+          <img 
+            src="/carzoo-logo.png" 
+            alt="Carzoo Logo" 
+            className="logo-image" 
+          />
         </div>
 
-        {/* HAMBURGER MENU */}
         <div
           className={`hamburger ${open ? "active" : ""}`}
           onClick={toggleMenu}
@@ -27,7 +33,6 @@ const Navbar = () => {
           <span></span>
         </div>
 
-        {/* LINKS */}
         <ul className={`navbar-links ${open ? "show" : ""}`}>
           <li><Link to="/" onClick={closeMenu}>Home</Link></li>
           <li><Link to="/inventory" onClick={closeMenu}>Inventory</Link></li>
@@ -40,6 +45,7 @@ const Navbar = () => {
             </Link>
           </li>
         </ul>
+
       </nav>
     </header>
   );

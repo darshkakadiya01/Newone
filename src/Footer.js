@@ -6,12 +6,11 @@ const Footer = () => {
   return (
     <footer className="carvo-footer">
       <div className="footer-container">
-        {/* Logo and Description */}
         <div className="footer-logo-section">
           <div className="logo-container">
             <div className="navbar-logo">
               <img
-                src="/carzoo-logo.png" // fixed absolute path from public folder
+                src="/carzoo-logo.png"
                 alt="Car Logo"
                 className="logo-image-footer"
               />
@@ -22,7 +21,6 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Quick Links */}
         <div className="footer-links">
           <h3>Quick Links</h3>
           <ul>
@@ -33,7 +31,6 @@ const Footer = () => {
           </ul>
         </div>
 
-        {/* Newsletter */}
         <div className="footer-newsletter">
           <h3>Newsletter</h3>
           <p>Subscribe to get the latest car news and updates!</p>
@@ -43,7 +40,6 @@ const Footer = () => {
           </form>
         </div>
 
-        {/* Social Media */}
         <div className="footer-social">
           <h3>Follow Us</h3>
           <div className="social-icons">
@@ -55,7 +51,6 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Text */}
       <div className="footer-bottom">
         <p>© 2026 CARZOO. All rights reserved.</p>
       </div>

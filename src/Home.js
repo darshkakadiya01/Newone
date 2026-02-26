@@ -45,7 +45,7 @@ return (
 
         <meta
           name="keywords"
-          content="CARZOO, car price in india, about cars, branded cars, car lovers, luxury cars, electric cars India, SUV cars, compare cars, car reviews, BMW, Audi, Mercedes, Tesla, Pagani, Rolls Royce, indian cars, top 10 indian cars, most expensive cars in the world"
+          content="CARZOO, car price in india, about cars, expert car, branded cars, car lovers, luxury cars, electric cars India, SUV cars, compare cars, car reviews, BMW, Audi, Mercedes, Tesla, Pagani, Rolls Royce, indian cars, top 10 indian cars, most expensive cars in the world"
         />
 
         <meta name="author" content="CARZOO" />
