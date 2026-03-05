@@ -1,15 +1,8 @@
 import React, { useState } from "react";
-import emailjs from "@emailjs/browser";
 import "./App.css";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(null);
-
-    const [formData, setFormData] = useState({
-    from_name: "",
-    favorite_car: "",
-    message: ""
-  });
 
   const faqData = [
     {
