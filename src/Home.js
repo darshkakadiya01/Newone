@@ -37,39 +37,6 @@ const Home = () => {
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
-
-    const handleChange = (e) => {
-    setFormData({
-      ...formData,
-      [e.target.name]: e.target.value
-    });
-  };
-
-  const sendEmail = (e) => {
-    e.preventDefault();
-
-    emailjs
-      .send(
-        "service_kyp8cjh",      
-        "template_4t8r84a",     
-        formData,
-        "e4cj_ZrXDDyLp2e0C"       
-      )
-      .then(
-        () => {
-          alert("Message Sent Successfully 🚀");
-          setFormData({
-            from_name: "",
-            favorite_car: "",
-            message: ""
-          });
-        },
-        (error) => {
-          alert("Failed to send message ❌");
-          console.log(error);
-        }
-      );
-  };
   
 return (
     <>
@@ -144,41 +111,6 @@ return (
               className="hero-car"
             />
           </div>
-        </section>
-        <section className="contact-section section-bg">
-          <h2>Send Me Your Favorite Car 🚗</h2>
-
-          <form className="contact-form" onSubmit={sendEmail}>
-            <input
-              type="text"
-              name="from_name"
-              placeholder="Your Name"
-              value={formData.from_name}
-              onChange={handleChange}
-              required
-            />
-
-            <input
-              type="text"
-              name="favorite_car"
-              placeholder="Your Favorite Car"
-              value={formData.favorite_car}
-              onChange={handleChange}
-              required
-            />
-
-            <textarea
-              name="message"
-              placeholder="Write your message..."
-              value={formData.message}
-              onChange={handleChange}
-              required
-            ></textarea>
-
-            <button type="submit" className="btn btn-primary">
-              Send Message
-            </button>
-          </form>
         </section>
         <section className="about-section">
           <h2>About CARZOO – Compare Branded Cars Easily</h2>
