@@ -145,7 +145,7 @@ return (
             />
           </div>
         </section>
-        <section className="contact-section section-bg">
+        {/* <section className="contact-section section-bg">
           <h2>Send Me Your Favorite Car 🚗</h2>
 
           <form className="contact-form" onSubmit={sendEmail}>
@@ -179,7 +179,7 @@ return (
               Send Message
             </button>
           </form>
-        </section>
+        </section> */}
         <section className="about-section">
           <h2>About CARZOO – Compare Branded Cars Easily</h2>
           <p>
